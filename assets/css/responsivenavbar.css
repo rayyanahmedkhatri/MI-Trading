@@ -47,7 +47,10 @@
         margin-bottom: 200px;
     }
     footer{
-        height: 651px;
+        height: 600px;
+    }
+    .footer-center{
+        height: 80px;
     }
     .separation-line{
         width: 319px;
