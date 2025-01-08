@@ -1,0 +1,85 @@
+.container{
+  width: 80%;
+    height: fit-content;
+    font-family: montserrat;
+    margin: 120px 0;
+}
+
+.right-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.heading{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.paragraph{
+  font-size: 20px;
+}
+
+.simple-button {
+  display: inline-block;
+  background-color: #FAAB18;
+  color: white;
+  padding: 12px 39px;
+  border: none;
+  border-radius: 11px;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: fit-content;
+}
+
+.simple-button:hover {
+  background-color: #181B4B;
+  /* Contrasting hover color */
+  color: #FAAB18;
+  /* Switch to main color on hover */
+  transform: scale(1.05);
+  /* Slightly enlarges on hover */
+}
+
+.simple-button:active {
+  transform: scale(1);
+  /* Returns to normal on click */
+}
+
+.line{
+  width: 100%;
+  height: 2px;
+  border: 2px solid rgb(61, 61, 61);
+  margin: 15px 0;
+}
+
+@media (max-width: 768px){
+  .left-column img{
+    width: 300px;
+  }
+  .right-column{
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    margin: 65px 0;
+  }
+  .right-column h1{
+    font-size: 38px;
+  }
+  .dimention-drawing .heading{
+    font-size: 35px !important;
+  }
+  .dimention-drawing img{
+    width: 100%;
+    margin-right: 50px;
+  }
+}
+  

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/headerfooter.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/responsivenavbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+      </style>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+</head>
+<body>
+  <div id="header" style="width: 100%;"></div>
+  <script>
+    fetch("header.html")
+      .then(response => response.text())
+      .then(data => document.getElementById("header").innerHTML = data);
+  </script>
+      <br>
+      <div class="container">
+        <div class="row">
+            <h1 style="font-size: xxx-large;">Contact Us</h1>
+        </div>
+        <form id="contact-form" action="sendemail.php" method="POST" onsubmit="return validateForm();">
+            <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" name="name" required placeholder="Name"/>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="email" name="email" required placeholder="E-Mail"/>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="text" name="phone" required placeholder="Phone Number"/>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea name="message" required placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <button class="g-recaptcha stylish-button" 
+                            data-sitekey="" 
+                            data-callback="onSubmit" 
+                            data-action="submit" 
+                            type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    
+      
+      
+
+    <br><br><br>
+    <div id="footer" style="width: 100%;"></div>
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+      
+
+<script>
+  // Load the header and footer content
+  fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+
+      // Initialize hamburger menu event listener after header is loaded
+      const menuIcon = document.querySelector('.menu-icon');
+      const navLinks = document.querySelector('.nav-links');
+
+      menuIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    });
+
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+<script>
+  function onSubmit(token) {
+    document.getElementById("contact-form").submit();
+  }
+
+  function validateForm() {
+    // You can add your validation logic here if needed
+    return true; // Ensure it returns true to submit the form
+  }
+</script>
+<script src="disable.js"></script>
+
+
+</body>
+</html>
+
+

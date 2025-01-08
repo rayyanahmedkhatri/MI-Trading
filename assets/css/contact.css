@@ -1,0 +1,203 @@
+body {
+  background-image:
+  linear-gradient(to right, rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.900)),
+  url('../images/main/new-contact.jpg');
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif, 'arial';
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, 
+textarea:focus ~ label, 
+input:valid ~ label, 
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #ffffff;
+  top: 3px; /* Adjusted top positioning */
+  left: 10px; /* Label shifts left for better alignment */
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 10px 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+.styled-input label {
+  color: #ffffff;
+  padding: 0 10px; /* Reduced padding to align with input */
+  position: absolute;
+  top: 15px; /* Adjusted top to match input alignment */
+  left: 15px; /* Aligned label with input text */
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-weight: 500;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 16px; /* Adjusted padding to reduce height */
+  padding-left: 23px;
+  width: 100%;
+  font-size: 17px;
+  background-color: #2d2d2d;
+  color: rgb(205, 205, 205);
+  border-radius: 12px;
+  border: 0;
+  font-weight: 500;
+}
+
+textarea{
+  height: 100px !important;
+}
+::placeholder {
+  color: #e8e8e8; /* Placeholder text color */
+  opacity: 1; /* Ensures the placeholder color is fully opaque */
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 2px auto 25px auto;
+}
+
+.submit-btn {
+  float: right;
+    padding: 10px 35px;
+    text-align: center;
+    border-radius: 17px;
+    display: inline-block;
+    background-color: #111438;
+    color: #ffaf1b;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    letter-spacing: 5px;
+    outline: none !important;
+    border: none !important;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+    0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+
+.stylish-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(119, 119, 119, 0.2);
+  /* Lighter overlay for contrast */
+  transition: all 0.4s ease;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.stylish-button:hover {
+  background-color: #FAAB18;
+  /* Contrasting hover color */
+  color: #ffffff;
+  /* Main color on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.621);
+}
+
+.stylish-button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.stylish-button:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.381);
+}
+
+.stylish-button {
+  display: inline-block;
+  background: #111439;
+  /* Your main color */
+  border: none;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.373);
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  /* Removes underline */
+  width: 100%;
+}

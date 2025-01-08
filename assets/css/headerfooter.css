@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: montserrat !important;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden !important;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+
+/* Basic Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    background-color: #070819;
+    padding: 0 20px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+/* Logo on the left for desktop */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 177px;
+}
+
+.logo img {
+    width: 140px;
+}
+
+/* Navigation links (right on desktop) */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    filter: brightness(0.8);
+}
+
+/* Hamburger menu (hidden by default) */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* ======================
+
+       footer
+
+====================== */
+
+.black-line {
+    width: 100%;
+    border: 5px solid black;
+    height: 2px;
+}
+
+.orange-line {
+    width: 100%;
+    border: 5px solid #FAAB18;
+    height: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 380px;
+    background-color: #070819;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 22px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.qr-code {
+    border: 2px solid #FAAB18;
+    margin-top: 20px;
+}
+
+.separation-line {
+    height: 280px;
+    border: 1px solid white;
+    margin-top: 24px;
+    width: 1px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 424px;
+    height: 322px;
+    /* margin: 0 auto; */
+    padding: 15px;
+    border-radius: 60px;
+    /* box-shadow: inset 0px 1px 20px 8px rgb(0 0 0); */
+    justify-content: space-around;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    font-size: 37px;
+    color: #fba70c;
+    margin-right: 15px;
+}
+
+.contact-text {
+    font-size: 21px;
+    color: #ffffff;
+}
