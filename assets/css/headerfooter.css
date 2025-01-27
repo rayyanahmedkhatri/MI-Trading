@@ -111,6 +111,10 @@ li {
   /* Required for dropdown positioning */
 }
 
+.arrow-sms{
+ display: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .products-link {
     display: inline-block;
@@ -118,6 +122,13 @@ li {
 
   .dropdown-btn {
     display: none;
+  }
+
+  .arrow-lgs{
+    visibility: hidden;
+  }
+  .arrow-sms{
+    display: contents !important;
   }
 
   /* Show the dropdown menu when clicking on the button */
@@ -155,6 +166,7 @@ li {
 .menu-icon {
   display: none;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .menu-icon .bar {
