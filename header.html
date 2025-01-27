@@ -17,7 +17,8 @@
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li>
-      <a href="product.html" id="dropdownButton">Products   <i class="fas fa-caret-down" style="padding-left: 10px;"></i></a>
+      <a href="product.html" id="dropdownButton">Products </a><a href="/#"><i class="fa fa-circle-plus"
+          style="margin-left: 20px;"></i></a>
       <div id="dropdownMenu">
         <ul>
           <li><a href="material-handling-equipment.html">Material Handling Equipment</a></li>
@@ -32,22 +33,3 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
-
-
-<script>
-  const dropdownButton = document.getElementById('dropdownButton');
-  const dropdownMenu = document.getElementById('dropdownMenu');
-
-  // Toggle dropdown visibility
-  dropdownButton.addEventListener('click', (e) => {
-    e.preventDefault(); // Prevent navigation
-    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
-  });
-
-  // Close dropdown if clicking outside
-  document.addEventListener('click', (e) => {
-    if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
-      dropdownMenu.style.display = 'none';
-    }
-  });
-</script>

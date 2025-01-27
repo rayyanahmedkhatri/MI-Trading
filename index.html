@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
-      </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+  </style>
 </head>
 
 <body style="background-color: #f7f7f7;">
@@ -26,20 +26,15 @@
 
   <div class="welcome-wrapper">
     <!-- Lazy-loading image with blur effect -->
-    <img
-      src="assets/images/main/new..jpg"
-      alt="Background"
-      loading="lazy"
-      class="background-image"
-    />
-  
+    <img src="assets/images/main/new..jpg" alt="Background" loading="lazy" class="background-image" />
+
     <!-- Main content -->
     <div class="welcome">
       <h1>The Power Of <br> Movement</h1>
       <p>Unmatched Handling Efficiency</p>
     </div>
   </div>
-  
+
   <br><br><br>
 
   <h1 class="product-txt">Our Products</h1>
@@ -90,34 +85,40 @@
   </div>
 
   <br><br><br><br><br><br>
-<div id="footer" style="width: 100%;"></div>
+  <div id="footer" style="width: 100%;"></div>
   <script>
+    // Fetch and insert the header
     fetch("header.html")
-      .then(response => response.text())
-      .then(data => {
+      .then((response) => response.text())
+      .then((data) => {
         document.getElementById("header").innerHTML = data;
 
-        const menuIcon = document.querySelector('.menu-icon');
-        const navLinks = document.querySelector('.nav-links');
+        // Add event listeners after the header is loaded
+        const menuIcon = document.querySelector(".menu-icon");
+        const navLinks = document.querySelector(".nav-links");
 
-        menuIcon.addEventListener('click', () => {
-          navLinks.classList.toggle('active');
+        menuIcon.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
+
+        document.addEventListener("click", (event) => {
+          if (!navLinks.contains(event.target) && !menuIcon.contains(event.target)) {
+            navLinks.classList.remove("active");
+          }
         });
       });
 
+    // Fetch and insert the footer
     fetch("footer.html")
-      .then(response => response.text())
-      .then(data => {
+      .then((response) => response.text())
+      .then((data) => {
         document.getElementById("footer").innerHTML = data;
       });
   </script>
-<script src="disable.js"></script>
+  <script src="disable.js"></script>
 
 
 
 </body>
 
 </html>
-
-
-

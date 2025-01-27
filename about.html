@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
-      </style>
-      <link rel="stylesheet" href="assets/css/about.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+  </style>
+  <link rel="stylesheet" href="assets/css/about.css">
 </head>
 
 <body>
@@ -28,53 +28,61 @@
 
   <main>
     <div class="main row">
-<div class="text">
+      <div class="text">
         <h1 class="heading">About us</h1>
-<p class="paragraph">Founded in February 2024, M.I Trading specializes in providing high-quality material handling equipment designed to meet the diverse needs of businesses across various industries. As an authorized distributor of the renowned Xilin brand, we are proud to offer a trusted selection of material handling solutions known for their reliability and durability. Our mission is to streamline and support efficient operations by supplying equipment that enhances productivity and safety. <br><br>
+        <p class="paragraph">Founded in February 2024, M.I Trading specializes in providing high-quality material
+          handling equipment designed to meet the diverse needs of businesses across various industries. As an
+          authorized distributor of the renowned Xilin brand, we are proud to offer a trusted selection of material
+          handling solutions known for their reliability and durability. Our mission is to streamline and support
+          efficient operations by supplying equipment that enhances productivity and safety. <br><br>
 
-    In addition to our wide range of Xilin products, M.I Trading provides expert repair services for all types of equipment. Our skilled technicians are capable of handling repairs for standard material handling equipment, and we also specialize in servicing all kinds of screw air compressors. We are committed to maintaining and restoring your equipment to peak performance, ensuring minimal downtime and maximum efficiency for your business. <br><br>
-    
-    At M.I Trading, we understand the demands of today’s fast-paced environments, and we are dedicated to delivering solutions that ensure smooth and secure handling of materials. Whether you're looking to improve logistics, reduce manual strain, or optimize your workspace, our equipment and repair services are crafted to make your operations seamless. <br><br>
-    
-    Trust M.I Trading to be your reliable partner for all your material handling and equipment repair needs.</p>
-</div>
+          In addition to our wide range of Xilin products, M.I Trading provides expert repair services for all types of
+          equipment. Our skilled technicians are capable of handling repairs for standard material handling equipment,
+          and we also specialize in servicing all kinds of screw air compressors. We are committed to maintaining and
+          restoring your equipment to peak performance, ensuring minimal downtime and maximum efficiency for your
+          business. <br><br>
+
+          At M.I Trading, we understand the demands of today’s fast-paced environments, and we are dedicated to
+          delivering solutions that ensure smooth and secure handling of materials. Whether you're looking to improve
+          logistics, reduce manual strain, or optimize your workspace, our equipment and repair services are crafted to
+          make your operations seamless. <br><br>
+
+          Trust M.I Trading to be your reliable partner for all your material handling and equipment repair needs.</p>
+      </div>
     </div>
   </main>
 
   <div id="footer" style="width: 100%;"></div>
   <script>
-    fetch("footer.html")
-      .then(response => response.text())
-      .then(data => document.getElementById("footer").innerHTML = data);
-  </script>
+    // Fetch and insert the header
+    fetch("header.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("header").innerHTML = data;
 
+        // Add event listeners after the header is loaded
+        const menuIcon = document.querySelector(".menu-icon");
+        const navLinks = document.querySelector(".nav-links");
 
+        menuIcon.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
 
-<script>
-  // Load the header and footer content
-  fetch("header.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("header").innerHTML = data;
-
-      // Initialize hamburger menu event listener after header is loaded
-      const menuIcon = document.querySelector('.menu-icon');
-      const navLinks = document.querySelector('.nav-links');
-
-      menuIcon.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
+        document.addEventListener("click", (event) => {
+          if (!navLinks.contains(event.target) && !menuIcon.contains(event.target)) {
+            navLinks.classList.remove("active");
+          }
+        });
       });
-    });
 
-  fetch("footer.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("footer").innerHTML = data;
-    });
-</script>
-
-
-<script src="disable.js"></script>
+    // Fetch and insert the footer
+    fetch("footer.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("footer").innerHTML = data;
+      });
+  </script>
+  <script src="disable.js"></script>
 
 </body>
 

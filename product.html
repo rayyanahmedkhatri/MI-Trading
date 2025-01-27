@@ -10,20 +10,20 @@
     <link rel="stylesheet" href="assets/css/responsivenavbar.css">
     <link rel="stylesheet" href="assets/css/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
-        </style>
+    </style>
 </head>
 
 <body>
 
     <div id="header" style="width: 100%;"></div>
     <script>
-      fetch("header.html")
-        .then(response => response.text())
-        .then(data => document.getElementById("header").innerHTML = data);
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("header").innerHTML = data);
     </script>
 
 
@@ -34,8 +34,7 @@
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="assets/images/products/hand-pallet-truck.jpg" width="200px"
-                            alt="image not available">
+                        <img src="assets/images/products/hand-pallet-truck.jpg" width="200px" alt="image not available">
                     </div>
                     <div class="product-details">
                         <h3 class="item-code">Hand Pallet<br>Truck</h3>
@@ -73,8 +72,7 @@
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="assets/images/products/high-lift-truck.jpg" width="220px"
-                            alt="image not available">
+                        <img src="assets/images/products/high-lift-truck.jpg" width="220px" alt="image not available">
                     </div>
                     <div class="product-details">
                         <h3 class="item-code">High Lift<br>Truck</h3>
@@ -83,7 +81,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
@@ -113,8 +111,7 @@
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="assets/images/products/manual-stacker.jpg" width="220px"
-                            alt="image not available">
+                        <img src="assets/images/products/manual-stacker.jpg" width="220px" alt="image not available">
                     </div>
                     <div class="product-details">
                         <h3 class="item-code">Manual Stacker</h3>
@@ -152,8 +149,7 @@
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="assets/images/products/reach-stacker.jpg" width="220px"
-                            alt="image not available">
+                        <img src="assets/images/products/reach-stacker.jpg" width="220px" alt="image not available">
                     </div>
                     <div class="product-details">
                         <h3 class="item-code">Reach<br>Stacker</h3>
@@ -162,11 +158,11 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-       
+
     </div>
-<br><br><br>
+    <br><br><br>
     <div class="products">
         <h2 class="product-txt" style="font-weight: 600; font-size: 25px;">2. Forklifts</h2><br>
         <div class="row product-row">
@@ -219,7 +215,7 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </div>
 
@@ -233,8 +229,7 @@
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="assets/images/products/air-dryer.png" width="200px"
-                            alt="image not available">
+                        <img src="assets/images/products/air-dryer.png" width="200px" alt="image not available">
                     </div>
                     <div class="product-details">
                         <h3 class="item-code">Air Dryer</h3>
@@ -243,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            
+
 
         </div>
     </div>
@@ -268,8 +263,7 @@
             <div class="col-lg-3 p-0 cards">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="assets/images/products/empty-beam-mover.png" width="220px"
-                            alt="image not available">
+                        <img src="assets/images/products/empty-beam-mover.png" width="220px" alt="image not available">
                     </div>
                     <div class="product-details">
                         <h3 class="item-code">Empty Beam Mover</h3>
@@ -304,41 +298,43 @@
 
 
 
-<br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
 
 
 
 
 
-<div id="footer" style="width: 100%;"></div>
-<script>
-  fetch("footer.html")
-    .then(response => response.text())
-    .then(data => document.getElementById("footer").innerHTML = data);
-</script>
-<script>
-    // Load the header and footer content
-    fetch("header.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("header").innerHTML = data;
+    <div id="footer" style="width: 100%;"></div>
+    <script>
+        // Fetch and insert the header
+        fetch("header.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("header").innerHTML = data;
 
-        // Initialize hamburger menu event listener after header is loaded
-        const menuIcon = document.querySelector('.menu-icon');
-        const navLinks = document.querySelector('.nav-links');
+                // Add event listeners after the header is loaded
+                const menuIcon = document.querySelector(".menu-icon");
+                const navLinks = document.querySelector(".nav-links");
 
-        menuIcon.addEventListener('click', () => {
-          navLinks.classList.toggle('active');
-        });
-      });
+                menuIcon.addEventListener("click", () => {
+                    navLinks.classList.toggle("active");
+                });
 
-    fetch("footer.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("footer").innerHTML = data;
-      });
-  </script>
-     <script src="disable.js"></script>
+                document.addEventListener("click", (event) => {
+                    if (!navLinks.contains(event.target) && !menuIcon.contains(event.target)) {
+                        navLinks.classList.remove("active");
+                    }
+                });
+            });
+
+        // Fetch and insert the footer
+        fetch("footer.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("footer").innerHTML = data;
+            });
+    </script>
+    <script src="disable.js"></script>
 
 
 </body>
