@@ -69,7 +69,7 @@ li {
   text-align: left !important;
   width: 373px;
   background-color: #070819;
-  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.925);
+  box-shadow: 0px 8px 7px rgba(34, 34, 34, 0.925) !important;
   padding: 27px 50px;
   border-radius: 0px 0px 20px 20px;
   z-index: 10;
@@ -97,14 +97,10 @@ li {
 .nav-links li div ul li a:hover {
   filter: brightness(0.8);
 }
-
-/* Show dropdown on hover */
 .nav-links li:hover div {
   opacity: 1;
-  /* Make visible */
   visibility: visible;
-  /* Make interactable */
-}
+} 
 
 .nav-links li {
   position: relative;

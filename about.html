@@ -53,35 +53,7 @@
   </main>
 
   <div id="footer" style="width: 100%;"></div>
-  <script>
-    // Fetch and insert the header
-    fetch("header.html")
-      .then((response) => response.text())
-      .then((data) => {
-        document.getElementById("header").innerHTML = data;
-
-        // Add event listeners after the header is loaded
-        const menuIcon = document.querySelector(".menu-icon");
-        const navLinks = document.querySelector(".nav-links");
-
-        menuIcon.addEventListener("click", () => {
-          navLinks.classList.toggle("active");
-        });
-
-        document.addEventListener("click", (event) => {
-          if (!navLinks.contains(event.target) && !menuIcon.contains(event.target)) {
-            navLinks.classList.remove("active");
-          }
-        });
-      });
-
-    // Fetch and insert the footer
-    fetch("footer.html")
-      .then((response) => response.text())
-      .then((data) => {
-        document.getElementById("footer").innerHTML = data;
-      });
-  </script>
+  
   <script src="disable.js"></script>
 
 </body>

@@ -35,28 +35,7 @@
   <br><br>
   <div id="footer" style="width: 100%;"></div>
 
-<script>
-    // Load the header and footer content
-    fetch("header.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("header").innerHTML = data;
 
-        // Initialize hamburger menu event listener after header is loaded
-        const menuIcon = document.querySelector('.menu-icon');
-        const navLinks = document.querySelector('.nav-links');
-
-        menuIcon.addEventListener('click', () => {
-          navLinks.classList.toggle('active');
-        });
-      });
-
-    fetch("footer.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("footer").innerHTML = data;
-      });
-  </script>
   <script src="disable.js"></script>
 
 </body>
