@@ -258,3 +258,80 @@ footer {
   font-size: 20px;
   color: #ffffff;
 }
+
+/* Tablet Styles (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Navbar adjustments */
+  .navbar {
+      padding: 10px 20px;
+  }
+
+  .logo {
+      left: unset;
+      transform: none;
+      position: relative;
+  }
+
+  .nav-links {
+      display: flex !important;
+      flex-direction: row;
+      position: static;
+      background: none;
+      width: auto;
+      padding: 0;
+      height: auto;
+      gap: 20px;
+  }
+
+  .menu-icon {
+      display: none; /* Hide hamburger on tablets */
+  }
+
+  /* Adjust welcome section */
+  .welcome h1 {
+      font-size: 60px;
+  }
+
+  .welcome p {
+      font-size: 22px;
+      margin-bottom: 100px;
+  }
+
+  /* Footer adjustments */
+  footer {
+      height: 500px;
+  }
+
+  .footer-center {
+      height: 100px;
+  }
+
+  .contact-us {
+      flex-direction: row; /* Ensures side-by-side layout on tablets */
+  }
+
+  .contact-text {
+      font-size: 20px;
+  }
+
+  .contact-container {
+      margin-right: 20px;
+  }
+
+  /* Product section */
+  .product-row {
+      gap: 30px;
+  }
+
+  /* Ensure .details-row does not stretch on tablets */
+  .details-row {
+      flex-direction: row; /* Keep image and text side by side */
+      align-items: center; /* Avoid stretching */
+      text-align: left;
+  }
+
+  .left-column, .right-column {
+      max-width: 50%;
+  }
+}

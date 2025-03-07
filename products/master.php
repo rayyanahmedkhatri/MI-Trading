@@ -17,7 +17,7 @@
     <div id="header" style="width: 100%;"></div>
 
   <main class="container">
-    <div class="row">
+    <div class="row details-row">
     <div class="col-md-6 left-column col-sm-12"><img src="<?php echo $productImage; ?>" alt="<?php echo $productImage; ?>" width="500px"></div>
     <div class="col-md-6 right-column col-sm-12">
       <h1 class="heading" style="margin-bottom: 0;"><?php echo $productName; ?></h1>
@@ -26,12 +26,13 @@
       <a href="../contact.html" class="simple-button">Contact Us</a>
     </div>
   </div>
-  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br>
   <div class="dimention-drawing">
     <h1 class="heading" style="font-size: 40px; ">Dimension Drawing</h1>
     <img src="<?php echo $productDrawing; ?>" alt="<?php echo $productDrawing; ?>" width="100%">
   </div>
   </main>
+  <br><br>
   
   <div id="footer" style="width: 100%;"></div>
 
