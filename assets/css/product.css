@@ -198,6 +198,7 @@
 
 .weight span {
   color: #FAAB18;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .product-details:hover .weight span {
