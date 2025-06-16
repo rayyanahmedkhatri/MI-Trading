@@ -265,6 +265,10 @@ footer {
   .navbar {
       padding: 10px 20px;
   }
+  .separation-line {
+    width: 300px;
+    height: 2px;
+  }
 
   .logo {
       left: unset;
@@ -299,7 +303,7 @@ footer {
 
   /* Footer adjustments */
   footer {
-      height: 500px;
+      height: 600px;
   }
 
   .footer-center {
