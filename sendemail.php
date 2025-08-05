@@ -1,5 +1,4 @@
 <?php
-// Include PHPMailer files
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -7,65 +6,57 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-$mail = new PHPMailer(true);
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get reCAPTCHA response
-    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    $name     = $_POST['name'] ?? '';
+    $email    = $_POST['email'] ?? '';
+    $company  = $_POST['company'] ?? '';
+    $message  = $_POST['message'] ?? '';
+    $token    = $_POST['g-recaptcha-response'] ?? '';
 
-    // Your secret key
-    $secretKey = ''; // Replace with your actual secret key
+    // reCAPTCHA verification
+    $secretKey = '6LfDHpsrAAAAANKy7UBCwL3fkEtNQKcaAniSs7EE';
+    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$token}");
+    $captchaSuccess = json_decode($verify);
 
-    // Verify the reCAPTCHA response
-    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$recaptchaResponse}");
-    $responseKeys = json_decode($response, true);
-
-    if (intval($responseKeys["success"]) !== 1) {
-        // Handle the error if reCAPTCHA validation fails
-        echo "<script>alert('reCAPTCHA validation failed. Please try again.'); window.location.href = 'index.html';</script>";
+    if (!$captchaSuccess->success) {
+        echo "captcha-failed";
         exit;
     }
 
-    // Get form input values
-    $name = htmlspecialchars($_POST['name']);
-    $email = htmlspecialchars($_POST['email']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $company = htmlspecialchars($_POST['company']);
-    $message = htmlspecialchars($_POST['message']);
-
-    // Set the recipient email address
-    $to = "info@mitrading.com.pk"; // Replace this with your email to receive messages
+    $mail = new PHPMailer(true);
 
     try {
-        // Server settings
         $mail->isSMTP();
-        $mail->Host = 'mail.mitrading.com.pk'; // Set the SMTP server to send through
-        $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = 'sendmail@mitrading.com.pk'; // Your Gmail address
-        $mail->Password = ''; // Your Gmail app password 
-        $mail->SMTPSecure = 'tls'; // Enable TLS encryption
-        $mail->Port = 587; // TCP port to connect to
+        $mail->Host       = 'mitrading.com.pk'; //  Your actual mail host
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'sendmail@mitrading.com.pk';
+        $mail->Password   = 'sendmail@1234';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
 
-        // Recipients
-        $mail->setFrom($mail->Username, 'Your Name'); // Use your Gmail address as sender
-        $mail->addAddress($to); // Add a recipient
+        $mail->setFrom('sendmail@mitrading.com.pk', 'MI Trading');
+        $mail->addAddress('ra.other2@gmail.com', 'Rayyan');
 
-        // Content
         $mail->isHTML(true);
-        $mail->Subject = "New Contact Form Submission from $name";
-        $mail->Body    = "<strong>Name:</strong> $name<br>
-                          <strong>Email:</strong> $email<br>
-                          <strong>Phone:</strong> $phone<br>
-                          <strong>Company:</strong> $company<br>
-                          <strong>Message:</strong> $message<br>";
-        $mail->AltBody = "Name: $name\nEmail: $email\nPhone: $phone\nCompany: $company\nMessage: $message\n";
+        $mail->Subject = 'New Contact Form Submission';
+        $mail->Body = "
+            <h3>New Message from Contact Form:</h3>
+            <p><strong>Name:</strong> $name</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Company:</strong> $company</p>
+            <p><strong>Message:</strong><br>$message</p>
+        ";
 
         $mail->send();
-        echo "<script>alert('You will get a response shortly'); window.location.href = 'index.html';</script>";
+        echo "success";
+        exit;
+
     } catch (Exception $e) {
-        echo "<script>alert('Failed to send email. Mailer Error: {$mail->ErrorInfo}'); window.location.href = 'index.html';</script>";
+        error_log("Mailer Error: " . $mail->ErrorInfo);
+        echo "error";
+        exit;
     }
 } else {
-    echo "<script>alert('Invalid request.'); window.location.href = 'index.html';</script>";
+    echo "invalid";
+    exit;
 }
-?>

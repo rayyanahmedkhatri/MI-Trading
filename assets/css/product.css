@@ -116,7 +116,7 @@
 .product-card {
   width: 300px;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
   outline: none;

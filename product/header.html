@@ -1,0 +1,53 @@
+<nav class="navbar">
+  <!-- Hamburger Menu on the left (only visible on mobile) -->
+  <div class="menu-icon">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+
+  <!-- Logo (on left for desktop, center for mobile) -->
+  <div class="logo">
+    <a href="/">
+      <img src="../assets/images/LOGO/LOGO-01-02.png" alt="Logo" width="140px">
+    </a>
+  </div>
+
+  <!-- Navigation links -->
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li>
+      <a href="../product.html" id="dropdownButton">Products <i class="fas fa-caret-down"
+          style="padding-left: 10px;"></i></a>
+      <div id="dropdownMenu">
+        <ul>
+          <li><a href="../material-handling-equipment.html">Material Handling Equipment</a></li>
+          <li><a href="../forklift.html">Forklift</a></li>
+          <li><a href="../screw-air-compressor.html">Screw Air Compressor</a></li>
+          <li><a href="../local-fabrication.html">Local fabrication</a></li>
+        </ul>
+      </div>
+    </li>
+    <li><a href="../about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<script>
+  const dropdownButton = document.getElementById('dropdownButton');
+  const dropdownMenu = document.getElementById('dropdownMenu');
+
+  // Toggle dropdown visibility
+  dropdownButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent navigation
+    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+  });
+
+  // Close dropdown if clicking outside
+  document.addEventListener('click', (e) => {
+    if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
+      dropdownMenu.style.display = 'none';
+    }
+  });
+</script>
