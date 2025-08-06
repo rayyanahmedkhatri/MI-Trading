@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $token    = $_POST['g-recaptcha-response'] ?? '';
 
     // reCAPTCHA verification
-    $secretKey = '6LfDHpsrAAAAANKy7UBCwL3fkEtNQKcaAniSs7EE';
+    $secretKey = '';
     $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$token}");
     $captchaSuccess = json_decode($verify);
 
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host       = 'mitrading.com.pk'; //  Your actual mail host
         $mail->SMTPAuth   = true;
         $mail->Username   = 'sendmail@mitrading.com.pk';
-        $mail->Password   = 'sendmail@1234';
+        $mail->Password   = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
