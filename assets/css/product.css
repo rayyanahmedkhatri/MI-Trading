@@ -114,14 +114,14 @@
 
 
 .product-card {
-  width: 300px;
-  border: none;
-  border-radius: 5px;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease;
-  outline: none;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.500);
-  height: 413px;
+  width: 249px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    outline: none;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.500);
+    height: 461px;
 
 }
 
@@ -132,7 +132,7 @@
 /* Image Section */
 .product-image {
   width: 100%;
-  height: 194px;
+  height: 220px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -152,15 +152,20 @@
 
 /* Product Details Section */
 .product-details {
-  padding: 0;
+  padding: 0 10px;
   background-color: #f8f8f8;
   text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease;
-  height: 242px;
+  height: 241px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+
+.product-details h5{
+font-size: 17px;
+font-weight: 500;
 }
 
 .product-details:hover {
@@ -177,7 +182,7 @@
 
 /* Text Styles */
 .item-code {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
   letter-spacing: 2px;
   margin: 0;
@@ -205,6 +210,10 @@
   color: #181B4B;
 }
 
+.product-details h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
 .product-details:hover .simple-button {
   background-color: #111439;
 }
@@ -213,31 +222,35 @@
   margin-top: 0;
   display: flex;
   justify-content: space-evenly;
-  gap: 79px;
+  gap: 70px;
 }
 
+.advantage h2{
+  font-weight: 700;
+}
 
 @media (max-width: 768px) {
   .cards {
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 384px;
   }
 
   .product-card {
-    height: 500px;
+    height: 403px;
   }
 
   .product-details {
-    height: 250px;
-    justify-content: space-around;
+    height: 163spx;
+    justify-content: space-evenly;
   }
 
   .product-image {
-    height: 250px;
+    height: 200px;
   }
 
   .weight {
 
     margin: 0;
+    display: none;
   }
 }
