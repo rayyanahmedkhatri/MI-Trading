@@ -23,7 +23,11 @@
 
   <div id="header" style="width: 100%;"></div>
 
-
+ <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("header").innerHTML = data);
+    </script>
 
   <div class="welcome-wrapper">
     <!-- Lazy-loading image with blur effect -->
@@ -49,7 +53,7 @@
           </div>
           <div class="product-details">
             <h3 class="item-code">Hand Pallet<br>Truck</h3>
-            <a href="products/hand-pallet-truck.php" class="simple-button">Read More</a>
+            <a href="product/hand-pallet-truck.html" class="simple-button">Read More</a>
             <p class="weight"><span>Capacity :</span> 2000 Kgs, 2500Kgs, 3000Kgs & 5000Kgs</p>
           </div>
         </div>

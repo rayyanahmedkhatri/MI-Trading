@@ -120,8 +120,9 @@
     overflow: hidden;
     transition: box-shadow 0.3s ease;
     outline: none;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.500);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.500) ;
     height: 461px;
+    overflow-x: visible;
 
 }
 
@@ -159,7 +160,7 @@
   height: 241px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -222,7 +223,7 @@ font-weight: 500;
   margin-top: 0;
   display: flex;
   justify-content: space-evenly;
-  gap: 70px;
+  gap: 18px;
 }
 
 .advantage h2{
@@ -231,22 +232,38 @@ font-weight: 500;
 
 @media (max-width: 768px) {
   .cards {
-    width: 200px;
-    height: 384px;
+    width: 170px;
+    height: 361px;
   }
 
   .product-card {
-    height: 403px;
+    height: 321px;
+    width: 170px;
   }
-
+.product-row{
+  gap: 3px;
+}
   .product-details {
-    height: 163spx;
+    height: 156px;
     justify-content: space-evenly;
   }
 
   .product-image {
-    height: 200px;
+    height: 165px;
   }
+  .product-image img{
+    width: 180px;
+  }
+  .product-details h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.product-details h5{
+  font-size: 13px;
+}
+.products{
+  width: 100%;
+}
 
   .weight {
 

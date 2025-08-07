@@ -22,8 +22,12 @@ li {
   margin: 0;
   padding: 0;
   text-transform: none;
+  box-sizing: border-box;
 }
-
+html{
+  
+  overflow-x: hidden;
+}
 /* Basic Navbar Styles */
 .navbar {
   display: flex;
