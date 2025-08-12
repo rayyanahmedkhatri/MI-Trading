@@ -1,7 +1,12 @@
+body {
+  background-color: #e2e2e2;
+}
+
 .products {
   width: 80%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .btn-div {
@@ -114,15 +119,15 @@
 
 
 .product-card {
-  width: 249px;
-    border: none;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
-    outline: none;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.500) ;
-    height: 461px;
-    overflow-x: visible;
+  width: 289px;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.500);
+  height: 461px;
+  overflow-x: visible;
 
 }
 
@@ -138,6 +143,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .product-image img {
@@ -164,9 +170,9 @@
   align-items: center;
 }
 
-.product-details h5{
-font-size: 17px;
-font-weight: 500;
+.product-details h5 {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .product-details:hover {
@@ -178,7 +184,7 @@ font-weight: 500;
   display: flex;
   justify-content: center;
   height: fit-content;
-  width: 249px;
+  width: 289px;
 }
 
 /* Text Styles */
@@ -213,8 +219,9 @@ font-weight: 500;
 
 .product-details h4 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 23px;
 }
+
 .product-details:hover .simple-button {
   background-color: #111439;
 }
@@ -226,7 +233,25 @@ font-weight: 500;
   gap: 18px;
 }
 
-.advantage h2{
+.product-heading {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  justify-content: center ;
+  display: flex;
+  letter-spacing: 0;
+}
+
+.white {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.advantage h2 {
   font-weight: 700;
 }
 
@@ -240,9 +265,11 @@ font-weight: 500;
     height: 321px;
     width: 170px;
   }
-.product-row{
-  gap: 3px;
-}
+
+  .product-row {
+    gap: 3px;
+  }
+
   .product-details {
     height: 156px;
     justify-content: space-evenly;
@@ -251,19 +278,32 @@ font-weight: 500;
   .product-image {
     height: 165px;
   }
-  .product-image img{
+
+  .product-image img {
     width: 180px;
   }
+
   .product-details h4 {
-  font-weight: 700;
-  font-size: 16px;
-}
-.product-details h5{
-  font-size: 13px;
-}
-.products{
-  width: 100%;
-}
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .product-details h5 {
+    font-size: 13px;
+  }
+
+  .products {
+    width: 89%;
+  }
+  #small1 {
+    width: 79%;
+  }
+  #small2 {
+    width: 70%;
+  }
+  #small3 {
+    width: 42%;
+  }
 
   .weight {
 
