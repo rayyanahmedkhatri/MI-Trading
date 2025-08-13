@@ -3,7 +3,7 @@ body {
 }
 
 .products {
-  width: 80%;
+  width: 96%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,7 +260,10 @@ body {
     width: 170px;
     height: 361px;
   }
-
+  .product-heading{
+    text-align: center;
+    font-size: 31px;
+  }
   .product-card {
     height: 321px;
     width: 170px;
@@ -311,3 +314,5 @@ body {
     display: none;
   }
 }
+
+
