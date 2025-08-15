@@ -7,22 +7,43 @@
 
 .right-column {
   display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 31px
-  /* min-height: 274px; */
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px
+    /* min-height: 274px; */
+}
+.model{
+font-size: 25px;
 }
 
+.item-code{
+font-size: 37px;
+font-weight: 700;
+}
+
+
 .heading {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .paragraph {
   font-size: 20px;
   font-weight: 500;
 }
-
+.advantage h1{
+  font-weight: 700;
+}
+#advantages-list{
+  font-weight: 600;
+  font-size: 15px;
+}
+.tableh{
+  font-weight: 700;
+}
+.dimention-drawing h1 {
+  font-weight: 700;
+}
 .simple-button {
   display: inline-block;
   background-color: #FAAB18;
@@ -55,7 +76,7 @@
   /* Returns to normal on click */
 }
 
-.details-row{
+.details-row {
   /* transform: translateY(6vh); */
   min-height: calc(100vh - 100px);
   display: flex;
@@ -72,9 +93,10 @@
 
 @media (max-width: 768px) {
 
-  .details-row{
+  .details-row {
     /* transform: translateY(0); */
   }
+
   .left-column img {
     width: 300px;
   }
@@ -90,7 +112,8 @@
   .right-column h1 {
     font-size: 38px;
   }
-  .right-column{
+
+  .right-column {
     min-height: 20px;
   }
 
@@ -104,3 +127,24 @@
   }
 }
 
+table {
+  width: 100%;
+  overflow-x: scroll;
+  height: max-content;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2a100;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

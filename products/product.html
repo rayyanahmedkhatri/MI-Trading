@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title"></title>
+
+  <link rel="stylesheet" href="../assets/css/headerfooter.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/responsivenavbar.css">
+  <link rel="stylesheet" href="../assets/css/product-page.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="header" style="width: 100%;"></div>
+
+  <main class="container">
+    <div class="row details-row">
+      <div class="col-md-6">
+        <img id="product-image" src="" alt="" width="500px">
+      </div>
+      <div class="col-md-6 right-column">
+        <h5 class="model">Model:</h5>
+        <h3 id="item-code" class="item-code"></h3>
+        <h2 id="product-name" class="heading"></h2>
+        <p id="product-desc" class="paragraph m-0"></p>
+        <div class="line"></div>
+        <a href="../contact.html" class="simple-button">Contact Us</a>
+      </div>
+    </div>
+<br><br><br>
+    <div class="advantage">
+      <h1>Advantages</h1>
+      <h3 id="advantageHeading"></h3>
+      <ul id="advantages-list"></ul>
+    </div>
+<br><br><br>
+    <h2 class="tableh">Model Specifications</h2>
+    <table id="specifications-table" border="1" cellpadding="5"></table>
+<br><br><br>
+    <div class="dimention-drawing">
+      <h1>Dimension Drawing</h1>
+      <img id="dimension-image" src="" alt="" width="100%">
+    </div>
+  </main>
+
+  <div id="footer" style="width: 100%;"></div>
+<script src="../disable.js"></script>
+  <script>
+    // Helper to get URL parameter
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    const productId = getQueryParam("id"); // e.g. product.html?id=A1
+
+    fetch("data.json")
+      .then(response => response.json())
+      .then(data => {
+        // Find product by ID in the array
+        const product = data.find(p => p.id.toUpperCase() === productId.toUpperCase());
+
+        if (!product) {
+          document.body.innerHTML = "<h1>Product not found</h1>";
+          return;
+        }
+
+        // Set page title
+        document.getElementById("page-title").innerText = product.name;
+
+        // Fill content
+        document.getElementById("item-code").innerText = product.itemCode;
+        document.getElementById("product-name").innerText = product.name;
+        document.getElementById("product-desc").innerText = product.description;
+        document.getElementById("product-image").src = product.image;
+        document.getElementById("dimension-image").src = product.dimensionImage;
+        document.getElementById("advantageHeading").innerText = product.advantageHeading;
+
+        // Advantages list
+        const advList = document.getElementById("advantages-list");
+        product.advantages.forEach(adv => {
+          const li = document.createElement("li");
+          li.innerText = adv;
+          advList.appendChild(li);
+        });
+
+        // Specifications table
+        const specTable = document.getElementById("specifications-table");
+        product.specs.forEach((row, index) => {
+          const tr = document.createElement("tr");
+          row.forEach(cell => {
+            const cellElement = document.createElement(index === 0 ? "th" : "td");
+            cellElement.innerText = cell;
+            tr.appendChild(cellElement);
+          });
+          specTable.appendChild(tr);
+        });
+      })
+      .catch(error => {
+        console.error("Error loading product data:", error);
+        document.body.innerHTML = "<h1>Error loading product details</h1>";
+      });
+  </script>
+</body>
+</html>
