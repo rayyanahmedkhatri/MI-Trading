@@ -94,7 +94,8 @@ font-weight: 700;
 @media (max-width: 768px) {
 
   .details-row {
-    /* transform: translateY(0); */
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .left-column img {
@@ -102,7 +103,7 @@ font-weight: 700;
   }
 
   .right-column {
-    height: 400px;
+    height: 285px;
     width: 100%;
     margin: 0;
     padding: 0;

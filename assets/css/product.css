@@ -185,7 +185,7 @@ body {
   display: flex;
   justify-content: center;
   height: 484px;
-  width: 289px;
+  width: 289px !important;
 }
 
 /* Text Styles */
@@ -257,7 +257,7 @@ body {
 
 @media (max-width: 768px) {
   .cards {
-    width: 170px;
+    width: 170px !important;
     height: 361px;
   }
   .product-heading{
@@ -267,10 +267,6 @@ body {
   .product-card {
     height: 321px;
     width: 170px;
-  }
-
-  .product-row {
-    gap: 3px;
   }
 
   .product-details {

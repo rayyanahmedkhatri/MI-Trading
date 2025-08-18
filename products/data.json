@@ -1,135 +1,71 @@
 [
   {
-    "id": "A1",
-    "itemCode": "BF",
-    "name": "Standard Type",
-    "description": "",
-    "image": "../assets/images/products/hand-pallet-trucks/1.jpg",
-    "advantageHeading": "",
-    "advantages": [
-      "Most standard and popular model with capacity 2500 - 3000kgs.",
-      "With copping supporting NOG & strengthening ribbing under top triangle cover.",
-      "Complete pump design with reliable leak-proof pump eliminating maintenance and extending the service time.",
-      "210° steering arc, and small turning radius.",
-      "Fork Lowering speed is controllable, operated by hand control and foot pedal.",
-      "Entry/exit roller, more freely travel.",
-      "Equipped with over-load valve, with long service time.",
-      "3 position hand control - Raise, Lower, Neutral.",
-      "12 lubrication grease nipples on all movable parts for easy maintenance.",
-      "Adjustable pump cap ensures a long service life.",
-      "Ergonomic large rubber handle with three control lever.",
-      "Option:",
-      "Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "Fork length: 800mm, 900mm, 1000mm.",
-      "Foot pedal release.",
-      "Pump color: black painting, silver painting."
-    ],
-    "specs": [
-      [
-        "Model",
-        "BF",
-        "BF"
-      ],
-      [
-        "Capacity",
-        "2500/3000",
-        ""
-      ],
-      [
-        "Lowered fork height (h13)",
-        "85 mm",
-        "75 mm"
-      ],
-      [
-        "Steering wheel",
-        "φ200",
-        "φ180"
-      ],
-      [
-        "Fork wheel single",
-        "φ80x93",
-        "φ74x93"
-      ],
-      [
-        "Fork wheel tandem",
-        "φ80x70",
-        "φ74x70"
-      ],
-      [
-        "Max. lift height (h3)",
-        "200 mm",
-        "190 mm"
-      ],
-      [
-        "Total height (h14)",
-        "1224 mm",
-        "1214 mm"
-      ],
-      [
-        "Overall length (l1)",
-        "1483/1533/1603 mm",
-        "1483/1533/1603 mm"
-      ],
-      [
-        "Fork length (l)",
-        "1100/1150/1220 mm",
-        "1100/1150/1220 mm"
-      ],
-      [
-        "Width overall forks (b5)",
-        "520/550/685 mm",
-        "520/550/685 mm"
-      ],
-      [
-        "Ground clearance, centre of wheelbase (m2)",
-        "40 mm",
-        "30 mm"
-      ],
-      [
-        "Aisle width for pallets 1000x1200 crossways (Ast)",
-        "1683/1733/1803 mm",
-        "1683/1733/1803 mm"
-      ],
-      [
-        "Aisle width for pallets 800x1200 lengthways (Ast)",
-        "1783/1783/1803 mm",
-        "1783/1783/1803 mm"
-      ],
-      [
-        "Turning radius (Wa)",
-        "1216/1266/1336 mm",
-        "1216/1266/1336 mm"
-      ],
-      [
-        "Service weight",
-        "60–75 kg",
-        "60–75 kg"
-      ]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/1.jpg"
-  },
-  {
-    "id": "A2",
-    "itemCode": "BF-iii",
-    "name": "Premium Type",
-    "description": "",
-    "image": "../assets/images/products/hand-pallet-trucks/2.jpg",
-    "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "BF-III", "BF-III"],
+  "id": "A1",
+  "itemCode": "BF",
+  "name": "Standard Type",
+  "description": "",
+  "image": "../assets/images/products/hand-pallet-trucks/1.jpg",
+  "advantageHeading": "",
+  "advantages": [
+    "Most standard and popular model with capacity 2500 - 3000kgs.",
+    "With copping supporting NOG & strengthening ribbing under top triangle cover.",
+    "Complete pump design with reliable leak-proof pump eliminating maintenance and extending the service time.",
+    "210° steering arc, and small turning radius.",
+    "Fork Lowering speed is controllable, operated by hand control and foot pedal.",
+    "Entry/exit roller, more freely travel.",
+    "Equipped with over-load valve, with long service time.",
+    "3 position hand control - Raise, Lower, Neutral.",
+    "12 lubrication grease nipples on all movable parts for easy maintenance.",
+    "Adjustable pump cap ensures a long service life.",
+    "Ergonomic large rubber handle with three control lever.",
+    "Option:",
+    "Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
+    "Fork length: 800mm, 900mm, 1000mm.",
+    "Foot pedal release.",
+    "Pump color: black painting, silver painting."
+  ],
+  "specs": [
+    ["Model", "BF", "BF"],
+    ["Capacity", "2500/3000", ""],
+    ["Lowered fork height (h13)", "85 mm", "75 mm"],
+    ["Steering wheel", "φ200", "φ180"],
+    ["Fork wheel single", "φ80x93", "φ74x93"],
+    ["Fork wheel tandem", "φ80x70", "φ74x70"],
+    ["Max. lift height (h3)", "200 mm", "190 mm"],
+    ["Total height (h14)", "1224 mm", "1214 mm"],
+    ["Overall length (l1)", "1483/1533/1603 mm", "1483/1533/1603 mm"],
+    ["Fork length (l)", "1100/1150/1220 mm", "1100/1150/1220 mm"],
+    ["Width overall forks (b5)", "520/550/685 mm", "520/550/685 mm"],
+    ["Ground clearance, centre of wheelbase (m2)", "40 mm", "30 mm"],
+    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1683/1733/1803 mm", "1683/1733/1803 mm"],
+    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1783/1783/1803 mm", "1783/1783/1803 mm"],
+    ["Turning radius (Wa)", "1216/1266/1336 mm", "1216/1266/1336 mm"],
+    ["Service weight", "60–75 kg", "60–75 kg"]
+  ],
+  "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/1.jpg"
+},
+{
+  "id": "A2",
+  "itemCode": "BF-iii",
+  "name": "Premium Type",
+  "description": "",
+  "image": "../assets/images/products/hand-pallet-trucks/2.jpg",
+  "advantageHeading": "",
+  "advantages": [
+    "Integrated pump without welding, no any leaking problems.",
+    "Frame force is more reasonable, and the strength is more reliable.",
+    "Handle seat has hole it is more convenient for installation of control chain.",
+    "Forks lowering speed is controllable, with overload valve to avoid overloading.",
+    "Option:",
+    "1) Steering wheel 200mm (fork wheel 80mm) are available.",
+    "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
+    "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
+    "4) Foot pedal release.",
+    "5) Pump color: black painting.",
+    "6) Quick lift (double speed lifting)."
+  ],
+  "specs": [
+    ["Model", "BF-III", "BF-III"],
     ["Capacity", "2500/3000", "2500/3000"],
     ["Lowered fork height (h13)", "85 mm", "75 mm"],
     ["Steering wheel", "φ180", "φ180"],
@@ -145,31 +81,19 @@
     ["Aisle width for pallets 800x1200 lengthways (Ast)", "1793/1813 mm", "1793/1813 mm"],
     ["Turning radius (Wa)", "1276/1346 mm", "1276/1346 mm"],
     ["Service weight", "56–70 kg", "56–70 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/2.jpg"
-  },
-  {
-    "id": "A3",
-    "itemCode": "DF-iii",
-    "name": "Standard Type",
-    "description": "",
-    "image": "../assets/images/products/hand-pallet-trucks/3.jpg",
-    "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "DF-III", "DF-III"],
+  ],
+  "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/2.jpg"
+},
+{
+  "id": "A3",
+  "itemCode": "DF-iii",
+  "name": "Standard Type",
+  "description": "",
+  "image": "../assets/images/products/hand-pallet-trucks/3.jpg",
+  "advantageHeading": "",
+  "advantages": [],
+  "specs": [
+    ["Model", "DF-III", "DF-III"],
     ["Capacity", "2500/3000", "2500/3000"],
     ["Lowered fork height (h13)", "85 mm", "75 mm"],
     ["Steering wheel", "φ180", "φ160"],
@@ -186,10 +110,11 @@
     ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
     ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
     ["Service weight", "55–65 kg", "55–65 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/3.jpg"
-  },
-  {
+  ],
+  "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/3.jpg"
+}
+
+  ,{
     "id": "A4",
     "itemCode": "DB",
     "category": "Hand Pallet Truck",
@@ -197,39 +122,9 @@
     "description": "",
     "image": "../assets/images/products/hand-pallet-trucks/4.jpg",
     "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "DF-III", "DF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ160"],
-    ["Fork wheel single", "φ70x80", "φ70x80"],
-    ["Fork wheel tandem", "φ70x60", "φ70x60"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1186.5 mm", "1176.5 mm"],
-    ["Overall length (l1)", "1520/1590 mm", "1520/1590 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Fork width (e)", "150 mm", "150 mm"],
-    ["Width overall forks (b5)", "520/550/680 mm", "520/550/680 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1720/1790 mm", "1720/1790 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
-    ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
-    ["Service weight", "55–65 kg", "55–65 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/4.jpg"
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/4.jpg"
   },
   {
     "id": "A5",
@@ -238,39 +133,9 @@
     "description": "",
     "image": "../assets/images/products/hand-pallet-trucks/5.jpg",
     "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "DF-III", "DF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ160"],
-    ["Fork wheel single", "φ70x80", "φ70x80"],
-    ["Fork wheel tandem", "φ70x60", "φ70x60"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1186.5 mm", "1176.5 mm"],
-    ["Overall length (l1)", "1520/1590 mm", "1520/1590 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Fork width (e)", "150 mm", "150 mm"],
-    ["Width overall forks (b5)", "520/550/680 mm", "520/550/680 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1720/1790 mm", "1720/1790 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
-    ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
-    ["Service weight", "55–65 kg", "55–65 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/5.jpg"
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/5.jpg"
   },
   {
     "id": "A6",
@@ -279,39 +144,9 @@
     "description": "",
     "image": "../assets/images/products/hand-pallet-trucks/6.jpg",
     "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "DF-III", "DF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ160"],
-    ["Fork wheel single", "φ70x80", "φ70x80"],
-    ["Fork wheel tandem", "φ70x60", "φ70x60"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1186.5 mm", "1176.5 mm"],
-    ["Overall length (l1)", "1520/1590 mm", "1520/1590 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Fork width (e)", "150 mm", "150 mm"],
-    ["Width overall forks (b5)", "520/550/680 mm", "520/550/680 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1720/1790 mm", "1720/1790 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
-    ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
-    ["Service weight", "55–65 kg", "55–65 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/6.jpg"
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/6.jpg"
   },
   {
     "id": "A7",
@@ -320,39 +155,9 @@
     "description": "",
     "image": "../assets/images/products/hand-pallet-trucks/7.jpg",
     "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "DF-III", "DF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ160"],
-    ["Fork wheel single", "φ70x80", "φ70x80"],
-    ["Fork wheel tandem", "φ70x60", "φ70x60"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1186.5 mm", "1176.5 mm"],
-    ["Overall length (l1)", "1520/1590 mm", "1520/1590 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Fork width (e)", "150 mm", "150 mm"],
-    ["Width overall forks (b5)", "520/550/680 mm", "520/550/680 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1720/1790 mm", "1720/1790 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
-    ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
-    ["Service weight", "55–65 kg", "55–65 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/7.jpg"
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/7.jpg"
   },
   {
     "id": "A8",
@@ -361,93 +166,64 @@
     "description": "",
     "image": "../assets/images/products/hand-pallet-trucks/8.jpg",
     "advantageHeading": "",
-    "advantages": [
-      "Integrated pump without welding, no any leaking problems.",
-      "Frame force is more reasonable, and the strength is more reliable.",
-      "Handle seat has hole it is more convenient for installation of control chain.",
-      "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-      "Option:",
-      "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-      "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-      "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-      "4) Foot pedal release.",
-      "5) Pump color: black painting.",
-      "6) Quick lift (double speed lifting)."
-    ],
-    "specs": [
-      ["Model", "DF-III", "DF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ160"],
-    ["Fork wheel single", "φ70x80", "φ70x80"],
-    ["Fork wheel tandem", "φ70x60", "φ70x60"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1186.5 mm", "1176.5 mm"],
-    ["Overall length (l1)", "1520/1590 mm", "1520/1590 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Fork width (e)", "150 mm", "150 mm"],
-    ["Width overall forks (b5)", "520/550/680 mm", "520/550/680 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1720/1790 mm", "1720/1790 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
-    ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
-    ["Service weight", "55–65 kg", "55–65 kg"]
-    ],
-    "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/8.jpg"
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/8.jpg"
   },
   {
-  "id": "A9",
-  "itemCode": "BFA",
-  "name": "Mechanical Assist Pallet Truck",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/9.jpg",
-  "advantageHeading": "",
-  "advantages": [],
-  "specs": [],
-  "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/9.jpg"
-},
-{
-  "id": "A10",
-  "itemCode": "JF",
-  "name": "High Lift Truck",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/10.jpg",
-  "advantageHeading": "",
-  "advantages": [],
-  "specs": [],
-  "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/10.jpg"
-},
-{
-  "id": "A11",
-  "itemCode": "JFD8",
-  "name": "High Lift Truck",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/11.jpg",
-  "advantageHeading": "",
-  "advantages": [],
-  "specs": [],
-  "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/11.jpg"
-},
-{
-  "id": "A12",
-  "itemCode": "MULTI-FUNCTION PALLET TRUCK",
-  "name": "More Details",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/12.jpg",
-  "advantageHeading": "",
-  "advantages": [],
-  "specs": [],
-  "dimensionImage": "../assets/images/products/dimention-drawing/hand-pallet-truck/12.jpg"
-},
-{
+    "id": "A9",
+    "itemCode": "BFA",
+    "name": "Mechanical Assist Pallet Truck",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/9.jpg",
+    "advantageHeading": "",
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/9.jpg"
+  },
+  {
+    "id": "A10",
+    "itemCode": "JF",
+    "name": "High Lift Truck",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/10.jpg",
+    "advantageHeading": "",
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/10.jpg"
+  },
+  {
+    "id": "A11",
+    "itemCode": "JFD8",
+    "name": "High Lift Truck",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/11.jpg",
+    "advantageHeading": "",
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/11.jpg"
+  },
+  {
+    "id": "A12",
+    "itemCode": "MULTI-FUNCTION PALLET TRUCK",
+    "name": "More Details",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/12.jpg",
+    "advantageHeading": "",
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/12.jpg"
+  },
+  {
     "id": "B1",
     "itemCode": "CBD15/CBD20",
     "name": "Li-ion Powered Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/1.jpg",
+    "advantageHeading": "",
     "advantages": [],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/1.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/1.jpg"
   },
   {
     "id": "B2",
@@ -455,9 +231,10 @@
     "name": "Li-ion Powered Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/2.jpg",
+    "advantageHeading": "",
     "advantages": [],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/2.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/2.jpg"
   },
   {
     "id": "B3",
@@ -465,9 +242,10 @@
     "name": "Electric Walkie Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/3.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/3.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/3.jpg"
   },
   {
     "id": "B4",
@@ -475,9 +253,10 @@
     "name": "Li-ion Powered Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/4.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/4.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/4.jpg"
   },
   {
     "id": "B5",
@@ -485,9 +264,10 @@
     "name": "Electric Seated Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/5.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/5.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/5.jpg"
   },
   {
     "id": "B6",
@@ -495,9 +275,10 @@
     "name": "Electric Walkie Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/6.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/6.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/6.jpg"
   },
   {
     "id": "B7",
@@ -505,9 +286,10 @@
     "name": "Electric Walkie Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/7.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/7.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/7.jpg"
   },
   {
     "id": "B8",
@@ -515,9 +297,10 @@
     "name": "Electric Rider Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/8.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/8.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/8.jpg"
   },
   {
     "id": "B9",
@@ -525,9 +308,10 @@
     "name": "Heavy-duty Electric Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/9.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/9.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/9.jpg"
   },
   {
     "id": "B10",
@@ -535,9 +319,10 @@
     "name": "Electric Stand-on Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/10.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/10.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/10.jpg"
   },
   {
     "id": "B11",
@@ -545,9 +330,10 @@
     "name": "Electric Seated Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/11.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/11.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/11.jpg"
   },
   {
     "id": "B12",
@@ -555,9 +341,10 @@
     "name": "Double Decker Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/12.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/12.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/12.jpg"
   },
   {
     "id": "B13",
@@ -565,9 +352,10 @@
     "name": "Double Decker Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/13.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/13.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/13.jpg"
   },
   {
     "id": "B14",
@@ -575,9 +363,10 @@
     "name": "Electric End Control Pallet Truck",
     "description": "",
     "image": "../assets/images/products/electric-pallet-trucks/14.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension drawing/14.jpg"
+    "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/14.jpg"
   },
   {
     "id": "C1",
@@ -585,9 +374,10 @@
     "name": "EU Type Lift Table",
     "description": "Capacity: 500 KG",
     "image": "../assets/images/products/lift-tables/1.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/1.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/1.jpg"
   },
   {
     "id": "C2",
@@ -595,9 +385,10 @@
     "name": "EU Type Lift Table",
     "description": "Capacity: 1000 KG",
     "image": "../assets/images/products/lift-tables/2.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/2.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/2.jpg"
   },
   {
     "id": "C3",
@@ -605,9 +396,10 @@
     "name": "EU Type Lift Table",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/lift-tables/3.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/3.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/3.jpg"
   },
   {
     "id": "C4",
@@ -615,9 +407,10 @@
     "name": "U.S Type Lift Table",
     "description": "Capacity: 300 KG",
     "image": "../assets/images/products/lift-tables/4.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/4.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/4.jpg"
   },
   {
     "id": "C5",
@@ -625,9 +418,10 @@
     "name": "U.S Type Lift Table",
     "description": "Capacity: 500 KG",
     "image": "../assets/images/products/lift-tables/5.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/5.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/5.jpg"
   },
   {
     "id": "C6",
@@ -635,9 +429,10 @@
     "name": "U.S Type Lift Table",
     "description": "Capacity: 800 KG",
     "image": "../assets/images/products/lift-tables/6.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/6.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/6.jpg"
   },
   {
     "id": "C7",
@@ -645,9 +440,10 @@
     "name": "Double Scissors Lift Table",
     "description": "Capacity: 150 KG / 350 KG",
     "image": "../assets/images/products/lift-tables/7.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/7.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/7.jpg"
   },
   {
     "id": "C8",
@@ -655,9 +451,10 @@
     "name": "Double Scissors Lift Table",
     "description": "Capacity: 680 KG",
     "image": "../assets/images/products/lift-tables/8.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/8.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/8.jpg"
   },
   {
     "id": "C9",
@@ -665,9 +462,10 @@
     "name": "Double Scissors Lift Table",
     "description": "Capacity: 800 KG",
     "image": "../assets/images/products/lift-tables/9.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/9.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/9.jpg"
   },
   {
     "id": "C10",
@@ -675,9 +473,10 @@
     "name": "Stainless Steel Lift Table",
     "description": "Capacity: 150 KG",
     "image": "../assets/images/products/lift-tables/10.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/10.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/10.jpg"
   },
   {
     "id": "C11",
@@ -685,9 +484,10 @@
     "name": "Stainless Steel Lift Table",
     "description": "Capacity: 300 KG / 500 KG",
     "image": "../assets/images/products/lift-tables/11.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/11.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/11.jpg"
   },
   {
     "id": "C12",
@@ -695,9 +495,10 @@
     "name": "Stainless Steel Lift Table",
     "description": "Capacity: –",
     "image": "../assets/images/products/lift-tables/12.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/12.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/12.jpg"
   },
   {
     "id": "C13",
@@ -705,9 +506,10 @@
     "name": "Electric Table Truck",
     "description": "Capacity: 300 KG / 500 KG",
     "image": "../assets/images/products/lift-tables/13.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/13.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/13.jpg"
   },
   {
     "id": "C14",
@@ -715,9 +517,10 @@
     "name": "Lift Table",
     "description": "Capacity: 350 KG",
     "image": "../assets/images/products/lift-tables/14.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/14.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/14.jpg"
   },
   {
     "id": "C15",
@@ -725,9 +528,10 @@
     "name": "Double Hydraulic Pump",
     "description": "Capacity: 2700 KG",
     "image": "../assets/images/products/lift-tables/15.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/15.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/15.jpg"
   },
   {
     "id": "C16",
@@ -735,9 +539,10 @@
     "name": "Dock Leveler",
     "description": "Capacity: 6000 KG / 8000 KG",
     "image": "../assets/images/products/lift-tables/16.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/16.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/16.jpg"
   },
   {
     "id": "C17",
@@ -745,9 +550,10 @@
     "name": "Lift Table",
     "description": "Capacity: 1000 KG",
     "image": "../assets/images/products/lift-tables/17.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/17.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/17.jpg"
   },
   {
     "id": "C18",
@@ -755,9 +561,10 @@
     "name": "Lift Table",
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/lift-tables/18.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/18.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/18.jpg"
   },
   {
     "id": "C19",
@@ -765,9 +572,10 @@
     "name": "Lift Table",
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/lift-tables/19.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/lift-tables/dimension drawing/19.jpg"
+    "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/19.jpg"
   },
   {
     "id": "D1",
@@ -775,9 +583,10 @@
     "name": "Manual Stacker with Fixed Forks",
     "description": "Capacity: 500 KG / 1000 KG / 1500 KG",
     "image": "../assets/images/products/manual-stacker/1.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/1.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/1.jpg"
   },
   {
     "id": "D2",
@@ -785,9 +594,10 @@
     "name": "Manual Stacker with Adjustable Forks",
     "description": "Capacity: 1000 KG / 1500 KG",
     "image": "../assets/images/products/manual-stacker/2.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/2.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/2.jpg"
   },
   {
     "id": "D3",
@@ -795,9 +605,10 @@
     "name": "Manual Stacker with Straddle Legs",
     "description": "Capacity: 500 KG / 1000 KG",
     "image": "../assets/images/products/manual-stacker/3.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/3.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/3.jpg"
   },
   {
     "id": "D4",
@@ -805,9 +616,10 @@
     "name": "Manual Stacker with Adjustable Forks",
     "description": "Capacity: 500 KG / 1000 KG / 1500 KG",
     "image": "../assets/images/products/manual-stacker/4.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/4.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/4.jpg"
   },
   {
     "id": "D5",
@@ -815,9 +627,10 @@
     "name": "Manual Stacker (Forged Forks / Overall Forks)",
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/manual-stacker/5.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/5.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/5.jpg"
   },
   {
     "id": "D6",
@@ -825,9 +638,10 @@
     "name": "Drum Stacker",
     "description": "Capacity: 350 KG",
     "image": "../assets/images/products/manual-stacker/6.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/6.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/6.jpg"
   },
   {
     "id": "D7",
@@ -835,9 +649,10 @@
     "name": "Drum Loader",
     "description": "Capacity: –",
     "image": "../assets/images/products/manual-stacker/7.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/7.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/7.jpg"
   },
   {
     "id": "D8",
@@ -845,19 +660,21 @@
     "name": "Self-Lifting Full-electric Stacker",
     "description": "Capacity: 500 KG",
     "image": "../assets/images/products/manual-stacker/8.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/manual-stacker/dimension drawing/8.jpg"
+    "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/8.jpg"
   },
-   {
+  {
     "id": "E1",
     "itemCode": "CDD15B-E / CTD15B-E",
     "name": "Semi-electric Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/1.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/1.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/1.jpg"
   },
   {
     "id": "E2",
@@ -865,9 +682,10 @@
     "name": "Semi-electric Stacker",
     "description": "Capacity: 1000 KG / 1500 KG",
     "image": "../assets/images/products/electric-stacker/2.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/2.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/2.jpg"
   },
   {
     "id": "E3",
@@ -875,9 +693,10 @@
     "name": "Semi-electric Stacker",
     "description": "Capacity: 1000 KG / 1500 KG",
     "image": "../assets/images/products/electric-stacker/3.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/3.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/3.jpg"
   },
   {
     "id": "E4",
@@ -885,9 +704,10 @@
     "name": "Electric Walkie Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/4.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/4.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/4.jpg"
   },
   {
     "id": "E5",
@@ -895,9 +715,10 @@
     "name": "Electric Straddle Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/5.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/5.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/5.jpg"
   },
   {
     "id": "E6",
@@ -905,9 +726,10 @@
     "name": "Electric Walkie Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/6.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/6.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/6.jpg"
   },
   {
     "id": "E7",
@@ -915,9 +737,10 @@
     "name": "Electric Walkie Straddle Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/7.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/7.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/7.jpg"
   },
   {
     "id": "E8",
@@ -925,9 +748,10 @@
     "name": "Electric Rider Stacker",
     "description": "Capacity: 1500 KG / 2000 KG",
     "image": "../assets/images/products/electric-stacker/8.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/8.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/8.jpg"
   },
   {
     "id": "E9",
@@ -935,9 +759,10 @@
     "name": "Electric Rider Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/9.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/9.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/9.jpg"
   },
   {
     "id": "E10",
@@ -945,9 +770,10 @@
     "name": "Electric Rider Straddle Stacker",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/10.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/10.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/10.jpg"
   },
   {
     "id": "E11",
@@ -955,9 +781,10 @@
     "name": "Heavy-Duty Electric Stacker",
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/electric-stacker/11.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/11.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/11.jpg"
   },
   {
     "id": "E12",
@@ -965,9 +792,10 @@
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/12.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/12.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/12.jpg"
   },
   {
     "id": "E13",
@@ -975,9 +803,10 @@
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/13.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/13.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/13.jpg"
   },
   {
     "id": "E14",
@@ -985,9 +814,10 @@
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1000 KG / 1200 KG",
     "image": "../assets/images/products/electric-stacker/14.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/14.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/14.jpg"
   },
   {
     "id": "E15",
@@ -995,9 +825,10 @@
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1000 KG / 1200 KG",
     "image": "../assets/images/products/electric-stacker/15.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/15.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/15.jpg"
   },
   {
     "id": "E16",
@@ -1005,9 +836,10 @@
     "name": "Counterbalanced Electric Reach Stacker",
     "description": "Capacity: 1250 KG / 1500 KG / 2000 KG",
     "image": "../assets/images/products/electric-stacker/16.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/16.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/16.jpg"
   },
   {
     "id": "E17",
@@ -1015,9 +847,10 @@
     "name": "Counterbalanced Electric Reach Stacker",
     "description": "Capacity: 1250 KG / 1500 KG",
     "image": "../assets/images/products/electric-stacker/17.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/17.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/17.jpg"
   },
   {
     "id": "E18",
@@ -1025,19 +858,65 @@
     "name": "Counterbalanced Electric Stacker",
     "description": "Capacity: 1500 KG / 2000 KG",
     "image": "../assets/images/products/electric-stacker/18.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/18.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/18.jpg"
   },
   {
     "id": "E19",
     "itemCode": "CPD15W",
     "name": "Counterbalanced Electric Stacker",
-    "description": "Capacity: Not specified",
+    "description": "Capacity: 1500 KG",
     "image": "../assets/images/products/electric-stacker/19.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension drawing/19.jpg"
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/19.jpg"
+  },
+  {
+    "id": "E20",
+    "itemCode": "CPD05W / CPD10W / CPD15W-II",
+    "name": "Counterbalanced Electric Stacker",
+    "description": "Capacity: 550 KG / 1000 KG / 1500 KG",
+    "image": "../assets/images/products/electric-stacker/20.jpg",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/20.jpg"
+  },
+  {
+    "id": "E21",
+    "itemCode": "CQDH15A-III",
+    "name": "Rider Type Reach Stacker",
+    "description": "Capacity: 1500 KG / 2000 KG",
+    "image": "../assets/images/products/electric-stacker/21.jpg",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/21.jpg"
+  },
+  {
+    "id": "E22",
+    "itemCode": "CQDH15A-III / CQDH20A-III",
+    "name": "Reach Stacker",
+    "description": "Capacity: 1000 KG / 1350 KG / 1500 KG / 2000 KG",
+    "image": "../assets/images/products/electric-stacker/22.jpg",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/22.jpg"
+  },
+  {
+    "id": "E23",
+    "itemCode": "CDD15C",
+    "name": "Stand-in Electric Stacker",
+    "description": "Capacity: 1500 KG",
+    "image": "../assets/images/products/electric-stacker/23.jpg",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/23.jpg"
   },
   {
     "id": "F1",
@@ -1045,9 +924,10 @@
     "name": "3-Wheel Electric Forklift",
     "description": "Capacity: 1000 KG / 1500 KG",
     "image": "../assets/images/products/electric-forklifts/1.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-forklifts/dimension drawing/1.jpg"
+    "dimensionImage": "../assets/images/products/electric-forklifts/dimension-drawing/1.jpg"
   },
   {
     "id": "F2",
@@ -1055,9 +935,10 @@
     "name": "3-Wheel Electric Forklift",
     "description": "Capacity: 1600 KG / 1800 KG / 2000 KG",
     "image": "../assets/images/products/electric-forklifts/2.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-forklifts/dimension drawing/2.jpg"
+    "dimensionImage": "../assets/images/products/electric-forklifts/dimension-drawing/2.jpg"
   },
   {
     "id": "F3",
@@ -1065,9 +946,10 @@
     "name": "Electric Forklift Truck",
     "description": "Capacity: 1600 KG / 2000 KG / 2500 KG / 3000 KG / 3500 KG",
     "image": "../assets/images/products/electric-forklifts/3.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-forklifts/dimension drawing/3.jpg"
+    "dimensionImage": "../assets/images/products/electric-forklifts/dimension-drawing/3.jpg"
   },
   {
     "id": "F4",
@@ -1075,9 +957,10 @@
     "name": "Stand-up Counterbalance Forklift",
     "description": "Capacity: 1600 KG / 1800 KG",
     "image": "../assets/images/products/electric-forklifts/4.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-forklifts/dimension drawing/4.jpg"
+    "dimensionImage": "../assets/images/products/electric-forklifts/dimension-drawing/4.jpg"
   },
   {
     "id": "F5",
@@ -1085,10 +968,9 @@
     "name": "4-Directional Forklift",
     "description": "Capacity: 1600 KG / 2000 KG",
     "image": "../assets/images/products/electric-forklifts/5.jpg",
-    "advantages": [],
+    "advantageHeading": "",
+    "advantages": [ ],
     "specs": [],
-    "dimensionImage": "../assets/images/products/electric-forklifts/dimension drawing/5.jpg"
+    "dimensionImage": "../assets/images/products/electric-forklifts/dimension-drawing/5.jpg"
   }
-
-  
 ]
