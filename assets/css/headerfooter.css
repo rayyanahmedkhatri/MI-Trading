@@ -215,7 +215,7 @@ footer {
   justify-content: center;
   margin-left: 0px;
   padding-top: 30px;
-  width: 291px;
+  width: 291px !important;
 }
 .footer-right{
   width: 621px !important;

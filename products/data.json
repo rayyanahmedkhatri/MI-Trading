@@ -972,5 +972,60 @@
     "advantages": [ ],
     "specs": [],
     "dimensionImage": "../assets/images/products/electric-forklifts/dimension-drawing/5.jpg"
+  },
+  {
+    "id": "G1",
+    "itemCode": "-",
+    "name": "Screw Air Compressor",
+    "description": "Capacity: 1600 KG / 2000 KG",
+    "image": "../assets/images/products/screw-air-compressor.png",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": ""
+  },
+  {
+    "id": "G2",
+    "itemCode": "",
+    "name": "Air Dryer",
+    "description": "Capacity: 1600 KG / 2000 KG",
+    "image": "../assets/images/products/air-dryer.png",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": ""
+  },
+  {
+    "id": "H1",
+    "itemCode": "-",
+    "name": "Manual Beam Tranporter",
+    "description": "Capacity: 1600 KG / 2000 KG",
+    "image": "../assets/images/products/local-fabrication/manual-beam.png",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": ""
+  },
+  {
+    "id": "H2",
+    "itemCode": "-",
+    "name": "Empty Beam Mover",
+    "description": "Capacity: 1600 KG / 2000 KG",
+    "image": "../assets/images/products/local-fabrication/empty-beam.png",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": ""
+  },
+  {
+    "id": "H3",
+    "itemCode": "-",
+    "name": "Hydraulic Batcher Mover",
+    "description": "Capacity: 1600 KG / 2000 KG",
+    "image": "../assets/images/products/local-fabrication/batcher-mover.png",
+    "advantageHeading": "",
+    "advantages": [ ],
+    "specs": [],
+    "dimensionImage": ""
   }
 ]

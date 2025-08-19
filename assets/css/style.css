@@ -86,22 +86,7 @@
   /* Removes underline */
 }
 
-.simple-button {
-  display: inline-block;
-  background-color: #FAAB18;
-  color: white;
-  padding: 10px 24px;
-  border: none;
-  border-radius: 11px;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  margin: 20px 0;
-}
+
 
 .simple-button:hover {
   background-color: #181B4B;
