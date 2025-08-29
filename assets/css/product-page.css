@@ -12,13 +12,14 @@
   gap: 10px
     /* min-height: 274px; */
 }
-.model{
-font-size: 25px;
+
+.model {
+  font-size: 25px;
 }
 
-.item-code{
-font-size: 37px;
-font-weight: 700;
+.item-code {
+  font-size: 37px;
+  font-weight: 700;
 }
 
 
@@ -31,19 +32,24 @@ font-weight: 700;
   font-size: 20px;
   font-weight: 500;
 }
-.advantage h1{
+
+.advantage h1 {
   font-weight: 700;
 }
-#advantages-list{
+
+#advantages-list {
   font-weight: 600;
   font-size: 15px;
 }
-.tableh{
+
+.tableh {
   font-weight: 700;
 }
+
 .dimention-drawing h1 {
   font-weight: 700;
 }
+
 .simple-button {
   display: inline-block;
   background-color: #FAAB18;
@@ -148,4 +154,11 @@ th {
 
 tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+
+#advantages-container {
+  display: grid;
+  justify-content: flex-start;
+  gap: 141px;
+  grid-template-columns: repeat(1, 1fr);
 }

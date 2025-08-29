@@ -57,7 +57,7 @@
     }
 
     footer {
-        height: 480px;
+        height: 550px;
     }
 
     .footer-center {
@@ -109,6 +109,9 @@
     .footer-center {
         display: flex;
         align-items: center;
+    }
+    .footer-left{
+        height: 130px !important;
     }
 
 }

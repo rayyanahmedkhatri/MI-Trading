@@ -1,120 +1,61 @@
 [
   {
-  "id": "A1",
-  "itemCode": "BF",
-  "name": "Standard Type",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/1.jpg",
-  "advantageHeading": "",
-  "advantages": [
-    "Most standard and popular model with capacity 2500 - 3000kgs.",
-    "With copping supporting NOG & strengthening ribbing under top triangle cover.",
-    "Complete pump design with reliable leak-proof pump eliminating maintenance and extending the service time.",
-    "210° steering arc, and small turning radius.",
-    "Fork Lowering speed is controllable, operated by hand control and foot pedal.",
-    "Entry/exit roller, more freely travel.",
-    "Equipped with over-load valve, with long service time.",
-    "3 position hand control - Raise, Lower, Neutral.",
-    "12 lubrication grease nipples on all movable parts for easy maintenance.",
-    "Adjustable pump cap ensures a long service life.",
-    "Ergonomic large rubber handle with three control lever.",
-    "Option:",
-    "Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-    "Fork length: 800mm, 900mm, 1000mm.",
-    "Foot pedal release.",
-    "Pump color: black painting, silver painting."
-  ],
-  "specs": [
-    ["Model", "BF", "BF"],
-    ["Capacity", "2500/3000", ""],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ200", "φ180"],
-    ["Fork wheel single", "φ80x93", "φ74x93"],
-    ["Fork wheel tandem", "φ80x70", "φ74x70"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1224 mm", "1214 mm"],
-    ["Overall length (l1)", "1483/1533/1603 mm", "1483/1533/1603 mm"],
-    ["Fork length (l)", "1100/1150/1220 mm", "1100/1150/1220 mm"],
-    ["Width overall forks (b5)", "520/550/685 mm", "520/550/685 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "40 mm", "30 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1683/1733/1803 mm", "1683/1733/1803 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1783/1783/1803 mm", "1783/1783/1803 mm"],
-    ["Turning radius (Wa)", "1216/1266/1336 mm", "1216/1266/1336 mm"],
-    ["Service weight", "60–75 kg", "60–75 kg"]
-  ],
-  "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/1.jpg"
-},
-{
-  "id": "A2",
-  "itemCode": "BF-iii",
-  "name": "Premium Type",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/2.jpg",
-  "advantageHeading": "",
-  "advantages": [
-    "Integrated pump without welding, no any leaking problems.",
-    "Frame force is more reasonable, and the strength is more reliable.",
-    "Handle seat has hole it is more convenient for installation of control chain.",
-    "Forks lowering speed is controllable, with overload valve to avoid overloading.",
-    "Option:",
-    "1) Steering wheel 200mm (fork wheel 80mm) are available.",
-    "2) Nylon wheel, polyurethane wheel, rubber wheel, single fork roller or tandem fork rollers.",
-    "3) Fork length: 800mm, 900mm, 1000mm, 1100mm.",
-    "4) Foot pedal release.",
-    "5) Pump color: black painting.",
-    "6) Quick lift (double speed lifting)."
-  ],
-  "specs": [
-    ["Model", "BF-III", "BF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ180"],
-    ["Fork wheel single", "φ74x93", "φ74x93"],
-    ["Fork wheel tandem", "φ74x70", "φ74x70"],
-    ["Max. lift height (h3)", "195 mm", "185 mm"],
-    ["Total height (h14)", "1214 mm", "1214 mm"],
-    ["Overall length (l1)", "1543/1613 mm", "1543/1613 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Width overall forks (b5)", "520/550/685 mm", "520/550/685 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1743/1813 mm", "1743/1813 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1793/1813 mm", "1793/1813 mm"],
-    ["Turning radius (Wa)", "1276/1346 mm", "1276/1346 mm"],
-    ["Service weight", "56–70 kg", "56–70 kg"]
-  ],
-  "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/2.jpg"
-},
-{
-  "id": "A3",
-  "itemCode": "DF-iii",
-  "name": "Standard Type",
-  "description": "",
-  "image": "../assets/images/products/hand-pallet-trucks/3.jpg",
-  "advantageHeading": "",
-  "advantages": [],
-  "specs": [
-    ["Model", "DF-III", "DF-III"],
-    ["Capacity", "2500/3000", "2500/3000"],
-    ["Lowered fork height (h13)", "85 mm", "75 mm"],
-    ["Steering wheel", "φ180", "φ160"],
-    ["Fork wheel single", "φ70x80", "φ70x80"],
-    ["Fork wheel tandem", "φ70x60", "φ70x60"],
-    ["Max. lift height (h3)", "200 mm", "190 mm"],
-    ["Total height (h14)", "1186.5 mm", "1176.5 mm"],
-    ["Overall length (l1)", "1520/1590 mm", "1520/1590 mm"],
-    ["Fork length (l)", "1150/1220 mm", "1150/1220 mm"],
-    ["Fork width (e)", "150 mm", "150 mm"],
-    ["Width overall forks (b5)", "520/550/680 mm", "520/550/680 mm"],
-    ["Ground clearance, centre of wheelbase (m2)", "32 mm", "22 mm"],
-    ["Aisle width for pallets 1000x1200 crossways (Ast)", "1720/1790 mm", "1720/1790 mm"],
-    ["Aisle width for pallets 800x1200 lengthways (Ast)", "1770/1790 mm", "1770/1790 mm"],
-    ["Turning radius (Wa)", "1265/1335 mm", "1265/1335 mm"],
-    ["Service weight", "55–65 kg", "55–65 kg"]
-  ],
-  "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/3.jpg"
-}
-
-  ,{
+    "id": "A1",
+    "itemCode": "BF",
+    "name": "Standard Type",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/1.jpg",
+    "advantageHeading": "",
+    "advantages": [
+      {
+        "heading": "Advantages",
+        "items": [
+          "• Most standard and popular model with capacity 2500 - 3000kgs.",
+          "With copping supporting NOG & strengthening ribbing under top triangle cover.",
+          "Complete pump design with reliable leak-proof & dual-sealing technology.",
+          "Manual lowering speed control by hand lever & foot pedal.",
+          "Ergonomic rubber wrapped handle, which is comfortable and convenient to operate."
+        ]
+      }
+    ],
+    "specs": [
+      ["Model", "BF25", "BF30"],
+      ["Capacity (kg)", "2500", "3000"],
+      ["Min. fork height (mm)", "85/75", "85/75"],
+      ["Max. fork height (mm)", "200/190", "200/190"],
+      ["Lifting height (mm)", "115", "115"],
+      ["Fork length (mm)", "1150/1220", "1150/1220"],
+      ["Single fork width (mm)", "160", "160"],
+      ["Width overall forks (mm)", "550/685", "550/685"],
+      ["Wheel (polyurethane / nylon)", "Φ80x93/Φ74x93", "Φ80x93/Φ74x93"],
+      ["Steering wheel (polyurethane / nylon)", "Φ180x50", "Φ180x50"],
+      ["Truck weight (kg)", "73-92", "73-92"]
+    ],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/1.jpg"
+  },
+  {
+    "id": "A2",
+    "itemCode": "BF-iii",
+    "name": "Premium Type",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/2.jpg",
+    "advantageHeading": "",
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/2.jpg"
+  },
+  {
+    "id": "A3",
+    "itemCode": "DF-iii",
+    "name": "Standard Type",
+    "description": "",
+    "image": "../assets/images/products/hand-pallet-trucks/3.jpg",
+    "advantageHeading": "",
+    "advantages": [],
+    "specs": [],
+    "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/3.jpg"
+  },
+  {
     "id": "A4",
     "itemCode": "DB",
     "category": "Hand Pallet Truck",
@@ -132,7 +73,7 @@
     "name": "Heavy Duty Type",
     "description": "",
     "image": "../assets/images/products/hand-pallet-trucks/5.jpg",
-    "advantageHeading": "",
+    "advantageHeading": "Heavy duty type pallet truck",
     "advantages": [],
     "specs": [],
     "dimensionImage": "../assets/images/products/hand-pallet-trucks/dimension-drawing/5.jpg"

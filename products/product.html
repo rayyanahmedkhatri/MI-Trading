@@ -18,6 +18,7 @@
   <div id="header" style="width: 100%;"></div>
 
   <main class="container">
+    <!-- Product details -->
     <div class="row details-row">
       <div class="col-md-6 left-column">
         <img id="product-image" src="" alt="" width="500px">
@@ -31,24 +32,33 @@
         <a href="../contact.html" class="simple-button">Contact Us</a>
       </div>
     </div>
-<br><br><br>
-    <div class="advantage">
-      <h1>Advantages</h1>
-      <h3 id="advantageHeading"></h3>
-      <ul id="advantages-list"></ul>
+
+    <br><br><br>
+
+    <!-- Advantages and other sections -->
+    <div id="advantages-container">
     </div>
-<br><br><br>
+
+    <br><br><br>
+
+    <!-- Specs table -->
     <h2 class="tableh">Model Specifications</h2>
     <table id="specifications-table" border="1" cellpadding="5"></table>
-<br><br><br>
+
+    <br><br><br>
+
+    <!-- Dimension drawing -->
     <div class="dimention-drawing">
       <h1>Dimension Drawing</h1>
       <img id="dimension-image" src="" alt="" width="100%">
     </div>
   </main>
 
+  <br><br><br>
+
   <div id="footer" style="width: 100%;"></div>
-<script src="../disable.js"></script>
+
+  <script src="../disable.js"></script>
   <script>
     // Helper to get URL parameter
     function getQueryParam(param) {
@@ -58,7 +68,7 @@
 
     const productId = getQueryParam("id"); // e.g. product.html?id=A1
 
-    fetch("data.json")
+    fetch("data_updated.json")
       .then(response => response.json())
       .then(data => {
         // Find product by ID in the array
@@ -72,23 +82,37 @@
         // Set page title
         document.getElementById("page-title").innerText = product.name;
 
-        // Fill content
+        // Fill product details
         document.getElementById("item-code").innerText = product.itemCode;
         document.getElementById("product-name").innerText = product.name;
         document.getElementById("product-desc").innerText = product.description;
         document.getElementById("product-image").src = product.image;
         document.getElementById("dimension-image").src = product.dimensionImage;
-        document.getElementById("advantageHeading").innerText = product.advantageHeading;
 
-        // Advantages list
-        const advList = document.getElementById("advantages-list");
-        product.advantages.forEach(adv => {
-          const li = document.createElement("li");
-          li.innerText = adv;
-          advList.appendChild(li);
+        // Render advantages sections
+        const advContainer = document.getElementById("advantages-container");
+        product.advantages.forEach(section => {
+          const sectionDiv = document.createElement("div");
+          sectionDiv.classList.add("section-block");
+
+          if (section.heading && section.heading.trim() !== "") {
+            const heading = document.createElement("h2");
+            heading.innerText = section.heading;
+            sectionDiv.appendChild(heading);
+          }
+
+          const ul = document.createElement("ul");
+          section.items.forEach(item => {
+            const li = document.createElement("li");
+            li.innerText = item;
+            ul.appendChild(li);
+          });
+          sectionDiv.appendChild(ul);
+
+          advContainer.appendChild(sectionDiv);
         });
 
-        // Specifications table
+        // Render specifications table
         const specTable = document.getElementById("specifications-table");
         product.specs.forEach((row, index) => {
           const tr = document.createElement("tr");
@@ -102,7 +126,7 @@
       })
       .catch(error => {
         console.error("Error loading product data:", error);
-        document.body.innerHTML = "<h1>Error loading product details</h1>";
+        alert("Failed to load product details. Check console for more info.");
       });
   </script>
 </body>
