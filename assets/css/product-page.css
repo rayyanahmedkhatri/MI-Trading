@@ -33,22 +33,12 @@
   font-weight: 500;
 }
 
-.advantage h1 {
-  font-weight: 700;
-}
 
 #advantages-list {
   font-weight: 600;
   font-size: 15px;
 }
 
-.tableh {
-  font-weight: 700;
-}
-
-.dimention-drawing h1 {
-  font-weight: 700;
-}
 
 .simple-button {
   display: inline-block;
@@ -140,6 +130,16 @@ table {
   height: max-content;
 }
 
+@media (max-width: 768px) {
+  .table {
+    max-width: 100vh;
+    /* limit to screen height */
+    overflow-y: auto;
+    /* enable vertical scrolling */
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 th,
 td {
   border: 1px solid #ddd;
@@ -148,7 +148,7 @@ td {
 }
 
 th {
-  background-color: #f2a100;
+  background-color: #f2a100 !important;
   color: black;
 }
 
@@ -159,6 +159,19 @@ tr:nth-child(even) {
 #advantages-container {
   display: grid;
   justify-content: flex-start;
-  gap: 141px;
+  gap: 11px;
   grid-template-columns: repeat(1, 1fr);
+}
+
+.advantageh, .tableh, .dimensionh {
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FAAB18;
+  text-decoration: underline;
+}
+
+.section-block h2 {
+  font: 600 30px helvetica;
+  color: #181B4B;
 }

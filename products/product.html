@@ -34,22 +34,25 @@
     </div>
 
     <br><br><br>
-
+<h1 class="advantageh">Advantage</h1>
     <!-- Advantages and other sections -->
     <div id="advantages-container">
+      
     </div>
 
     <br><br><br>
 
     <!-- Specs table -->
     <h2 class="tableh">Model Specifications</h2>
+    <div class="table">
     <table id="specifications-table" border="1" cellpadding="5"></table>
+    </div>
 
     <br><br><br>
 
     <!-- Dimension drawing -->
     <div class="dimention-drawing">
-      <h1>Dimension Drawing</h1>
+      <h1 class="dimensionh">Dimension Drawing</h1>
       <img id="dimension-image" src="" alt="" width="100%">
     </div>
   </main>
@@ -68,7 +71,7 @@
 
     const productId = getQueryParam("id"); // e.g. product.html?id=A1
 
-    fetch("data_updated.json")
+    fetch("data_updated1.json")
       .then(response => response.json())
       .then(data => {
         // Find product by ID in the array
