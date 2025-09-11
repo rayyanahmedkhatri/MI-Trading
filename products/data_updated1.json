@@ -563,38 +563,38 @@
     }
   ],
   "specs": [
-    ["Model", "", "CBD15W-LiX"],
-    ["Drive", "", "Electric"],
-    ["Operator type", "", "Pedestrian"],
-    ["Rated capacity/rated load", "Q(kg)", "1500"],
+    ["Model", "", "CBD15W-LiX", ""],
+    ["Drive", "", "Electric", ""],
+    ["Operator type", "", "Pedestrian", ""],
+    ["Rated capacity/rated load", "Q(kg)", "1500", ""],
     ["Load centre distance", "c(mm)", "600", ""],
-    ["Load distance, centre of drive axle to fork", "x(mm)", "951/1021"],
-    ["Wheelbase", "y(mm)", "1270/1340"],
-    ["Service weight", "kg", "135"],
-    ["Axle loading, laden front/rear", "kg", "565/1070"],
-    ["Axle loading, unladen front/rear", "kg", "105/30"],
-    ["Tyres", "", "Polyurethane (PU)"],
-    ["Tyre size, front", "mm", "Φ210×70"],
-    ["Tyre size, rear", "mm", "Φ80×93 / Φ80×70"],
-    ["Height of tiller in drive position", "h14(mm)", "635/1200"],
-    ["Lowered fork height", "h13(mm)", "80"],
-    ["Overall length", "l1(mm)", "1623/1693"],
-    ["Length to face of forks", "l2(mm)", "473"],
-    ["Overall width", "b1/b2(mm)", "550/685"],
-    ["Fork dimensions", "s/e/l(mm)", "45/160/1150 (1220)"],
-    ["Width overall forks", "b5(mm)", "550/685"],
-    ["Ground clearance, centre of wheelbase", "m2(mm)", "35"],
-    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2226/2294"],
-    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2095/2132"],
-    ["Turning radius", "Wa(mm)", "1424/1494"],
-    ["Travel speed, laden/unladen", "km/h", "4.8/5.0"],
-    ["Lift speed, laden/unladen", "m/s", "0.03/0.035"],
-    ["Max. gradeability, laden/unladen", "%", "5/20"],
-    ["Drive motor rating (S2 60 min)", "kW", "0.65"],
-    ["Lift motor rating (S3 15%)", "kW", "0.8"],
-    ["Battery voltage / nominal capacity", "V/Ah", "48/20"],
-    ["Battery weight", "kg", "9.7"],
-    ["Sound level at the driver’s ear", "dB(A)", "70"]
+    ["Load distance, centre of drive axle to fork", "x(mm)", "951/1021", ""],
+    ["Wheelbase", "y(mm)", "1270/1340", ""],
+    ["Service weight", "kg", "135", ""],
+    ["Axle loading, laden front/rear", "kg", "565/1070", ""],
+    ["Axle loading, unladen front/rear", "kg", "105/30", ""],
+    ["Tyres", "", "Polyurethane (PU)", ""],
+    ["Tyre size, front", "mm", "Φ210×70", ""],
+    ["Tyre size, rear", "mm", "Φ80×93 / Φ80×70", ""],
+    ["Height of tiller in drive position", "h14(mm)", "635/1200", ""],
+    ["Lowered fork height", "h13(mm)", "80", ""],
+    ["Overall length", "l1(mm)", "1623/1693", ""],
+    ["Length to face of forks", "l2(mm)", "473", ""],
+    ["Overall width", "b1/b2(mm)", "550/685", ""],
+    ["Fork dimensions", "s/e/l(mm)", "45/160/1150 (1220)", ""],
+    ["Width overall forks", "b5(mm)", "550/685", ""],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "35", ""],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2226/2294", ""],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2095/2132", ""],
+    ["Turning radius", "Wa(mm)", "1424/1494", ""],
+    ["Travel speed, laden/unladen", "km/h", "4.8/5.0", ""],
+    ["Lift speed, laden/unladen", "m/s", "0.03/0.035", ""],
+    ["Max. gradeability, laden/unladen", "%", "5/20", ""],
+    ["Drive motor rating (S2 60 min)", "kW", "0.65", ""],
+    ["Lift motor rating (S3 15%)", "kW", "0.8", ""],
+    ["Battery voltage / nominal capacity", "V/Ah", "48/20", ""],
+    ["Battery weight", "kg", "9.7", ""],
+    ["Sound level at the driver’s ear", "dB(A)", "70", ""]
   ],
     "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/2.jpg"
   },
@@ -1080,47 +1080,47 @@
     }
   ],
   "specs": [
-    ["Model", "", "CBD30R-II"],
-    ["Drive: electric (battery type, mains,...), diesel, petrol, fuel gas", "", "Electric"],
-    ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Standing"],
-    ["Rated capacity/rated load", "Q (kg)", "3000"],
-    ["Load centre distance", "c(mm)", "600"],
-    ["Load distance, centre of drive axle to fork", "x(mm)", "914/964/1034"],
-    ["Wheelbase", "y(mm)", "1286/1336/1406"],
-    ["Service weight", "kg", "820"],
-    ["Axle loading, laden front/rear", "kg", "1720/2100"],
-    ["Axle loading, unladen front/rear", "kg", "660/160"],
-    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane (PU)"],
-    ["Tyre size, front", "mm", "Φ250x80"],
-    ["Tyre size, rear", "mm", "Φ82x126(98)"],
-    ["Additional wheels (dimensions)", "mm", "Φ127x57"],
-    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/2(4)"],
-    ["Tread, front", "b10(mm)", "537"],
-    ["Tread, rear", "b11 (mm)", "340/370/470/505"],
-    ["Max. lift height", "h3 (mm)", "120"],
-    ["Height drawbar in driving position min./max.", "h14 (mm)", "1050/1410"],
-    ["Height lowered", "h13 (mm)", "82"],
-    ["Overall length", "l1 (mm)", "1785/1835/1905"],
-    ["Length to face of forks", "l2 (mm)", "685"],
-    ["Overall width", "b1/b2 (mm)", "775"],
-    ["Fork dimensions DIN ISO 2331", "s/e/l (mm)", "54/180/1100(1150/1220)"],
-    ["Fork spread", "b5(mm)", "520/550/650/685"],
-    ["Ground clearance, centre of wheelbase", "m2 (mm)", "28"],
-    ["Aisle width for pallets 1000 x 1200 crossways", "Ast (mm)", "2435/2480/2550"],
-    ["Aisle width for pallets 800 x 1200 lengthways", "Ast (mm)", "2320/2345/2380"],
-    ["Turning radius", "Wa(mm)", "1625/1675/1745"],
-    ["Travel speed, laden/unladen", "km/h", "7.0/7.1"],
-    ["Lift speed, laden/unladen", "m/s", "0.039/0.056"],
-    ["Lowering speed, laden/unladen", "m/s", "0.064/0.050"],
-    ["Max. gradeability, laden/unladen", "%", "8/20"],
-    ["Service brake", "", "Electromagnetic"],
-    ["Drive motor rating S2 60 min", "kW", "2.2"],
-    ["Lift motor rating at S3 15%", "kW", "2.2"],
-    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/240(280)"],
-    ["Battery weight", "kg", "235/275"],
-    ["Drive control", "", "AC control"],
-    ["Sound pressure level at the driver's seat", "dB (A)", "70"],
-    ["Option", "", "Battery 240Ah / 400Ah; Drive speed 9.5-10 km/h | Option with EPS drive wheel size is 250×80 mm | Lithium battery 24V/150AH (Charger 24V/50A) | Lithium battery 24V/230AH (Charger 24V/100A)"]
+    ["Model", "", "CBD30R-II", ""],
+    ["Drive: electric (battery type, mains,...), diesel, petrol, fuel gas", "", "Electric", ""],
+    ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Standing", ""],
+    ["Rated capacity/rated load", "Q (kg)", "3000", ""],
+    ["Load centre distance", "c(mm)", "600", ""],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "914/964/1034", ""],
+    ["Wheelbase", "y(mm)", "1286/1336/1406", ""],
+    ["Service weight", "kg", "820", ""],
+    ["Axle loading, laden front/rear", "kg", "1720/2100", ""],
+    ["Axle loading, unladen front/rear", "kg", "660/160", ""],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane (PU)", ""],
+    ["Tyre size, front", "mm", "Φ250x80", ""],
+    ["Tyre size, rear", "mm", "Φ82x126(98)", ""],
+    ["Additional wheels (dimensions)", "mm", "Φ127x57", ""],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/2(4)", ""],
+    ["Tread, front", "b10(mm)", "537", ""],
+    ["Tread, rear", "b11 (mm)", "340/370/470/505", ""],
+    ["Max. lift height", "h3 (mm)", "120", ""],
+    ["Height drawbar in driving position min./max.", "h14 (mm)", "1050/1410", ""],
+    ["Height lowered", "h13 (mm)", "82", ""],
+    ["Overall length", "l1 (mm)", "1785/1835/1905", ""],
+    ["Length to face of forks", "l2 (mm)", "685", ""],
+    ["Overall width", "b1/b2 (mm)", "775", ""],
+    ["Fork dimensions DIN ISO 2331", "s/e/l (mm)", "54/180/1100(1150/1220)", ""],
+    ["Fork spread", "b5(mm)", "520/550/650/685", ""],
+    ["Ground clearance, centre of wheelbase", "m2 (mm)", "28", ""],
+    ["Aisle width for pallets 1000 x 1200 crossways", "Ast (mm)", "2435/2480/2550", ""],
+    ["Aisle width for pallets 800 x 1200 lengthways", "Ast (mm)", "2320/2345/2380", ""],
+    ["Turning radius", "Wa(mm)", "1625/1675/1745", ""],
+    ["Travel speed, laden/unladen", "km/h", "7.0/7.1", ""],
+    ["Lift speed, laden/unladen", "m/s", "0.039/0.056", ""],
+    ["Lowering speed, laden/unladen", "m/s", "0.064/0.050", ""],
+    ["Max. gradeability, laden/unladen", "%", "8/20", ""],
+    ["Service brake", "", "Electromagnetic", ""],
+    ["Drive motor rating S2 60 min", "kW", "2.2", ""],
+    ["Lift motor rating at S3 15%", "kW", "2.2", ""],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/240(280)", ""],
+    ["Battery weight", "kg", "235/275", ""],
+    ["Drive control", "", "AC control", ""],
+    ["Sound pressure level at the driver's seat", "dB (A)", "70", ""],
+    ["Option", "", "Battery 240Ah / 400Ah; Drive speed 9.5-10 km/h | Option with EPS drive wheel size is 250×80 mm | Lithium battery 24V/150AH (Charger 24V/50A) | Lithium battery 24V/230AH (Charger 24V/100A)", ""]
   ],
     "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/9.jpg"
   },
@@ -1147,46 +1147,46 @@
     }
   ],
   "specs": [
-    ["Model", "", "CBD20L"],
-    ["Drive: electric (battery type, mains, ...), diesel, petrol, fuel gas", "", "Electric"],
-    ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Standing"],
-    ["Rated capacity/rated load", "Q(kg)", "2000"],
-    ["Load centre distance", "c (mm)", "600"],
-    ["Load distance, centre of drive axle to fork", "x(mm)", "914/964/1034"],
-    ["Wheelbase", "y (mm)", "1300/1350/1420"],
-    ["Service weight", "kg", "820"],
-    ["Axle loading, laden front/rear", "kg", "1200/1620"],
-    ["Axle loading, unladen front/rear", "kg", "700/120"],
-    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane (PU)"],
-    ["Tyre size, front", "mm", "Ф250x80"],
-    ["Tyre size, rear", "mm", "Ф82x126(98)"],
-    ["Additional wheels (dimensions)", "mm", "Ф127x57"],
-    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/2(4)"],
-    ["Tread, front", "b10 (mm)", "540"],
-    ["Tread, rear", "b11 (mm)", "340/370/470/505"],
-    ["Max. lift height", "h3 (mm)", "120"],
-    ["Height drawbar in driving position min./max.", "h14 (mm)", "1135"],
-    ["Height, lowered", "h13 (mm)", "82"],
-    ["Overall length", "l1 (mm)", "2220/2270/2340"],
-    ["Length to face of forks", "l2 (mm)", "1120"],
-    ["Overall width", "b1/b2 (mm)", "773"],
-    ["Fork dimensions DIN ISO 2331", "s/e/l (mm)", "54/180/1100(1150/1220)"],
-    ["Fork spread", "b5 (mm)", "520/550/650/685"],
-    ["Ground clearance, centre of wheelbase", "m2 (mm)", "28"],
-    ["Aisle width for pallets 1000 x 1200 crossways", "Ast (mm)", "2792/2834/2895"],
-    ["Aisle width for pallets 800 x 1200 lengthways", "Ast (mm)", "2710/2728/2758"],
-    ["Turning radius", "Wa (mm)", "1970/2020/2090"],
-    ["Travel speed, laden/unladen", "km/h", "7/7.1"],
-    ["Lift speed, laden/unladen", "m/s", "0.039/0.056"],
-    ["Lowering speed, laden/unladen", "m/s", "0.064/0.050"],
-    ["Max. gradeability, laden/unladen", "%", "8/15"],
-    ["Service brake", "", "Electromagnetic"],
-    ["Drive motor rating S2 60 min", "kW", "1.5"],
-    ["Lift motor rating at S3 15%", "kW", "1.2"],
-    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/240/(280)"],
-    ["Battery weight", "kg", "235/275"],
-    ["Drive control", "", "AC control"],
-    ["Sound pressure level at the driver's seat", "dB(A)", "70"],
+    ["Model", "", "CBD20L", ""],
+    ["Drive: electric (battery type, mains, ...), diesel, petrol, fuel gas", "", "Electric", ""],
+    ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Standing", ""],
+    ["Rated capacity/rated load", "Q(kg)", "2000", ""],
+    ["Load centre distance", "c (mm)", "600", ""],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "914/964/1034", ""],
+    ["Wheelbase", "y (mm)", "1300/1350/1420", ""],
+    ["Service weight", "kg", "820", ""],
+    ["Axle loading, laden front/rear", "kg", "1200/1620", ""],
+    ["Axle loading, unladen front/rear", "kg", "700/120", ""],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane (PU)", ""],
+    ["Tyre size, front", "mm", "Ф250x80", ""],
+    ["Tyre size, rear", "mm", "Ф82x126(98)", ""],
+    ["Additional wheels (dimensions)", "mm", "Ф127x57", ""],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/2(4)", ""],
+    ["Tread, front", "b10 (mm)", "540", ""],
+    ["Tread, rear", "b11 (mm)", "340/370/470/505", ""],
+    ["Max. lift height", "h3 (mm)", "120", ""],
+    ["Height drawbar in driving position min./max.", "h14 (mm)", "1135", ""],
+    ["Height, lowered", "h13 (mm)", "82", ""],
+    ["Overall length", "l1 (mm)", "2220/2270/2340", ""],
+    ["Length to face of forks", "l2 (mm)", "1120", ""],
+    ["Overall width", "b1/b2 (mm)", "773", ""],
+    ["Fork dimensions DIN ISO 2331", "s/e/l (mm)", "54/180/1100(1150/1220)", ""],
+    ["Fork spread", "b5 (mm)", "520/550/650/685", ""],
+    ["Ground clearance, centre of wheelbase", "m2 (mm)", "28", ""],
+    ["Aisle width for pallets 1000 x 1200 crossways", "Ast (mm)", "2792/2834/2895", ""],
+    ["Aisle width for pallets 800 x 1200 lengthways", "Ast (mm)", "2710/2728/2758", ""],
+    ["Turning radius", "Wa (mm)", "1970/2020/2090", ""],
+    ["Travel speed, laden/unladen", "km/h", "7/7.1", ""],
+    ["Lift speed, laden/unladen", "m/s", "0.039/0.056", ""],
+    ["Lowering speed, laden/unladen", "m/s", "0.064/0.050", ""],
+    ["Max. gradeability, laden/unladen", "%", "8/15", ""],
+    ["Service brake", "", "Electromagnetic", ""],
+    ["Drive motor rating S2 60 min", "kW", "1.5", ""],
+    ["Lift motor rating at S3 15%", "kW", "1.2", ""],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/240/(280)", ""],
+    ["Battery weight", "kg", "235/275", ""],
+    ["Drive control", "", "AC control", ""],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", ""],
     ["Option", "", "Battery 320Ah; Lithium battery 230AH (Charger 24V/100A)", ""]
   ],
     "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/10.jpg"
@@ -1386,51 +1386,51 @@
     }
   ],
   "specs": [
-    ["Model", "", "CBD20SR"],
-    ["Drive: electric (battery type, mains,...), diesel, petrol, fuel gas", "", "Electric"],
-    ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Standing"],
-    ["Rated capacity/rated load", "Q(kg)", "2000"],
-    ["Rated capacity/rated load with mast lift", "Q(kg)", "1000"],
-    ["Rated capacity/rated load with wheel arm lift", "Q(kg)", "2000"],
-    ["Load centre distance", "c(mm)", "600"],
-    ["Load distance, centre of drive axle to fork", "x(mm)", "767"],
-    ["Wheelbase", "y(mm)", "1348"],
-    ["Service weight", "kg", "1130"],
-    ["Axle loading, laden front/rear", "kg", "1090/2040"],
-    ["Axle loading, unladen front/rear", "kg", "840/290"],
-    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane (PU)"],
-    ["Tyre size, front", "mm", "Φ250x80"],
-    ["Tyre size, rear", "mm", "Φ80x70"],
-    ["Additional wheels (dimensions)", "mm", "Φ127x57"],
-    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/4"],
-    ["Tread, front", "b10(mm)", "490"],
-    ["Tread, rear", "b11(mm)", "400/470"],
-    ["Max. lift height", "h3(mm)", "1600/2000/2500"],
-    ["Initial lift", "h5(mm)", "120"],
-    ["Height drawbar in driving position min./max.", "h14(mm)", "1150/1430"],
-    ["Height, lowered", "h13(mm)", "90"],
-    ["Height, mast lowered", "h1(mm)", "1082/1212/1382"],
-    ["Height, mast extended", "h4(mm)", "2118/2508/3018"],
-    ["Overall length", "l1(mm)", "1898/1948"],
-    ["Length to face of forks", "l2(mm)", "798"],
-    ["Overall width", "b1/b2(mm)", "775"],
-    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "54/180/1100(1150)"],
-    ["Fork spread", "b5(mm)", "570/650"],
-    ["Ground clearance, centre of wheelbase", "m2(mm)", "28"],
-    ["Aisle width for pallets 1000 x 1200 crossways", "Ast(mm)", "2490"],
-    ["Aisle width for pallets 800 x 1200 lengthways", "Ast(mm)", "2407"],
-    ["Turning radius", "Wa(mm)", "1670"],
-    ["Travel speed, laden/unladen", "km/h", "7/7.1"],
-    ["Lift speed, laden/unladen", "m/s", "0.11/0.15"],
-    ["Lowering speed, laden/unladen", "m/s", "0.18/0.18"],
-    ["Max. gradeability, laden/unladen", "%", "8/20"],
-    ["Service brake", "", "Electromagnetic"],
-    ["Drive motor rating S2 60 min", "kW", "1.5"],
-    ["Lift motor rating at S3 15%", "kW", "2.2"],
-    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/240"],
-    ["Battery weight", "kg", "235"],
-    ["Sound pressure level at the driver's seat", "dB(A)", "70"],
-    ["Option", "", "CBD20SR Lithium battery 150AH/230AH"]
+    ["Model", "", "CBD20SR", ""],
+    ["Drive: electric (battery type, mains,...), diesel, petrol, fuel gas", "", "Electric", ""],
+    ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Standing", ""],
+    ["Rated capacity/rated load", "Q(kg)", "2000", ""],
+    ["Rated capacity/rated load with mast lift", "Q(kg)", "1000", ""],
+    ["Rated capacity/rated load with wheel arm lift", "Q(kg)", "2000", ""],
+    ["Load centre distance", "c(mm)", "600", ""],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "767", ""],
+    ["Wheelbase", "y(mm)", "1348", ""],
+    ["Service weight", "kg", "1130", ""],
+    ["Axle loading, laden front/rear", "kg", "1090/2040", ""],
+    ["Axle loading, unladen front/rear", "kg", "840/290", ""],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane (PU)", ""],
+    ["Tyre size, front", "mm", "Φ250x80", ""],
+    ["Tyre size, rear", "mm", "Φ80x70", ""],
+    ["Additional wheels (dimensions)", "mm", "Φ127x57", ""],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/4", ""],
+    ["Tread, front", "b10(mm)", "490", ""],
+    ["Tread, rear", "b11(mm)", "400/470", ""],
+    ["Max. lift height", "h3(mm)", "1600/2000/2500", ""],
+    ["Initial lift", "h5(mm)", "120", ""],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "1150/1430", ""],
+    ["Height, lowered", "h13(mm)", "90", ""],
+    ["Height, mast lowered", "h1(mm)", "1082/1212/1382", ""],
+    ["Height, mast extended", "h4(mm)", "2118/2508/3018", ""],
+    ["Overall length", "l1(mm)", "1898/1948", ""],
+    ["Length to face of forks", "l2(mm)", "798", ""],
+    ["Overall width", "b1/b2(mm)", "775", ""],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "54/180/1100(1150)", ""],
+    ["Fork spread", "b5(mm)", "570/650", ""],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "28", ""],
+    ["Aisle width for pallets 1000 x 1200 crossways", "Ast(mm)", "2490", ""],
+    ["Aisle width for pallets 800 x 1200 lengthways", "Ast(mm)", "2407", ""],
+    ["Turning radius", "Wa(mm)", "1670", ""],
+    ["Travel speed, laden/unladen", "km/h", "7/7.1", ""],
+    ["Lift speed, laden/unladen", "m/s", "0.11/0.15", ""],
+    ["Lowering speed, laden/unladen", "m/s", "0.18/0.18", ""],
+    ["Max. gradeability, laden/unladen", "%", "8/20", ""],
+    ["Service brake", "", "Electromagnetic", ""],
+    ["Drive motor rating S2 60 min", "kW", "1.5", ""],
+    ["Lift motor rating at S3 15%", "kW", "2.2", ""],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/240", ""],
+    ["Battery weight", "kg", "235", ""],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", ""],
+    ["Option", "", "CBD20SR Lithium battery 150AH/230AH", ""]
   ],
     "dimensionImage": "../assets/images/products/electric-pallet-trucks/dimension-drawing/13.jpg"
   },
@@ -1545,19 +1545,19 @@
     }
   ],
   "specs": [
-    ["Model", "", "SP150"],
-    ["Capacity", "kg", "150"],
-    ["Max. lift height", "h12(mm)", "740"],
-    ["Min. height of table", "h13(mm)", "225"],
-    ["Lifting height", "h3(mm)", "515"],
-    ["Table size", "lxb5xs(mm)", "740x450x35"],
-    ["Total height", "h14(mm)", "935"],
-    ["Overall length", "l1(mm)", "834"],
-    ["Foot pedal cycles to max height", "", "≤25"],
-    ["Wheel diameter", "d(mm)", "100"],
-    ["Qty. / 20' Container", "PCS", "192"],
-    ["Service weight", "kg", "44"],
-    ["Carton size", "mm", "880x480x265"]
+    ["Model", "", "SP150", ""],
+    ["Capacity", "kg", "150", ""],
+    ["Max. lift height", "h12(mm)", "740", ""],
+    ["Min. height of table", "h13(mm)", "225", ""],
+    ["Lifting height", "h3(mm)", "515", ""],
+    ["Table size", "lxb5xs(mm)", "740x450x35", ""],
+    ["Total height", "h14(mm)", "935", ""],
+    ["Overall length", "l1(mm)", "834", ""],
+    ["Foot pedal cycles to max height", "", "≤25", ""],
+    ["Wheel diameter", "d(mm)", "100", ""],
+    ["Qty. / 20' Container", "PCS", "192", ""],
+    ["Service weight", "kg", "44", ""],
+    ["Carton size", "mm", "880x480x265", ""]
   ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/1.jpg"
   },
@@ -1583,19 +1583,19 @@
     }
   ],
   "specs": [
-    ["Model", "", "SP300/SP500"],
-    ["Capacity", "kg", "300/500"],
-    ["Max. lift height", "h12(mm)", "900"],
-    ["Min. height of table", "h13(mm)", "340"],
-    ["Lifting height", "h3(mm)", "560"],
-    ["Table size", "l×b5×s(mm)", "855×500×50"],
-    ["Total height", "h14(mm)", "970"],
-    ["Overall length", "l1(mm)", "924"],
-    ["Foot pedal cycles to max height", "", "≤32/≤45"],
-    ["Wheel diameter", "d(mm)", "127"],
-    ["Qty. / 20' Container", "PCS", "120"],
-    ["Service weight", "kg", "82/87"],
-    ["Carton size", "mm", "950×530×390"]
+    ["Model", "", "SP300/SP500", ""],
+    ["Capacity", "kg", "300/500", ""],
+    ["Max. lift height", "h12(mm)", "900", ""],
+    ["Min. height of table", "h13(mm)", "340", ""],
+    ["Lifting height", "h3(mm)", "560", ""],
+    ["Table size", "l×b5×s(mm)", "855×500×50", ""],
+    ["Total height", "h14(mm)", "970", ""],
+    ["Overall length", "l1(mm)", "924", ""],
+    ["Foot pedal cycles to max height", "", "≤32/≤45", ""],
+    ["Wheel diameter", "d(mm)", "127", ""],
+    ["Qty. / 20' Container", "PCS", "120", ""],
+    ["Service weight", "kg", "82/87", ""],
+    ["Carton size", "mm", "950×530×390", ""]
   ]
 ,
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/2.jpg"
@@ -1680,19 +1680,19 @@
     }
   ],
   "specs": [
-    ["Model", "", "SP200"],
-    ["Capacity", "kg", "200"],
-    ["Max. lift height", "h12(mm)", "1000"],
-    ["Min. height of table", "h13(mm)", "330"],
-    ["Lifting height", "h3(mm)", "670"],
-    ["Table size", "lxb5xs (mm)", "1000x500x35"],
-    ["Total height", "h14(mm)", "1056"],
-    ["Overall length", "l1(mm)", "1120"],
-    ["Foot pedal cycles to max height", "", "≤25"],
-    ["Wheel diameter", "d(mm)", "200"],
-    ["Qty. / 20' Container", "PCS", "72"],
-    ["Service weight", "kg", "71"],
-    ["Carton size", "mm", "1140x620x460"]
+    ["Model", "", "SP200", ""],
+    ["Capacity", "kg", "200", ""],
+    ["Max. lift height", "h12(mm)", "1000", ""],
+    ["Min. height of table", "h13(mm)", "330", ""],
+    ["Lifting height", "h3(mm)", "670", ""],
+    ["Table size", "lxb5xs (mm)", "1000x500x35", ""],
+    ["Total height", "h14(mm)", "1056", ""],
+    ["Overall length", "l1(mm)", "1120", ""],
+    ["Foot pedal cycles to max height", "", "≤25", ""],
+    ["Wheel diameter", "d(mm)", "200", ""],
+    ["Qty. / 20' Container", "PCS", "72", ""],
+    ["Service weight", "kg", "71", ""],
+    ["Carton size", "mm", "1140x620x460", ""]
   ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/5.jpg"
   },
@@ -1703,12 +1703,26 @@
     "description": "Capacity: 800 KG",
     "image": "../assets/images/products/lift-tables/6.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", ""],
+    ["Capacity", "kg", "800"],
+    ["Max. lift height", "h12(mm)", "1000"],
+    ["Min. height of table", "h13(mm)", "420"],
+    ["Lifting height", "h3(mm)", "580"],
+    ["Table size", "l×b5×s(mm)", "1000×510×55"],
+    ["Total height", "h14(mm)", "996"],
+    ["Overall length", "l1(mm)", "1150"],
+    ["Foot pedal cycles to max height", "", "≤70"],
+    ["Wheel diameter", "d(mm)", "150"],
+    ["Qty. / 20' Container", "PCS", "52"],
+    ["Service weight", "kg", "123"],
+    ["Carton size", "mm", "1180×615×460"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/6.jpg"
   },
   {
@@ -1718,12 +1732,26 @@
     "description": "Capacity: 150 KG / 350 KG",
     "image": "../assets/images/products/lift-tables/7.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "SPS150", "SPS350"],
+    ["Capacity", "kg", "150", "350"],
+    ["Max. lift height", "h12(mm)", "1100", "1300"],
+    ["Min. height of table", "h13(mm)", "302", "350"],
+    ["Lifting height", "h3(mm)", "798", "950"],
+    ["Table size", "l×b5×s(mm)", "700×450×35", "910×500×50"],
+    ["Total height", "h14(mm)", "921", "970"],
+    ["Overall length", "l1(mm)", "773", "980"],
+    ["Foot pedal cycles to max height", "", "≤30", "≤60"],
+    ["Wheel diameter", "d(mm)", "100", "127"],
+    ["Qty. / 20' Container", "PCS", "168", "110"],
+    ["Service weight", "kg", "64", "105"],
+    ["Carton size", "mm", "800×480×330", "1010×530×390"]
+  ] ,
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/7.jpg"
   },
   {
@@ -1733,12 +1761,26 @@
     "description": "Capacity: 680 KG",
     "image": "../assets/images/products/lift-tables/8.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "SPF680"],
+    ["Capacity", "kg", "680"],
+    ["Max. lift height", "h12(mm)", "1500"],
+    ["Min. height of table", "h13(mm)", "474"],
+    ["Lifting height", "h3(mm)", "1026"],
+    ["Table size", "l×b5×s(mm)", "1220×610×55"],
+    ["Total height", "h14(mm)", "1038"],
+    ["Overall length", "l1(mm)", "1289"],
+    ["Foot pedal cycles to max height", "", "31/88"],
+    ["Wheel diameter", "d(mm)", "150"],
+    ["Qty. / 20' Container", "PCS", "44"],
+    ["Service weight", "kg", "185"],
+    ["Carton size", "mm", "1320×630×480"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/8.jpg"
   },
   {
@@ -1748,12 +1790,26 @@
     "description": "Capacity: 800 KG",
     "image": "../assets/images/products/lift-tables/9.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "SPS800"],
+    ["Capacity", "kg", "800"],
+    ["Max. lift height", "h12(mm)", "1500"],
+    ["Min. height of table", "h13(mm)", "475"],
+    ["Lifting height", "h3(mm)", "1025"],
+    ["Table size", "l×b5×s(mm)", "1220×610×60"],
+    ["Total height", "h14(mm)", "962"],
+    ["Overall length", "l1(mm)", "1375"],
+    ["Foot pedal cycles to max height", "", "≤70"],
+    ["Wheel diameter", "d(mm)", "150"],
+    ["Qty. / 20' Container", "PCS", "48"],
+    ["Service weight", "kg", "172"],
+    ["Carton size", "mm", "1400×730×500"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/9.jpg"
   },
   {
@@ -1763,12 +1819,35 @@
     "description": "Capacity: 150 KG",
     "image": "../assets/images/products/lift-tables/10.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "Welded steel frame with durable coat finish.",
+        "Durable hydraulic pump ensures a long service life.",
+        "Robust casters with safety wheel guard enhance safety while operation.",
+        "Easy action foot operated foot hydraulic pedal for raising the lift table to a desired height level.",
+        "Safety back guard protects operators from dangers.",
+        "With supporting plat on side of arm to ensure the safety service.",
+        "Convenient finger release smoothly lowers even heavy loads.",
+        "With over load by pass valve to protect operator and pump."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SP150", ""],
+    ["Capacity", "kg", "150", ""],
+    ["Max. lift height", "h12(mm)", "740", ""],
+    ["Min. height of table", "h13(mm)", "225", ""],
+    ["Lifting height", "h3(mm)", "515", ""],
+    ["Table size", "l×b5×s(mm)", "740×450×35", ""],
+    ["Total height", "h14(mm)", "935", ""],
+    ["Overall length", "l1(mm)", "834", ""],
+    ["Foot pedal cycles to max height", "", "≤25", ""],
+    ["Wheel diameter", "d(mm)", "100", ""],
+    ["Qty. / 20' Container", "PCS", "192", ""],
+    ["Service weight", "kg", "44", ""],
+    ["Carton size", "mm", "880×480×265", ""]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/10.jpg"
   },
   {
@@ -1778,12 +1857,35 @@
     "description": "Capacity: 300 KG / 500 KG",
     "image": "../assets/images/products/lift-tables/11.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": [
+        "Welded steel frame with durable coat finish.",
+        "Durable hydraulic pump ensures a long service life.",
+        "Robust casters with safety wheel guard enhance safety while operation.",
+        "Easy action foot operated foot hydraulic pedal for raising the lift table to a desired height level.",
+        "Safety back guard protects operators from dangers.",
+        "With supporting plat on side of arm to ensure the safety service.",
+        "Convenient finger release smoothly lowers even heavy loads.",
+        "With over load by pass valve to protect operator and pump."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SP300", "SP500"],
+    ["Capacity", "kg", "300", "500"],
+    ["Max. lift height", "h12(mm)", "900", "900"],
+    ["Min. height of table", "h13(mm)", "340", "340"],
+    ["Lifting height", "h3(mm)", "560", "560"],
+    ["Table size", "l×b5×s(mm)", "855×500×50", "855×500×50"],
+    ["Total height", "h14(mm)", "970", "970"],
+    ["Overall length", "l1(mm)", "924", "924"],
+    ["Foot pedal cycles to max height", "", "≤32", "≤45"],
+    ["Wheel diameter", "d(mm)", "127", "127"],
+    ["Qty. / 20' Container", "PCS", "120", "120"],
+    ["Service weight", "kg", "82", "87"],
+    ["Carton size", "mm", "950×530×390", "950×530×390"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/11.jpg"
   },
   {
@@ -1793,12 +1895,26 @@
     "description": "Capacity: –",
     "image": "../assets/images/products/lift-tables/12.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "SPS350"],
+    ["Capacity", "kg", "350"],
+    ["Max. lift height", "h12(mm)", "1300"],
+    ["Min. height of table", "h13(mm)", "350"],
+    ["Lifting height", "h3(mm)", "950"],
+    ["Table size", "l×b5×s(mm)", "910×500×50"],
+    ["Total height", "h14(mm)", "970"],
+    ["Overall length", "l1(mm)", "980"],
+    ["Foot pedal cycles to max height", "", "≤60"],
+    ["Wheel diameter", "d(mm)", "127"],
+    ["Qty. / 20' Container", "PCS", "110"],
+    ["Service weight", "kg", "105"],
+    ["Carton size", "mm", "1010×530×390"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/12.jpg"
   },
   {
@@ -1808,12 +1924,28 @@
     "description": "Capacity: 300 KG / 500 KG",
     "image": "../assets/images/products/lift-tables/13.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "DP300", "DP500"],
+    ["Capacity", "kg", "300", "500"],
+    ["Max. lift height", "h12(mm)", "900", "900"],
+    ["Min. height of table", "h13(mm)", "300", "300"],
+    ["Lifting height", "h3(mm)", "600", "600"],
+    ["Table size", "l×b5×s(mm)", "815×500×50", "815×500×50"],
+    ["Total height", "h14(mm)", "1101", "1101"],
+    ["Wheel diameter", "d(mm)", "127", "127"],
+    ["Motor power", "kW", "0.8", "0.8"],
+    ["Lifting speed", "s", "≤10", "≤10"],
+    ["Lowering speed", "s", "10", "10"],
+    ["Battery voltage, nominal capacity K5", "V/Ah", "24V/33Ah", "24V/33Ah"],
+    ["Qty. / 20′ Container", "PCS", "20", "20"],
+    ["Service weight", "kg", "111", "114"],
+    ["Carton size", "mm", "1125×540×340", "1125×540×340"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/13.jpg"
   },
   {
@@ -1823,12 +1955,28 @@
     "description": "Capacity: 350 KG",
     "image": "../assets/images/products/lift-tables/14.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "DPS350"],
+    ["Capacity", "kg", "350"],
+    ["Max. lift height", "h12(mm)", "1320"],
+    ["Min. height of table", "h13(mm)", "405"],
+    ["Lifting height", "h3(mm)", "915"],
+    ["Table size", "l×b5×s(mm)", "910×500×50"],
+    ["Total height", "h14(mm)", "1101"],
+    ["Wheel diameter", "d(mm)", "127"],
+    ["Motor power", "kW", "0.8"],
+    ["Lifting speed", "s", "≤15"],
+    ["Lowering speed", "s", "15"],
+    ["Battery voltage, nominal capacity K5", "V/Ah", "24V/33Ah"],
+    ["Qty. / 20' Container", "PCS", "20"],
+    ["Service weight", "kg", "150"],
+    ["Carton size", "mm", "1240×540×450"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/14.jpg"
   },
   {
@@ -1838,12 +1986,24 @@
     "description": "Capacity: 2700 KG",
     "image": "../assets/images/products/lift-tables/15.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "AL1"],
+    ["Capacity", "kg", "2700"],
+    ["Max. lift height", "h12(mm)", "1500"],
+    ["Min. height of table", "h13(mm)", "210"],
+    ["Lifting height", "h3(mm)", "1290"],
+    ["Table size", "l×b5×s(mm)", "2445×1830×195"],
+    ["Motor", "kW", "3.0"],
+    ["Voltage", "V", "220/380"],
+    ["Rise time", "s", "40"],
+    ["Lowering speed", "mm/s", "<150"],
+    ["Service weight", "kg", "945"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/15.jpg"
   },
   {
@@ -1853,12 +2013,25 @@
     "description": "Capacity: 6000 KG / 8000 KG",
     "image": "../assets/images/products/lift-tables/16.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "DL (6000 kg)", "DL (8000 kg)"],
+    ["Capacity", "kg", "6000", "8000"],
+    ["Table size", "mm", "2500×2000", "2500×2000"],
+    ["Lip board size", "mm", "2000×400", "2000×400"],
+    ["Lifting height Up", "mm", "400", "400"],
+    ["Lifting height Down", "mm", "300", "300"],
+    ["Exterior size (L×W×H)", "mm", "2640×2040×600", "2640×2040×600"],
+    ["Motor", "kW", "0.75", "0.75"],
+    ["Voltage", "V", "220/380", "220/380"],
+    ["Pithead size", "mm", "2580×2080×600", "2580×2080×600"],
+    ["Service weight", "kg", "1110", "1150"],
+    ["Remark", "", "special size can be made according to customer's requirement.", ""]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/16.jpg"
   },
   {
@@ -1868,12 +2041,29 @@
     "description": "Capacity: 1000 KG",
     "image": "../assets/images/products/lift-tables/17.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": [
+        "Designed for industrial heavy duty applications (as part of a production process, for machine feeding or stacking etc.)",
+        "Double acting hydraulic cylinders.",
+        "Lifting limit switch.",
+        "Alum. table frame protects workers from injury by cutting off power."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "DG01", "DG03"],
+    ["Capacity", "kg", "1000", "1000"],
+    ["Max. lift height", "h12(mm)", "1000", "1000"],
+    ["Min. height of table", "h13(mm)", "190", "190"],
+    ["Lifting height", "h3(mm)", "810", "810"],
+    ["Table size", "l×b5×s(mm)", "1350×800×80", "1500×1000×80"],
+    ["Motor power", "kW", "0.75", "0.75"],
+    ["Input voltage", "V", "220/380", "220/380"],
+    ["Rise time", "s", "19", "19"],
+    ["Lowering speed", "mm/s", "<150", "<150"],
+    ["Service weight", "kg", "206", "216"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/17.jpg"
   },
   {
@@ -1883,12 +2073,29 @@
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/lift-tables/18.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "Designed for industrial heavy duty applications (as part of a production process, for machine feeding or stacking etc.)",
+        "Double acting hydraulic cylinders.",
+        "Lifting limit switch.",
+        "Alum. table frame protects workers from injury by cutting off power."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "DG02", "DG04"],
+    ["Capacity", "kg", "2000", "2000"],
+    ["Max. lift height", "h12(mm)", "1000", "1000"],
+    ["Min. height of table", "h13(mm)", "230", "230"],
+    ["Lifting height", "h3(mm)", "770", "770"],
+    ["Table size", "l×b5×s(mm)", "1350×800×130", "1500×1000×130"],
+    ["Motor power", "kW", "0.75", "0.75"],
+    ["Input voltage", "V", "220/380", "220/380"],
+    ["Rise time", "s", "38", "38"],
+    ["Lowering speed", "mm/s", "<150", "<150"],
+    ["Service weight", "kg", "248", "268"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/18.jpg"
   },
   {
@@ -1898,12 +2105,29 @@
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/lift-tables/19.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": [
+        "Designed for industrial heavy duty applications (as part of a production process, for machine feeding or stacking etc.)",
+        "Double acting hydraulic cylinders.",
+        "Lifting limit switch.",
+        "Alum. table frame protects workers from injury by cutting off power."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "DGS20 (2000 kg × 2000 mm)", "DGS20 (2000 kg × 3500 mm)", "DGS20 (2000 kg × 4000 mm)"],
+    ["Capacity", "kg", "2000", "2000", "2000"],
+    ["Max. lift height", "h12(mm)", "2000", "3500", "4000"],
+    ["Min. height of table", "h13(mm)", "420", "500", "500"],
+    ["Lifting height", "h3(mm)", "1580", "3000", "3500"],
+    ["Table size", "l×b5×s(mm)", "1500×1400×130", "2240×1590×180", "2500×2000×180"],
+    ["Motor power", "kW", "1.5", "3", "4"],
+    ["Input voltage", "V", "220/380", "220/380", "220/380"],
+    ["Rise time", "s", "60", "80", "90"],
+    ["Lowering speed", "mm/s", "<150", "<150", "<150"],
+    ["Service weight", "kg", "520", "1250", "1550"]
+  ],
     "dimensionImage": "../assets/images/products/lift-tables/dimension-drawing/19.jpg"
   },
   {
@@ -1913,12 +2137,39 @@
     "description": "Capacity: 500 KG / 1000 KG / 1500 KG",
     "image": "../assets/images/products/manual-stacker/1.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "Compact design for European pallet 550/580mm x 1100/1150mm.",
+        "High quality steel mast and strong steel construction ensures rigidity and durability.",
+        "Welded forks deliver low-cost solution.",
+        "High efficient pumps makes the control easier to operate.",
+        "Foot and hand controlled lifting function allows the operator to work without having to perform extreme body movements.",
+        "Metal grid protects user from lift chains.",
+        "With safety wheel guard and brake system to ensure safety during operation."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SDJ500", "SDJ1000", "SDJ1500"],
+    ["Load capacity/rated load", "Q (kg)", "500", "1000", "1500"],
+    ["Load centre distance", "c (mm)", "600", "600", "400"],
+    ["Fork height, lowered", "h13 (mm)", "90", "90", "90"],
+    ["Height, mast lowered", "h1 (mm)", "1490/2080", "1490/1720/2080/1838/2080", "2080"],
+    ["Max. lift height", "h3 (mm)", "1000/1600", "1000/1200/1600/2500/3000", "1600"],
+    ["Height, mast extended", "h4 (mm)", "1490/2087", "1490/1720/2087/3012/3512", "2087"],
+    ["Overall length", "l1 (mm)", "1685", "1685/1695", "1685"],
+    ["Overall width", "b1 (mm)", "755", "755/755/755/860/860", "755"],
+    ["Fork dimensions", "s/e/l (mm)", "55/170/1150", "55/170/1150", "55/170/1150"],
+    ["Width overall forks", "b5 (mm)", "550", "550/550/550/580/580", "550"],
+    ["Ground clearance, laden, below mast", "m1 (mm)", "20", "20", "20"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "2057", "2057/2082", "2057"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "1991", "1991/2016", "1991"],
+    ["Turning radius", "Wa (mm)", "1325", "1325/1350", "1325"],
+    ["Lift speed, laden/unladen", "mm/time", "23/25", "20/22", "16/18"],
+    ["Lowering speed, laden/unladen", "mm/s", "Manual control", "Manual control", "Manual control"],
+    ["Service weight", "kg", "185/213", "190/198/214/292/305", "239"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/1.jpg"
   },
   {
@@ -1928,12 +2179,40 @@
     "description": "Capacity: 1000 KG / 1500 KG",
     "image": "../assets/images/products/manual-stacker/2.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "With adjustable forks between 295/310 mm to 930 mm.",
+        "Shaft type forks help to control adjustment better.",
+        "High quality steel mast and strong steel construction ensures rigidity and durability.",
+        "Welded forks deliver low-cost solution.",
+        "High efficient pumps makes the control easier to operate.",
+        "Foot and hand controlled lifting function allows the operator to work without having to perform extreme body movements.",
+        "Metal grid protects user from lift chains.",
+        "With safety wheel guard and brake system to ensure safety during operation."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SDJA1000-I", "SDJA1500-I"],
+    ["Load capacity/rated load", "Q (kg)", "1000", "1500"],
+    ["Load centre distance", "c (mm)", "500", "500"],
+    ["Fork height, lowered", "h13 (mm)", "90", "90"],
+    ["Height, mast lowered", "h1 (mm)", "2080/1840", "2085"],
+    ["Max. lift height", "h3 (mm)", "1600/2500", "1600"],
+    ["Height, mast extended", "h4 (mm)", "2080/2960", "2085"],
+    ["Overall length", "l1 (mm)", "1650(1730)/1660(1740)", "1660(1740)"],
+    ["Overall width", "B1 (mm)", "967/886", "967"],
+    ["Fork dimensions", "s/e/l (mm)", "60/142/1070(1150)", "60/154/1070(1150)"],
+    ["Width overall forks", "b5 (mm)", "295-930/295-850", "310-930"],
+    ["Ground clearance, laden, below mast", "m1 (mm)", "20", "25"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "2048", "2063"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "2030", "2040"],
+    ["Turning radius", "Wa (mm)", "1260/1253", "1280"],
+    ["Lift speed, laden/unladen", "mm/time", "20/22", "16/18"],
+    ["Lowering speed, laden/unladen", "mm/s", "Manual control", "Manual control"],
+    ["Service weight", "kg", "250/322", "270"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/2.jpg"
   },
   {
@@ -1943,12 +2222,40 @@
     "description": "Capacity: 500 KG / 1000 KG",
     "image": "../assets/images/products/manual-stacker/3.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "Straddle legs width reach 1300 mm (500 kg) and 1250 mm (1000 kg).",
+        "Lifting height from 1500–1600 mm.",
+        "With adjustable forged forks.",
+        "High quality steel mast ensures rigidity and durability.",
+        "High efficient pumps make control easier to operate.",
+        "Foot and hand controlled lifting function allows the operator to work without having to perform extreme body movements.",
+        "Metal grid protects user from lift chains.",
+        "With safety wheel guard and brake system to ensure safety during operation."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SDJAS500", "SDJAS1000"],
+    ["Load capacity/rated load", "Q (kg)", "500", "1000"],
+    ["Load centre distance", "c (mm)", "500", "500"],
+    ["Fork height, lowered", "h13 (mm)", "70", "70"],
+    ["Height, mast lowered", "h1 (mm)", "1990", "2070"],
+    ["Max. lift height", "h3 (mm)", "1600", "1600"],
+    ["Height, mast extended", "h4 (mm)", "1990", "2105"],
+    ["Overall length", "l1 (mm)", "1350/1610", "1350/1610"],
+    ["Overall width", "b1 (mm)", "1525", "1475"],
+    ["Fork dimensions", "s/e/l (mm)", "48/100/800(1060)", "30/100/800(1060)"],
+    ["Width overall forks", "b5 (mm)", "200-745", "200-950"],
+    ["Round clearance, laden, below mast", "m1 (mm)", "30", "30"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "2065(2315)", "2072(2322)"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "-(2315)", "-(2322)"],
+    ["Turning radius", "Wa (mm)", "1220(1470)", "1235(1485)"],
+    ["Lift speed, laden/unladen", "mm/time", "23/25", "20/22"],
+    ["Lowering speed, laden/unladen", "mm/s", "Manual control", "Manual control"],
+    ["Service weight", "kg", "223", "294"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/3.jpg"
   },
   {
@@ -1958,12 +2265,40 @@
     "description": "Capacity: 500 KG / 1000 KG / 1500 KG",
     "image": "../assets/images/products/manual-stacker/4.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "With adjustable forks between 200-950mm.",
+        "Lifting height from 1600mm to 2500mm.",
+        "High quality steel mast ensures rigidity and durability.",
+        "Adjustable forged forks.",
+        "High efficient pumps makes the control easier to operate.",
+        "Foot and hand controlled lifting function allows the operator to work without having to perform extreme body movements.",
+        "Metal grid protects user from lift chains.",
+        "With safety wheel guard and brake system to ensure safety during operation."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SDJA500", "SDJA1000", "SDJA1500"],
+    ["Load capacity/rated load", "Q (kg)", "500", "1000", "1500"],
+    ["Load centre distance", "c (mm)", "500", "500", "500"],
+    ["Fork height, lowered", "h13 (mm)", "80", "90", "90"],
+    ["Height, mast lowered", "h1 (mm)", "1990", "2085/1840", "2085"],
+    ["Max. lift height", "h3 (mm)", "1600", "1600/2500", "1600"],
+    ["Height, mast extended", "h4 (mm)", "2010", "2125/3050", "2125"],
+    ["Overall length", "l1 (mm)", "1380/1640", "1332(1592)/1355(1615)", "1355/(1615)"],
+    ["Overall width", "b1 (mm)", "805", "1000/860", "1000"],
+    ["Fork dimensions", "s/e/l (mm)", "48/100/800(1060)", "30/100/800(1060)", "30/100/800(1060)"],
+    ["Width overall forks", "b5 (mm)", "200-745", "200-950/700", "200-950"],
+    ["Ground clearance, laden, below mast", "m1 (mm)", "20", "25", "25"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "1996(2137)", "2002(2156)/2030(2180)", "2025(2185)"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "-(2050)", "-(2043)/-(2063)", "- (2068)"],
+    ["Turning radius", "Wa (mm)", "1180(1420)", "1210(1450)/1255(1475)", "1235(1480)"],
+    ["Lift speed, laden/unladen", "mm/time", "23/25", "20/22", "16/18"],
+    ["Lowering speed, laden/unladen", "mm/s", "Manual control", "Manual control", "Manual control"],
+    ["Service weight", "kg", "161(170)", "250(265)/316(331)", "280(295)"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/4.jpg"
   },
   {
@@ -1973,12 +2308,40 @@
     "description": "Capacity: 2000 KG",
     "image": "../assets/images/products/manual-stacker/5.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "Compact design with strong steel construction.",
+        "High quality steel mast ensures rigidity and durability.",
+        "Adjustable forged forks.",
+        "Screw release allows forks to descend.",
+        "Foot operated lift for raising loads.",
+        "With folded type foot pedal.",
+        "Metal grid protects user from lift chains.",
+        "With safety wheel guard and brake system to ensure safety during operation."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "SJJA20E", "SJJA20E-III"],
+    ["Load capacity/rated load", "Q(kg)", "2000", "2000"],
+    ["Load centre distance", "c(mm)", "400", "400"],
+    ["Fork height, lowered", "h13(mm)", "90", "90"],
+    ["Height, mast lowered", "h1(mm)", "2085", "2085"],
+    ["Max. lift height", "h3(mm)", "1500", "1500"],
+    ["Height, mast extended", "h4(mm)", "2085", "2085"],
+    ["Overall length", "l1(mm)", "1410", "1516"],
+    ["Overall width", "", "1000", "830"],
+    ["Fork dimensions", "s/e/l(mm)", "30/120/900", "60/166/900"],
+    ["Width overall forks", "b5(mm)", "250-950", "350-710"],
+    ["Round clearance, laden, below mast", "m1(mm)", "25", "20"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2050", "2166"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2040", ""],
+    ["Turning radius", "Wa(mm)", "1250", "1250"],
+    ["Lift speed, laden/unladen", "mm/time", "18/20", "18/20"],
+    ["Lowering speed, laden/unladen", "mm/s", "Manual control", "Manual control"],
+    ["Service weight", "kg", "292", "260"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/5.jpg"
   },
   {
@@ -1988,12 +2351,30 @@
     "description": "Capacity: 350 KG",
     "image": "../assets/images/products/manual-stacker/6.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "YTD-35"],
+    ["Capacity", "Q(kg)", "350"],
+    ["Load centre distance", "c(mm)", "570"],
+    ["Wheelbase", "y(mm)", "1115"],
+    ["Tyre size, front", "(mm)", "φ 80×36"],
+    ["Tyre size, rear", "(mm)", "φ 147×40"],
+    ["Height, mast lowered", "h1(mm)", "1270/1490"],
+    ["Max. lift height", "h3(mm)", "1945/2385"],
+    ["Height, mast extended", "h4(mm)", "2100/2640"],
+    ["Lowered fork height", "h13(mm)", "385"],
+    ["Overall length", "l1(mm)", "1580"],
+    ["Overall width", "b1(mm)", "1050"],
+    ["Width overall forks", "b5(mm)", "840"],
+    ["Ground clearance, laden, below mast", "m1(mm)", "22"],
+    ["Turning radius", "Wa(mm)", "1200"],
+    ["Lowering speed, laden/unladen", "mm/s", "manual control"],
+    ["Service weight", "kg", "235"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/6.jpg"
   },
   {
@@ -2003,12 +2384,19 @@
     "description": "Capacity: –",
     "image": "../assets/images/products/manual-stacker/7.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "Advantage",
+      "items": [
+        "Easily and quickly lift drums without hydraulic or electric connections."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "HD08"],
+    ["Max. Height of Drum", "mm", "957"],
+    ["Min. Height of Drum", "mm", "832"],
+    ["Drum Dia", "mm", "580"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/7.jpg"
   },
   {
@@ -2018,12 +2406,16 @@
     "description": "Capacity: 500 KG",
     "image": "../assets/images/products/manual-stacker/8.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "CDD05B"],
+    ["Capacity (kg)", "", "500"],
+    ["Lift Height (mm)", "", "800 / 900 / 1000 / 1100 / 1200 / 1300"]
+  ],
     "dimensionImage": "../assets/images/products/manual-stacker/dimension-drawing/8.jpg"
   },
   {
@@ -2031,345 +2423,1875 @@
     "itemCode": "CDD15B-E / CTD15B-E",
     "name": "Semi-electric Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/1.jpg",
+    "image": "../assets/images/products/electric-stackers/1.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/1.jpg"
+  {
+    "heading": "Advantages",
+    "items": [
+      "With hydraulic leveler control lifting and lowering, speed is adjustable.",
+      "Explosion-proof valve applied in the cylinder to prevent injuries in case of hydraulic pump failure.",
+      "Brand-new configuration: adopted 1.5 kW hydraulic pump (manual descending with controllable speed).",
+      "With large storage battery.",
+      "Steering mechanism driven by chains requires small steering force to convenient operations.",
+      "Foot brake is more prompt, convenient and labor-saving.",
+      "Adopted plate chains with high strength. Ensure safety and stability."
+    ]
+  }
+],
+"specs": [
+  ["Model", "", "CDD15B-E", "CTD15B-E"],
+  ["Drive: electric (battery type, mains,…), diesel, petrol, fuel gas", "", "Electric", "Electric"],
+  ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Pedestrian", "Pedestrian"],
+  ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+  ["Load centre distance", "c(mm)", "500", "500"],
+  ["Load distance, centre of drive axle to fork", "x(mm)", "650", "650"],
+  ["Wheelbase", "y(mm)", "1235", "1235"],
+  ["Service weight", "kg", "335/395/415/425/435", "370/430/450/460/470"],
+  ["Axle loading, laden front/rear", "kg", "375/1540", "395/1555"],
+  ["Axle loading, unladen front/rear", "kg", "280/135", "300/150"],
+  ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "NYLON", "NYLON"],
+  ["Tyre size, front", "mm", "Φ180×50", "Φ180×50"],
+  ["Tyre size, rear", "mm", "Φ80×70", "Φ98×82"],
+  ["Wheels, number front/rear (× = driven wheels)", "", "2/2", "2/2"],
+  ["Tread, front", "b10(mm)", "700", "700"],
+  ["Tread, rear", "b11(mm)", "428/531", "1042-1400"],
+  ["Height, mast lowered", "h1(mm)", "2100/1850/2100/2250/2350", "2145/1895/2145/2295/2395"],
+  ["Max. lift height", "h3(mm)", "1600/2500/3000/3300/3500", "1600/2500/3000/3300/3500"],
+  ["Height, mast extended", "h4(mm)", "2100/3060/3560/3860/4060", "2145/3100/3600/3900/4100"],
+  ["Height, lowered", "h13(mm)", "90", "90"],
+  ["Overall length", "l1(mm)", "1745/1825", "1745/1825"],
+  ["Length to face of forks", "l2(mm)", "675", "675"],
+  ["Overall width", "b1/b2(mm)", "967", "1167-1525"],
+  ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "60/142/1070(1150)", "60/142/1070(1150)"],
+  ["Fork spread", "b5(mm)", "295-930", "295-930"],
+  ["Ground clearance, centre of wheelbase", "m2(mm)", "20", "20"],
+  ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2288", "2288"],
+  ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2267", "2267"],
+  ["Turning radius", "wa(mm)", "1425", "1425"],
+  ["Lift speed, laden/unladen", "m/s", "0.05/0.08", "0.05/0.08"],
+  ["Lowering speed, laden/unladen", "m/s", "0.1/0.09", "0.1/0.09"],
+  ["Service brake", "", "Mechanical brake", "Mechanical brake"],
+  ["Lift motor rating at S3 15%", "kW", "1.5", "1.5"],
+  ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "12/120", "12/120"],
+  ["Battery weight", "kg", "45", "45"],
+  ["Sound pressure level at the driver’s seat", "dB (A)", "70", "70"]
+],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/1.jpg"
   },
   {
     "id": "E2",
     "itemCode": "CDD10B-III / CDD15B-III",
     "name": "Semi-electric Stacker",
     "description": "Capacity: 1000 KG / 1500 KG",
-    "image": "../assets/images/products/electric-stacker/2.jpg",
+    "image": "../assets/images/products/electric-stackers/2.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/2.jpg"
+  {
+    "heading": "",
+    "items": []
+  }
+],
+"specs": [
+  ["Model", "", "CDD10B-III", "CDD15B-III"],
+  ["Drive: electric (battery type, mains,…diesel, petrol, fuel gas", "", "Electric", "Electric"],
+  ["Operator type: hand, pedestrian, standing, seated, order-picker", "", "Pedestrian", "Pedestrian"],
+  ["Rated capacity/rated load", "Q(kg)", "1000", "1500"],
+  ["Load centre distance", "c(mm)", "500", "500"],
+  ["Load distance, centre of drive axle to fork", "x(mm)", "710", "710"],
+  ["Wheelbase", "y(mm)", "1185", "1265"],
+  ["Service weight", "kg", "355/410/445/475/495", "405/475/480/530/550"],
+  ["Axle loading, laden front/rear", "kg", "520/890", "640/1335"],
+  ["Axle loading, unladen front/rear", "kg", "325/85", "370/105"],
+  ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "NYLON", "NYLON"],
+  ["Tyre size, front", "mm", "Φ180×50", "Φ180×50"],
+  ["Tyre size, rear", "mm", "Φ80×70", "Φ80×70"],
+  ["Wheels, number front/rear (× = driven wheels)", "", "2/2", "2/2"],
+  ["Tread, front", "b10(mm)", "700", "700"],
+  ["Tread, rear", "b11(mm)", "410/510", "410/510"],
+  ["Height mast lowered", "h1(mm)", "2090/1840/2090/2240/2340", "2090/1840/2090/2240/2340"],
+  ["Max. lift height", "h3(mm)", "1600/2500/3000/3300/3500", "1600/2500/3000/3300/3500"],
+  ["Height mast extended", "h4(mm)", "2090/3060/3560/3860/4060", "2090/3060/3560/3860/4060"],
+  ["Height of wheel arms", "h8(mm)", "81", "81"],
+  ["Height lowered", "h13(mm)", "90", "90"],
+  ["Overall length", "l1(mm)", "1678", "1740"],
+  ["Length to face of forks", "l2(mm)", "475", "555"],
+  ["Overall width", "b1/b2(mm)", "800", "800"],
+  ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "60/170/1070", "60/170/1070"],
+  ["Fork spread", "b5(mm)", "570/695", "570/695"],
+  ["Ground clearance, centre of wheelbase", "m2(mm)", "21", "21"],
+  ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2291", "2371"],
+  ["Aisle width for pallets 800×1200 lengthways", "Ast", "2257", "2337"],
+  ["Turning radius", "Wa(mm)", "1425", "1505"],
+  ["Lift speed, laden/unladen", "m/s", "0.07/0.10", "0.07/0.10"],
+  ["Lowering speed, laden/unladen", "m/s", "0.15/0.12", "0.12/0.15"],
+  ["Service brake", "", "Mechanical brake", "Mechanical brake"],
+  ["Lift motor rating at S3 15%", "kW", "1.6", "2"],
+  ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "12/120", "12/120"],
+  ["Battery weight", "kg", "45", "90"],
+  ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/2.jpg"
   },
   {
     "id": "E3",
     "itemCode": "CTD10B-III / CTD15B-III",
     "name": "Semi-electric Stacker",
     "description": "Capacity: 1000 KG / 1500 KG",
-    "image": "../assets/images/products/electric-stacker/3.jpg",
+    "image": "../assets/images/products/electric-stackers/3.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/3.jpg"
+    {
+      "heading": "",
+      "items": [
+        "Handle-castor chain assist steering system greatly reduces the labor intensity.",
+        "Equipped with explosion-proof valve, against of sudden drop of forks and prevent operator from harm.",
+        "Over-discharge protection device greatly prolongs the battery life time.",
+        "Overall type adjustable forks, which can be lowered to the same level of the legs.",
+        "Chain connect side wheel and handle, easy for steering.",
+        "Easy operating foot brake."
+      ]
+    }
+  ],
+  "specs_dimension_variants": [
+    ["Model", "", "CTD10B‑III", "CTD15B‑III"],
+    ["Drive", "", "Electric", "Electric"],
+    ["Operator type", "", "Pedestrian", "Pedestrian"],
+    ["Rated capacity / rated load", "Q(kg)", "1000", "1500"],
+    ["Load centre distance", "c(mm)", "500", "500"],
+    ["Load distance (centre of drive axle to fork)", "x(mm)", "757", "739"],
+    ["Wheelbase", "y(mm)", "1288", "1368"],
+    ["Service weight", "kg", "405/460/495/545", "455/525/530/600"],
+    ["Axle loading, laden front/rear", "kg", "545/915", "675/1350"],
+    ["Axle loading, unladen front/rear", "kg", "345/115", "390/135"],
+    ["Tyres", "", "NYLON", "NYLON"],
+    ["Tyre size, front", "", "Φ180×50", "Φ180×50"],
+    ["Tyre size, rear", "", "Φ98×82", "Φ98×82"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "2/2", "2/2"],
+    ["Tread, front", "b10(mm)", "700", "700"],
+    ["Tread, rear", "b11(mm)", "1042-1400", "1042-1400"],
+    ["Height, mast lowered", "h1(mm)", "2145/1895/2145/2395", "2145/1895/2145/2395"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3500", "1600/2500/3000/3500"],
+    ["Height, mast extended", "h4(mm)", "2145/3100/3600/4100", "2145/3100/3600/4100"],
+    ["Height of wheel arms", "h8(mm)", "125", "125"],
+    ["Height, lowered", "h13(mm)", "80", "80"],
+    ["Overall length", "l1(mm)", "1735", "1835"],
+    ["Length to face of forks", "l2(mm)", "531", "629"],
+    ["Overall width", "b1/b2(mm)", "1167-1525", "1167-1525"],
+    ["Fork dimensions (s/e/l mm)", "", "60/142/1070", "60/142/1070"],
+    ["Fork spread", "b5(mm)", "295-930", "295-930"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "40", "40"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(min)", "2391", "2471"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(min)", "2391", "2471"],
+    ["Turning radius", "Wa(mm)", "1425", "1505"],
+    ["Lift speed, laden/unladen", "m/s", "0.07/0.10", "0.07/0.10"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.12", "0.12/0.15"],
+    ["Service brake", "", "Mechanical brake", "Mechanical brake"],
+    ["Lift motor rating at S3 15%", "kW", "1.6", "2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "12/120", "12/120"],
+    ["Battery weight", "kg", "45", "90"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+  "specs_forged_forks_variants": [
+    ["Model", "", "CTD10B‑III", "CTD15B‑III"],
+    ["Drive", "", "Electric", "Electric"],
+    ["Operator type", "", "Pedestrian", "Pedestrian"],
+    ["Rated capacity / rated load", "Q(kg)", "1000", "1500"],
+    ["Load centre distance", "c(mm)", "500", "500"],
+    ["Load distance (centre of drive axle to fork)", "x(mm)", "796", "785"],
+    ["Wheelbase", "y(mm)", "1288", "1368"],
+    ["Service weight", "kg", "420/475/490/510", "470/536/550/580"],
+    ["Axle loading, laden front/rear", "kg", "555/920", "681/1355"],
+    ["Axle loading, unladen front/rear", "kg", "355/120", "396/140"],
+    ["Tyres", "", "NYLON", "NYLON"],
+    ["Tyre size, front", "", "Φ180×50", "Φ180×50"],
+    ["Tyre size, rear", "", "Φ98×82", "Φ98×82"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "2/2", "2/2"],
+    ["Tread, front", "b10(mm)", "700", "700"],
+    ["Tread, rear", "b11(mm)", "1042-1400", "1042-1400"],
+    ["Height, mast lowered", "h1(mm)", "2145/1895/2145/2395", "2145/1895/2145/2395"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3500", "1600/2500/3000/3500"],
+    ["Height, mast extended", "h4(mm)", "2145/3100/3600/4100", "2145/3100/3600/4100"],
+    ["Height of wheel arms", "h8(mm)", "125", "125"],
+    ["Height, lowered", "h13(mm)", "80", "80"],
+    ["Overall length", "l1(mm)", "1735", "1835"],
+    ["Length to face of forks", "l2(mm)", "492", "583"],
+    ["Overall width", "b1/b2(mm)", "1167-1525", "1167-1525"],
+    ["Fork dimensions (s/e/l mm)", "", "35/100/1070", "35/100/1070"],
+    ["Fork spread", "b5(mm)", "200-800", "200-800"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "40", "40"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(min)", "2391", "2471"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(min)", "2391", "2471"],
+    ["Turning radius", "Wa(mm)", "1425", "1505"],
+    ["Lift speed, laden/unladen", "m/s", "0.07/0.10", "0.07/0.10"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.12", "0.12/0.15"],
+    ["Service brake", "", "Mechanical brake", "Mechanical brake"],
+    ["Lift motor rating at S3 15%", "kW", "1.6", "2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "12/120", "12/120"],
+    ["Battery weight", "kg", "45", "90"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/3.jpg"
   },
   {
     "id": "E4",
     "itemCode": "CDD15R-EN",
     "name": "Electric Walkie Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/4.jpg",
+    "image": "../assets/images/products/electric-stackers/4.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/4.jpg"
+    {
+      "heading": "",
+      "items": [
+        "3‑point design, improve the truck's stability.",
+        "Upper horizontal drive motor to make replacing driving wheel easier.",
+        "Offer the optional of height limit switch.",
+        "With a slim leg design with narrow legs, steel fork wheel size 120×35 mm, tailored to fit Australian pallet size.",
+        "With small turning radius of 1343 mm, work efficiently and freely in the narrow space.",
+        "With height deceleration function, the travel speed will be reduced by 50 % if the mast lifts up to one meter height.",
+        "Built‑in charger, easy to access to power supply.",
+        "With an ergonomic design and a height of 1.3 m, the Ruyi new handle provides comfortable and convenient usage.",
+        "Steel back cover, it is strong and not easy to break.",
+        "8 mm Steel Mast, strong and durable."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "CDD15R‑EN", "CDD15R‑E/X"],
+    ["Drive type", "", "Electric", "Electric"],
+    ["Operator type", "", "Pedestrian", "Pedestrian"],
+    ["Load capacity", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "690", "690"],
+    ["Wheelbase", "y(mm)", "1180", "1180"],
+    ["Service weight", "kg", "460/520/540/550/560", "415/480/500/515/520"],
+    ["Axle loading, laden front/rear", "kg", "555/1495", "510/1490"],
+    ["Axle loading, unladen front/rear", "kg", "405/145", "380/120"],
+    ["Tyres", "", "PU", "PU"],
+    ["Tyre size, front", "", "φ195×70", "φ210×70"],
+    ["Tyre size, rear", "", "φ80×93", "φ80×70"],
+    ["Additional wheels (dimensions)", "", "φ150×50", "φ150×50"],
+    ["Wheels, number front/rear (× = driven wheels)", "", "1x+1/2", "1x+1/4"],
+    ["Tread, front", "b10(mm)", "523", "523"],
+    ["Tread, rear", "b11(mm)", "410/525", "410/525"],
+    ["Height, mast lowered", "h1(mm)", "2090/1840/2090/2200/2340", "2090/1840/2090/2200/2340"],
+    ["Free lift", "h2(mm)", "N/A", "N/A"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3300/3500", "1600/2500/3000/3300/3500"],
+    ["Height, mast extended", "h4(mm)", "2090/3060/3560/3860/4060", "2090/3060/3560/3860/4060"],
+    ["Height of tiller in drive position min./max.", "h14(mm)", "670/1300", "670/1300"],
+    ["Lowered fork height", "h13(mm)", "90", "90"],
+    ["Overall length", "l1(mm)", "1800/1720", "1800(1720)"],
+    ["Length to face of forks", "l2(mm)", "650", "650"],
+    ["Overall width", "b1/b2(mm)", "800", "800"],
+    ["Fork dimension", "s/e/l(mm)", "60×142×1150(1070)", "60×160×1150(1070)"],
+    ["Width overall forks", "b5(mm)", "300–570(695)", "570/695"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "26", "26"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2245", "2218"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2220", "2173"],
+    ["Turning radius", "Wa(mm)", "1365", "1365"],
+    ["Travel speed, laden/unladen", "km/h", "4.5/5", "4.2/4.5"],
+    ["Lift speed, laden/unladen", "m/s", "0.09/0.15", "0.09/0.15"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.11", "0.15/0.11"],
+    ["Gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "0.65", "0.75"],
+    ["Lift motor rating at S3 15 %", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/105", "24/85"],
+    ["Battery weight", "kg", "52", "46"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/4.jpg"
   },
   {
     "id": "E5",
     "itemCode": "CTD15R-EN",
     "name": "Electric Straddle Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/5.jpg",
+    "image": "../assets/images/products/electric-stackers/5.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/5.jpg"
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Model", "", "CTD15R‑EN"],
+    ["Drive", "", "Electric"],
+    ["Operator type", "", "Pedestrian"],
+    ["Rated capacity / rated load", "Q(kg)", "1500"],
+    ["Load centre distance", "c(mm)", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "635"],
+    ["Wheelbase", "y(mm)", "1123"],
+    ["Service weight", "kg", "490/555/575"],
+    ["Axle loading, laden front/rear", "kg", "530/1140"],
+    ["Axle loading, unladen front/rear", "kg", "485/185"],
+    ["Tyres", "", "PU"],
+    ["Tyre size, front", "", "φ195×70"],
+    ["Tyre size, rear", "", "φ98×82 (option 125×50)"],
+    ["Additional wheels (dimensions)", "", "φ150×60"],
+    ["Wheels, number front/rear (× = driven wheels)", "", "1x/2"],
+    ["Tread, rear", "b11(mm)", "1036‑1436"],
+    ["Height, mast lowered", "h1(mm)", "2145/1895/2145/2295/2395"],
+    ["Lift", "h3(mm)", "1600/2500/3000/3300/3500"],
+    ["Height, mast extended", "h4(mm)", "2145/3145/3645/3995/4145"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "950/1300"],
+    ["Height, lowered", "h13(mm)", "70"],
+    ["Overall length", "l1(mm)", "1750 (1830)"],
+    ["Length to face of forks", "l2(mm)", "680"],
+    ["Overall width", "b1/b2(mm)", "800/1155‑1555"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35×100×1070 (1150)"],
+    ["Fork spread", "b5(mm)", "200‑800"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "65"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2230"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2210"],
+    ["Turning radius", "Wa(mm)", "1345"],
+    ["Travel speed, laden/unladen", "km/h", "4.5/5"],
+    ["Lift speed, laden/unladen", "m/s", "0.09/0.15"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.11"],
+    ["Gradeability, laden/unladen", "%", "6/15"],
+    ["Max. gradeability, laden/unladen", "%", "6/15"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "0.65"],
+    ["Lift motor rating at S3 15%", "kW", "2.2"],
+    ["Battery voltage/nominal capacity K₅", "V/Ah", "24/105 (125)"],
+    ["Battery weight", "kg", "52 (70)"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/5.jpg"
   },
   {
     "id": "E6",
     "itemCode": "CDDR15",
     "name": "Electric Walkie Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/6.jpg",
+    "image": "../assets/images/products/electric-stackers/6.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/6.jpg"
+  {
+    "heading": "STRUCTURAL AND SAFETY:",
+    "items": [
+      "Advanced AC control system Intelligentized regenerative brake system.",
+      "Multi-function display with BDI and hour meter etc.",
+      "Emergency reversing device.",
+      "Auto deceleration system utilizes regenerative braking.",
+      "Built-in pressure relief valve protects the trucks from overloads.",
+      "Emergency power disconnect.",
+      "Stepless speed control.",
+      "With lifting limit switch to shut off pump motor at the max. lifting height.",
+      "Vertical drive motor has a small turning radius. The motor structure is water-proof and dust-proof."
+    ]
+  },
+  {
+    "heading": "SERVICEABILITY:",
+    "items": [
+      "CANbus technology reduces wiring complexity and increases reliability.",
+      "Advanced AC control system with brushless motor.",
+      "Auto deceleration system utilises regenerative braking.",
+      "Side-way battery with roll-out system is very convenient for replacement."
+    ]
+  },
+  {
+    "heading": "OPTIMUM STRUCTURAL DESIGN:",
+    "items": [
+      "Low barycenter ensures the stable operation.",
+      "Vertical driving wheel ensures convenient maintenance and small turning radius. Water-proof and dust-proof motor structure, keeps the braking and motor more durable and reliable.",
+      "The mast and the frame are dividable and exchangeable.",
+      "Full free lifting, fit for low roof house. (3M lift height truck can enter into a 2M door)"
+    ]
+  }
+],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/6.jpg"
   },
   {
     "id": "E7",
     "itemCode": "CTDR15",
     "name": "Electric Walkie Straddle Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/7.jpg",
+    "image": "../assets/images/products/electric-stackers/7.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/7.jpg"
+    {
+      "heading": "STRUCTURAL AND SAFETY",
+      "items": [
+        "Advanced AC control system intelligentized regenerative brake system.",
+        "Multi-function display with BDI and hour meter.",
+        "Emergency reversing device.",
+        "Auto deceleration system utilizes regenerative braking.",
+        "Built-in pressure relief valve protects the trucks from overloads.",
+        "Emergency power disconnect switch.",
+        "Stepless speed control.",
+        "With lifting limit switch to shut off pump motor at top max. lifting height.",
+        "Small turning radius standing drive motor system, water‑proof and dust‑proof motor structure."
+      ]
+    },
+    {
+      "heading": "SERVICEABILITY",
+      "items": [
+        "Technology reduces wiring complexity.",
+        "Side‑way battery with roll‑out system, convenient for replacement."
+      ]
+    }
+  ],
+  "specs_type_I_II": [
+    ["Model", "", "CTDR15‑I", "CTDR15‑II"],
+    ["Drive", "", "Electric", "Electric"],
+    ["Operator type", "", "Pedestrian", "Pedestrian"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "677", "677"],
+    ["Wheelbase", "y(mm)", "1420", "1420"],
+    ["Service weight", "kg", "1090/1210/1230/1250/1415/1460/1500", "1040/1160/1170/1200/1375/1410/1450"],
+    ["Axle loading, laden front/rear", "kg", "1430/1280", "1408/1250"],
+    ["Axle loading, unladen front/rear", "kg", "860/350", "827/333"],
+    ["Tyres", "", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "mm", "Φ250×70", "Φ250×70"],
+    ["Tyre size, rear", "mm", "Φ80×84", "Φ80×84"],
+    ["Additional wheels (dimensions)", "mm", "Φ150×60", "Φ150×60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+1/4", "1x+1/4"],
+    ["Tread, front", "b10(mm)", "520", "520"],
+    ["Tread, rear", "b11(mm)", "1040/1430", "1040/1430"],
+    ["Height mast lowered", "h1(mm)", "1805/2055/2205/2305/2120/2280/2480", "1805/2055/2205/2305/2120/2280/2480"],
+    ["Free lift", "h2(mm)", "1300/1550/1700/1800/1570/1740/1940", "1300/1550/1700/1800/1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "2500/3000/3300/3500/4500/5000/5600", "2500/3000/3300/3500/4500/5000/5600"],
+    ["Height mast extended", "h4(mm)", "3025/3525/3825/4025/5080/5560/6160", "3025/3525/3825/4025/5080/5560/6160"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "670/1300", "670/1300"],
+    ["Height of wheel arms", "h8(mm)", "86", "86"],
+    ["Height lowered", "h13(mm)", "70", "70"],
+    ["Overall length", "l1(mm)", "1980(2060)", "1980(2060)"],
+    ["Length to face of forks", "l2(mm)", "915", "915"],
+    ["Overall width", "b1/b2(mm)", "1170/1560", "1170/1560"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/1070(1150)", "35/100/1070(1150)"],
+    ["Fork spread", "b5(mm)", "200‑800", "200‑800"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "35", "35"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2480", "2480"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2465", "2465"],
+    ["Turning radius", "Wa(mm)", "1610", "1610"],
+    ["Travel speed, laden/unladen", "km/h", "5.8/6.0", "5.8/6.0"],
+    ["Lift speed, laden/unladen", "m/s", "0‑0.16/0‑0.24", "0.11/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0‑0.39/0‑0.26", "0.14/0.19"],
+    ["Max. gradeability, laden/unladen", "%", "8/15", "8/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5 (AC)", "1.2 (AC)"],
+    ["Lift motor rating at S3 15%", "kW", "3.2", "3"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/300", "24/240"],
+    ["Battery weight", "kg", "260", "220"],
+    ["Sound pressure level at the driver’s seat", "dB(A)", "70", "70"]
+  ],
+  "specs_type_III": [
+    ["Model", "", "CTDR15‑III", "CTDR15‑III"],
+    ["Drive", "", "Electric", "Electric"],
+    ["Operator type", "", "Pedestrian", "Pedestrian"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "795", "779"],
+    ["Wheelbase", "y(mm)", "1460", "1539"],
+    ["Service weight", "kg", "940/960/980/1005", "1315/1350/1390"],
+    ["Axle loading, laden front/rear", "kg", "1340/1120", "1506/1344"],
+    ["Axle loading, unladen front/rear", "kg", "734/226", "963/387"],
+    ["Tyres", "", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "mm", "Φ250×70", "Φ250×70"],
+    ["Tyre size, rear", "mm", "Φ98×82", "Φ98×82"],
+    ["Additional wheels (dimensions)", "mm", "Φ150×60", "Φ150×60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+1/2", "1x+1/2"],
+    ["Tread, front", "b10(mm)", "520", "520"],
+    ["Tread, rear", "b11(mm)", "1066/1466", "1066/1466"],
+    ["Height mast lowered", "h1(mm)", "2145/1895/2145/2295", "2120/2280/2480"],
+    ["Free lift", "h2(mm)", "N/A", "1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3300", "4500/5000/5600"],
+    ["Height mast extended", "h4(mm)", "2145/3145/3645/3945", "5060/5560/6160"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "670/1300", "670/1300"],
+    ["Height of wheel arms", "h8(mm)", "125", "125"],
+    ["Height lowered", "h13(mm)", "70", "70"],
+    ["Overall length", "l1(mm)", "2015(2095)", "2020(2100)"],
+    ["Length to face of forks", "l2(mm)", "970", "950"],
+    ["Overall width", "b1/b2(mm)", "1182/1582", "1182/1582"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/1070(1150)", "35/100/1070(1150)"],
+    ["Fork spread", "b5(mm)", "200‑800", "200‑800"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "35", "35"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2530", "2569"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2500", "2475"],
+    ["Turning radius", "Wa(mm)", "1655", "1730"],
+    ["Travel speed, laden/unladen", "km/h", "5.8/6.0", "5.8/6.0"],
+    ["Lift speed, laden/unladen", "m/s", "0.09/0.16", "0.09/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.16", "0.15/0.16"],
+    ["Max. gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.2 (AC)", "1.2 (AC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/200", "24/200"],
+    ["Battery weight", "kg", "160", "160"],
+    ["Sound pressure level at the driver’s seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/7.jpg"
   },
   {
     "id": "E8",
     "itemCode": "CDD15K-E/N / CDD20K-E/N",
     "name": "Electric Rider Stacker",
     "description": "Capacity: 1500 KG / 2000 KG",
-    "image": "../assets/images/products/electric-stacker/8.jpg",
+    "image": "../assets/images/products/electric-stackers/8.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/8.jpg"
+    {
+      "heading": "",
+      "items": []
+    }
+  ],
+  "specs": [
+    ["Manufacturer's type designation", "", "CDD15K‑E/N", "CDD20K‑E/N"],
+    ["Drive", "electric (battery type, mains,…, diesel, petrol, fuel gas)", "Electric", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Pedestrian", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "2000"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "690", "884"],
+    ["Wheelbase", "y(mm)", "1342", "1326"],
+    ["Service weight", "kg", "610", "900"],
+    ["Axle loading, laden front/rear", "kg", "591/1498", "1032/1974"],
+    ["Axle loading, unladen front/rear", "kg", "414/172", "749/249"],
+    ["Tyres: solid rubber, superelastic, pneumatic, polyurethane", "", "PU", "PU"],
+    ["Tyre size, front", "", "φ195*70", "φ230*70"],
+    ["Tyre size, rear", "", "φ80*92", "φ80*70"],
+    ["Additional wheels (dimensions)", "", "φ127*57", "φ127*57"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2/2", "1x+2/4"],
+    ["Tread, front", "b10(mm)", "648", "648"],
+    ["Tread, rear", "b11(mm)", "410/525", "410/525"],
+    ["Height, mast lowered", "h1(mm)", "2090/1840/2090/2200/2340", "1744/1994/2144/2244/2494"],
+    ["Free lift", "h2(mm)", "N/A", "N/A"],
+    ["Lift", "h3(mm)", "1600/2500/3000/3300/3500", "2500/3000/3300/3500/4000"],
+    ["Height, mast extended", "h4(mm)", "2090/3060/3560/3860/4060", "2960/3460/3760/3960/4460"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "670/1300", "1070/1370"],
+    ["Height of wheel arms", "h8(mm)", "81", "81"],
+    ["Height, lowered", "h13(mm)", "90", "90"],
+    ["Overall length", "l1(mm)", "2175(1150) 2035(1150)", "2095(1070) 1955(1070)"],
+    ["Length to face of forks", "l2(mm)", "935", "885"],
+    ["Overall width", "b1/b2(mm)", "800", "800"],
+    ["Fork dimensions DIN ISO 2331", "s/e/I(mm)", "60/142(160)/1150(1070)", "60*170*1150(1070)"],
+    ["Fork spread", "b5(mm)", "300‑695", "570/695"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "26", "26"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2509", "2518"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2482", "2475"],
+    ["Turning radius", "Wa(mm)", "1635", "1665"],
+    ["Travel speed, laden/unladen", "km/h", "4.5/5", "5/6"],
+    ["Lift speed, laden/unladen", "m/s", "0.09/0.15", "0.07/0.11"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.11", "0.13/0.08"],
+    ["Max. gradeability, laden/unladen", "%", "6/15", "5/10"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "0.65", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/105(125)", "24/165 24/210"],
+    ["Battery weight", "kg", "52(70)", "120 175"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/8.jpg"
   },
   {
     "id": "E9",
     "itemCode": "CDDK15",
     "name": "Electric Rider Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/9.jpg",
+    "image": "../assets/images/products/electric-stackers/9.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/9.jpg"
+    {
+      "heading": "SAFETY AND PRODUCTIVITY:",
+      "items": [
+        "AC Motor eliminates carbon brush replacement.",
+        "Multi-function display with BDl and hour meter.",
+        "Side way battery is easy to maintain.",
+        "Damping cushion for low‑noise operation.",
+        "Emergency reversing device equipped handle to keep safe.",
+        "Auto deceleration function makes operation more safely.",
+        "Built-in pressure relief valve protects the trucks from overloads, increases the reliability.",
+        "With brake in handle upright and horizontal position, increasing the safety of the truck.",
+        "Emergency power disconnect switch.",
+        "Turtle‑shaped low speed switch.",
+        "Stepless speed control."
+      ]
+    },
+    {
+      "heading": "OPTIMUM STRUCTURAL DESIGN:",
+      "items": [
+        "Low barycenter ensures the stable operation.",
+        "Vertical driving wheel ensures convenient maintenance and small turning radius. Water‑proof and dust‑proof motor structure, keeps the braking and motor more durable and reliable.",
+        "The mast and the frame are dividable and exchangeable.",
+        "Full free lifting, fit for low roof house. (3M lift height truck can enter into a 2M door)"
+      ]
+    },
+    {
+      "heading": "SERVICEABILITY:",
+      "items": [
+        "Low voltage protection setting prolongs the battery life time.",
+        "The electronic components' concentrated design simplifies the circuit and makes easily assemble, debug and maintain."
+      ]
+    }
+  ],
+  "specs": [
+    ["Manufacturer's type designation", "", "CDDK15‑I", "CDDK15‑II"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "697", "697"],
+    ["Wheelbase", "y(mm)", "1378", "1378"],
+    ["Service weight", "kg", "1330/1340/1350/1370/1530/1560/1595", "1140/1190/1200/1290/1370/1400/1530"],
+    ["Axle loading, laden front/rear", "kg", "1830/1140", "1830/1140"],
+    ["Axle loading, unladen front/rear", "kg", "1040/470", "1040/470"],
+    ["Tyres", "solid rubber, super elastic, pneumatic, polyurethane", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "φ250×80", "φ250×80"],
+    ["Tyre size, rear", "", "φ80×84", "φ80×84"],
+    ["Additional wheels (dimensions)", "", "φ150×60", "φ150×60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+1/4", "1x+1/4"],
+    ["Tread, front", "b10(mm)", "580", "580"],
+    ["Tread, rear", "b11(mm)", "404/530", "404/530"],
+    ["Height, mast lowered", "h1(mm)", "1735/1985/2135/2235/2050/2210/2410", "1735/1985/2135/2235/2050/2210/2410"],
+    ["Free lift", "h2(mm)", "1300/1550/1700/1800/1570/1740/1940", "1300/1550/1700/1800/1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "2500/3000/3300/3500/4500/5000/5600", "2500/3000/3300/3500/4500/5000/5600"],
+    ["Height, mast extended", "h4(mm)", "2955/3455/3755/3955/5030/5510/6110", "2955/3455/3755/3955/5030/5510/6110"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "1150/1450", "1150/1450"],
+    ["Height of wheel arms", "h8(mm)", "81", "81"],
+    ["Height, lowered", "h13(mm)", "90", "90"],
+    ["Overall length", "l1(mm)", "2020(2100)", "2020(2100)"],
+    ["Length to face of forks", "l2(mm)", "950", "950"],
+    ["Overall width", "b1/b2(mm)", "850", "850"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "60/180/1070(1150)", "60/180/1070(1150)"],
+    ["Fork spread", "b5(mm)", "570/695", "570/695"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "31", "31"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2535", "2535"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2515", "2515"],
+    ["Turning radius", "Wa(mm)", "1655", "1655"],
+    ["Travel speed, laden/unladen", "km/h", "7.0/7.1", "7.0/7.1"],
+    ["Lift speed, laden/unladen", "m/s", "0‑0.16/0‑0.24", "0.11/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0‑0.39/0‑0.26", "0.14/0.19"],
+    ["Max. gradeability, laden/unladen", "%", "8/15", "8/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5(AC)", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "3.2", "3.0"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/300", "24/240"],
+    ["Battery weight", "kg", "260", "220"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"],
+    ["Manufacturer's type designation", "", "CDDK15‑II", "CDDK15‑III"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "697", "697"],
+    ["Wheelbase", "y(mm)", "1405", "1405"],
+    ["Service weight", "kg", "760/810/835/860", "1200/1230/1265"],
+    ["Axle loading, laden front/rear", "kg", "1280/1070", "1280/1070"],
+    ["Axle loading, unladen front/rear", "kg", "650/200", "650/200"],
+    ["Tyres", "solid rubber, super elastic, pneumatic, polyurethane", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "φ250×70", "φ250×70"],
+    ["Tyre size, rear", "", "φ80×70", "φ80×70"],
+    ["Additional wheels (dimensions)", "", "φ150×60", "φ150×60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2/4", "1x+2/4"],
+    ["Tread, front", "b10(mm)", "586", "586"],
+    ["Tread, rear", "b11(mm)", "410/525", "410/525"],
+    ["Height mast lowered", "h1(mm)", "2087/1837/2087/2237/2337", "2050/2210/2410"],
+    ["Free lift", "h2(mm)", "N/A", "1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3300/3500", "4500/5000/5600"],
+    ["Height mast extended", "h4(mm)", "2087/3087/3587/3887/4087", "5030/5510/6110"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "1150/1450", "1150/1450"],
+    ["Height of wheel arms", "h8(mm)", "81", "81"],
+    ["Height, lowered", "h13(mm)", "90", "90"],
+    ["Overall length", "l1(mm)", "1990(2070)", "1990(2070)"],
+    ["Length to face of forks", "l2(mm)", "920", "920"],
+    ["Overall width", "b1/b2(mm)", "850", "850"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "60/170/1070(1150)", "60/170/1070(1150)"],
+    ["Fork spread", "b5(mm)", "570/695", "570/695"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "26", "26"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2550", "2550"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2520", "2520"],
+    ["Turning radius", "Wa(mm)", "1655", "1655"],
+    ["Travel speed, laden/unladen", "km/h", "6.5/6.7", "6.5/6.7"],
+    ["Lift speed, laden/unladen", "m/s", "0.09/0.16", "0.09/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.16", "0.15/0.16"],
+    ["Max. gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.2(AC)", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/200", "24/200 (24/240)"],
+    ["Battery weight", "kg", "160", "160 (220)"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/9.jpg"
   },
   {
     "id": "E10",
     "itemCode": "CTDK15",
     "name": "Electric Rider Straddle Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/10.jpg",
+    "image": "../assets/images/products/electric-stackers/10.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/10.jpg"
+    {
+      "heading": "SAFETY AND PRODUCTIVITY",
+      "items": [
+        "AC Motor eliminates replacement of carbon brush.",
+        "Multi-function display with BDI and hour meter.",
+        "Side way battery is easy to maintain.",
+        "Damping cushion for low-noise operation;",
+        "Emergency reversing device in the handle provides higher safety for the whole operation.",
+        "Auto deceleration function makes operation more safely.",
+        "Built-in pressure relief valve protects the trucks from overloads, increases the reliability.",
+        "Braking applied with handle upright and horizontal position, increasing the safety of the truck.",
+        "Emergency power disconnect switch.",
+        "Turtle low speed switch.",
+        "Stepless speed control."
+      ]
+    },
+    {
+      "heading": "OPTIMUM STRUCTURAL DESIGN：",
+      "items": [
+        "Low center of gravity ensures the stable operation.",
+        "Vertical driving wheel ensures convenient maintenance and small turning radius. Water- proof and dust-proof motor structure, keeps the braking and motor more durable and reliable.",
+        "The mast and the frame are dividable and exchangeable."
+      ]
+    }
+  ],
+  "specs_type_I_II": [
+    ["Manufacturer's type designation", "", "CTDK15‑I", "CTDK15‑II"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "677", "677"],
+    ["Wheelbase", "y(mm)", "1415", "1415"],
+    ["Service weight", "kg", "1260/1285/1300/1310/1360/1380/1400", "1260/1285/1300/1310 /1360/1380/1400"],
+    ["Axle loading, laden front/rear", "kg", "1830/1180", "1830/1180"],
+    ["Axle loading, unladen front/rear", "kg", "1040/470", "1040/470"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250x70", "Φ250x70"],
+    ["Tyre size, rear", "", "Φ80x84", "Φ80x84"],
+    ["Additional wheels (dimensions)", "", "Φ150x60", "Φ150x60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+1/4", "1x+1/4"],
+    ["Tread, front", "b10(mm)", "540", "540"],
+    ["Tread, rear", "b11(mm)", "1040-1440", "1040-1440"],
+    ["Height mast lowered", "h1(mm)", "1805/2055/2205/2305/2120/2280/2480", "1805/2055/2205/2305/2120/2280/2480"],
+    ["Free lift", "h2(mm)", "1300/1550/1700/1800/1570/1740/1940", "1300/1550/1700/1800/1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "2500/3000/3300/3500/4500/5000/5600", "2500/3000/3300/3500/4500/5000/5600"],
+    ["Height mast extended", "h4(mm)", "3025/3525/3825/4025/5080/5560/6160", "3025/3525/3825/4025/5080/5560/6160"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "1150/1450", "1150/1450"],
+    ["Height of wheel arms", "h8(mm)", "86", "86"],
+    ["Height lowered", "h13(mm)", "70", "70"],
+    ["Overall length", "l1(mm)", "2020(2100)", "2020(2100)"],
+    ["Length to face of forks", "l2(mm)", "962", "962"],
+    ["Overall width", "b1/b2(mm)", "1170-1570", "1170-1570"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/1070(1150)", "35/100/1070(1150)"],
+    ["Fork spread", "b5(mm)", "200-800", "200-800"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "35", "35"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "2565", "2565"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "2545", "2545"],
+    ["Turning radius", "Wa(mm)", "1695", "1695"],
+    ["Travel speed, laden/unladen", "km/h", "7.0/7.1", "7.0/7.1"],
+    ["Lift speed, laden/unladen", "m/s", "0‑0.16/0‑0.24", "0‑0.16/0‑0.24"],
+    ["Lowering speed, laden/unladen", "m/s", "0‑0.39/0‑0.26", "0‑0.39/0‑0.26"],
+    ["Max. gradeability, laden/unladen", "%", "8/15", "8/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5(AC)", "1.5(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "3", "3"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/300", "24/300"],
+    ["Battery weight", "kg", "260", "260"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+  "specs_type_III": [
+    ["Manufacturer's type designation", "", "CTDK15‑III", "CTDK15‑III"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "795", "795"],
+    ["Wheelbase", "y(mm)", "1460", "1460"],
+    ["Service weight", "kg", "940/960/980/1005", "1280/1310/1365"],
+    ["Axle loading, laden front/rear", "kg", "1340/1120", "1340/1120"],
+    ["Axle loading, unladen front/rear", "kg", "734/226", "734/226"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250x70", "Φ250x70"],
+    ["Tyre size, rear", "", "Φ98x82", "Φ98x82"],
+    ["Additional wheels (dimensions)", "", "Φ150x60", "Φ150x60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2/2", "1x+2/2"],
+    ["Tread, front", "b10(mm)", "586", "586"],
+    ["Tread, rear", "b11(mm)", "1066-1466", "1066-1466"],
+    ["Height mast lowered", "h1(mm)", "2145/1895/2145/2295/2395", "2120/2280/2480"],
+    ["Free lift", "h2(mm)", "N/A", "1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3300/3500", "4500/5000/5600"],
+    ["Height mast extended", "h4(mm)", "2145/3145/3645/3995/4145", "5060/5560/6160"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "670/1300", "670/1300"],
+    ["Height of wheel arms", "h8(mm)", "125", "125"],
+    ["Height lowered", "h13(mm)", "70", "70"],
+    ["Overall length", "l1(mm)", "2055(2135)", "2055(2135)"],
+    ["Length to face of forks", "l2(mm)", "970", "970"],
+    ["Overall width", "b1/b2(mm)", "1190/1590", "1190/1590"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/1070(1150)", "35/100/1070(1150)"],
+    ["Fork spread", "b5(mm)", "200-800", "200-800"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "65", "65"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "2670", "2670"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "2585", "2585"],
+    ["Turning radius", "Wa(mm)", "1850", "1850"],
+    ["Travel speed, laden/unladen", "km/h", "6.5/6.7", "6.5/6.7"],
+    ["Lift speed, laden/unladen", "m/s", "0.09/0.16", "0.09/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0.15/0.16", "0.15/0.16"],
+    ["Max. gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5(AC)", "1.5(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/200", "24/200"],
+    ["Battery weight", "kg", "160", "160"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/10.jpg"
   },
   {
     "id": "E11",
     "itemCode": "CDDK20",
     "name": "Heavy-Duty Electric Stacker",
     "description": "Capacity: 2000 KG",
-    "image": "../assets/images/products/electric-stacker/11.jpg",
+    "image": "../assets/images/products/electric-stackers/11.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/11.jpg"
+    {
+      "heading": "Safety And Productivity:",
+      "items": [
+        "AC Motor eliminates replacement of carbon brush.",
+        "Multi-function display with BDI and hour meter.",
+        "Side way battery is easy to maintain.",
+        "Damping cushion for low-noise operation;",
+        "Emergency reversing device in the handle provides higher safety for the whole operation.",
+        "Auto deceleration function makes operation more safely.",
+        "Built-in pressure relief valve protects the trucks from overloads, increases the reliability.",
+        "Braking applied with handle upright and horizontal position, increasing the safety of the truck.",
+        "Emergency power disconnect switch.",
+        "Turtle-shaped low speed switch.",
+        "Stepless speed control.",
+        "Supporting legs in both sides for triplex mast (Duplex mast without supporting legs)."
+      ]
+    },
+    {
+      "heading": "Optimum Structural Design:",
+      "items": [
+        "Low center of gravity ensures the stable operation.",
+        "Vertical driving wheel ensures convenient maintenance and small turning radius. Water-proof and dust-proof motor structure, keeps the braking and motor more durable and reliable.",
+        "The mast and the frame are dividable and exchangeable.",
+        "Full free lifting, fit for working in low roof house."
+      ]
+    },
+    {
+      "heading": "Serviceability:",
+      "items": [
+        "Low voltage protection setting prolongs the battery life time.",
+        "The electronic components’ concentrated design simplify the circuit and makes easy access to assemble, debug and maintain,",
+        "CANbus technology reduces wiring complexity and increase reliability.",
+        "Hall element reduces wear components, resulting in increased component life."
+      ]
+    }
+  ],
+  "specs": [
+    ["Manufacturer's type designation", "", "CDDK20", "CDDK20"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "2000", "2000"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "672", "672"],
+    ["Wheelbase", "y(mm)", "1378", "1408"],
+    ["Service weight", "kg", "1280/1320/1350/1640/1680/1720/1730", "1850"],
+    ["Axle loading, laden front/rear", "kg", "1890/1660", "2090/1760"],
+    ["Axle loading, unladen front/rear", "kg", "1070/480", "1270/580"],
+    ["Tyres", "solid rubber, super elastic, pneumatic, polyurethane", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250×80", "Φ250×80"],
+    ["Tyre size, rear", "", "Φ80×84", "Φ80×84"],
+    ["Additional wheels (dimensions)", "", "Φ150×60", "Φ150×60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+1/4", "1x+1/4"],
+    ["Tread, front", "b10(mm)", "540", "540"],
+    ["Tread, rear", "b11(mm)", "404/525", "404/525"],
+    ["Height mast lowered", "h1(mm)", "1735/1985/2135/2235/2050/2210/2410", "2710"],
+    ["Free lift", "h2(mm)", "1300/1550/1700/1800/1570/1740/1940", "2240"],
+    ["Max. lift height", "h3(mm)", "2500/3000/3300/3500/4500/5000/5600", "6500"],
+    ["Height mast extended", "h4(mm)", "2955/3455/3755/3955/5030/5510/6110", "7050"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "1150/1450", "1150/1450"],
+    ["Height of wheel arms", "h8(mm)", "81", "81"],
+    ["Height lowered", "h13(mm)", "90", "90"],
+    ["Overall length", "l1(mm)", "2020(2100)", "2100(2180)"],
+    ["Length to face of forks", "l2(mm)", "950", "950"],
+    ["Overall width", "b1/b2(mm)", "850", "900"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "60/180/1070(1150)", "60/180/1070(1150)"],
+    ["Fork spread", "b5(mm)", "570/695", "570/695"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "31", "31"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2535", "2615"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2515", "2595"],
+    ["Turning radius", "Wa(mm)", "1655", "1735"],
+    ["Travel speed, laden/unladen", "km/h", "7.0/7.1", "7.0/7.1"],
+    ["Lift speed, laden/unladen", "m/s", "0.11/0.16", "0.11/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0.12/0.11", "0.12/0.11"],
+    ["Max. gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5(AC)", "1.5(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "3", "3.0"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/300", "24/300"],
+    ["Battery weight", "kg", "260", "260"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/11.jpg"
   },
   {
     "id": "E12",
     "itemCode": "CDDR15S",
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/12.jpg",
+    "image": "../assets/images/products/electric-stackers/12.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/12.jpg"
+    {
+      "heading": "",
+      "items": [
+        "4-Point support structure, side tiller, low center of gravity design, excellent stability.",
+        "Double pallet design, initial lift increases ground clearance for easy crossing of ramps, dock levelers, and bridging plates.",
+        "Vertical drive wheel with small turning radius, dustproof and waterproof motor, easy maintenance.",
+        "Carbon brush-free AC motor, efficient ramp braking, electromagnetic parking brake.",
+        "Free lifting mast with two side cylinders, wide field of view for operators."
+      ]
+    }
+  ],
+  "specs": [
+    ["Rated load capacity", "Q (kg)", "1500"],
+    ["Load centre distance", "c (mm)", "600"],
+    ["Load distance, centre of drive axle to fork", "x (mm)", "697"],
+    ["Wheelbase", "y (mm)", "1465"],
+    ["Service weight", "kg", "1205"],
+    ["Axle loading, laden front/rear", "kg", "1470/1310"],
+    ["Axle loading, unladen front/rear", "kg", "900/380"],
+    ["Tyre type", "", "Polyurethane"],
+    ["Tyre size, front", "mm", "Φ250×70"],
+    ["Tyre size, rear", "mm", "Φ80×70"],
+    ["Additional wheels (dimensions)", "mm", "Φ150×60"],
+    ["Number of wheels (front/rear)", "", "1x + 1 / 4"],
+    ["Tread, front", "mm", "520"],
+    ["Tread, rear", "mm", "390/470"],
+    ["Height mast lowered", "h1 (mm)", "1757/2007/2157/2257"],
+    ["Free lift", "mm", "1300/1550/1700/1800"],
+    ["Max lift height", "h3 (mm)", "2500/3000/3300/3500/4500/5000/5600"],
+    ["Height mast extended", "h4 (mm)", "2972/3477/3777/3977/4952/5442/6042"],
+    ["Initial lift", "mm", "120"],
+    ["Height drawbar in driving position (min/max)", "mm", "670/1300"],
+    ["Height of wheel arms", "mm", "82/202"],
+    ["Height lowered", "h13 (mm)", "90"],
+    ["Overall length", "l1 (mm)", "1982(2062)"],
+    ["Length to face of forks", "l2 (mm)", "878"],
+    ["Overall width", "b1 (mm)", "820"],
+    ["Fork dimensions (DIN ISO 2331)", "s/e/l (mm)", "60/180/1070(1150)"],
+    ["Fork spread", "b5 (mm)", "570/650"],
+    ["Ground clearance, center of wheelbase", "m2 (mm)", "15-135"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "2530"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "2500"],
+    ["Turning radius", "Wa (mm)", "1660"],
+    ["Travel speed, laden/unladen", "km/h", "5.8/6.0"],
+    ["Lift speed, laden/unladen", "m/s", "0.11/0.16"],
+    ["Lowering speed, laden/unladen", "m/s", "0.12/0.12"],
+    ["Max gradeability, laden/unladen", "%", "8/15"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating (S2 60 min)", "kW", "1.2 (AC)"],
+    ["Lift motor rating (S3 15%)", "kW", "3"],
+    ["Battery voltage/nominal capacity (K5)", "V/Ah", "24/240"],
+    ["Battery weight", "kg", "220"],
+    ["Sound pressure level at driver's seat", "dB(A)", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/12.jpg"
   },
   {
     "id": "E13",
     "itemCode": "CDDK15S",
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/13.jpg",
+    "image": "../assets/images/products/electric-stackers/13.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/13.jpg"
+    {
+      "heading": "",
+      "items": [
+        "4-point support structure, side tiller, low center of gravity, good stability.",
+        "Double pallet design, initial lift increases ground clearance, easy to pass ramps, dock levelers and bridging plates.",
+        "Vertical drive wheel, small turning radius, dustproof and waterproof motor, easy maintenance.",
+        "AC motor, carbon brush free, good ramp braking performance, electromagnetic parking brake.",
+        "Free lifting mast with two side cylinders, wide field of view for operator."
+      ]
+    }
+  ],
+  "specs": [
+    ["Rated load capacity", "(kg)", "1500"],
+    ["Load center distance", "(mm)", "600"],
+    ["Load distance (center of drive axle to fork)", "(mm)", "768"],
+    ["Wheelbase", "(mm)", "1510"],
+    ["Service weight", "(kg)", "1205"],
+    ["Axle loading (laden front/rear)", "(kg)", "1120/1640"],
+    ["Axle loading (unladen front/rear)", "(kg)", "874/386"],
+    ["Tyre type", "", "Polyurethane"],
+    ["Tyre size (front)", "(mm)", "Φ250×80"],
+    ["Tyre size (rear)", "(mm)", "Φ80×70"],
+    ["Additional wheels (dimensions)", "(mm)", "Φ150×60"],
+    ["Number of wheels (front/rear)", "", "1×+1/4"],
+    ["Tread (front)", "(mm)", "540"],
+    ["Tread (rear)", "(mm)", "390/470"],
+    ["Height mast lowered", "(mm)", "1758/2008/2158/2258/2022/2182/2382"],
+    ["Free lift", "(mm)", "1300/1550/1700/1800/1570/1740/1940"],
+    ["Max lift height", "(mm)", "2500/3000/3300/3500/4500/5000/5600"],
+    ["Height mast extended", "(mm)", "2958/3458/3758/3958/4952/5442/6042"],
+    ["Initial lift", "(mm)", "120"],
+    ["Height drawbar in driving position (min/max)", "(mm)", "1150/1450"],
+    ["Height of wheel arms", "(mm)", "90"],
+    ["Height lowered", "(mm)", "90"],
+    ["Overall length", "(mm)", "2058(2138)"],
+    ["Length to face of forks", "(mm)", "988"],
+    ["Overall width", "(mm)", "850"],
+    ["Fork dimensions (DIN ISO 2331)", "(mm)", "60/180/1070(1150)"],
+    ["Fork spread", "(mm)", "570/650"],
+    ["Ground clearance (center of wheelbase)", "(mm)", "17-137"],
+    ["Aisle width for pallets 1000×1200 crossways", "(mm)", "2631"],
+    ["Aisle width for pallets 800×1200 lengthways", "(mm)", "2575"],
+    ["Turning radius", "(mm)", "1786"],
+    ["Travel speed (laden/unladen)", "(km/h)", "7.0/7.1"],
+    ["Lift speed (laden/unladen)", "(m/s)", "0.11/0.16"],
+    ["Lowering speed (laden/unladen)", "(m/s)", "0.12/0.12"],
+    ["Max gradeability (laden/unladen)", "(%)", "8/15"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating (S2 60 min)", "(kW)", "1.5 (AC)"],
+    ["Lift motor rating (S3 15%)", "(kW)", "3.0"],
+    ["Battery voltage/nominal capacity (K5)", "", "24V/240Ah"],
+    ["Battery weight", "(kg)", "220"],
+    ["Sound pressure level at driver's seat", "(dB(A))", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/13.jpg"
   },
   {
     "id": "E14",
     "itemCode": "CDD10R-ES / CDD12R-ES",
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1000 KG / 1200 KG",
-    "image": "../assets/images/products/electric-stacker/14.jpg",
+    "image": "../assets/images/products/electric-stackers/14.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/14.jpg"
+    {
+      "heading": "",
+      "items": [
+        "Compact design with small dimensions and excellent visibility.",
+        "4-point support structure with side tiller and low center of gravity design for excellent stability.",
+        "Double pallet design; initial lift increases ground clearance for ramps, dock levelers, and bridging plates.",
+        "Floor type driving wheel with small turning radius; dustproof and waterproof motor for easy maintenance.",
+        "Good ramp braking performance and efficient electromagnetic parking brake.",
+        "Battery discharge indicator with low voltage cut-off protection to protect battery and prolong battery life.",
+        "Adjustable balance wheel height to ensure drive wheel performance and life.",
+        "Quiet motor for low noise operation."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "CDD10R-ES", "CDD12R-ES"],
+    ["Rated load capacity", "Q(kg)", "1000", "1200"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "788", "788"],
+    ["Wheelbase", "y(mm)", "1268", "1268"],
+    ["Service weight", "(kg)", "605-702", "675-775"],
+    ["Axle loading, laden (front/rear)", "(kg)", "710/1000", "814/1146"],
+    ["Axle loading, unladen (front/rear)", "(kg)", "220/490", "235/525"],
+    ["Tyres", "", "PU", "PU"],
+    ["Tyre size, front", "(mm)", "φ195×70", "φ195×70"],
+    ["Tyre size, rear", "(mm)", "φ80×70", "φ80×70"],
+    ["Additional wheels (dimensions)", "(mm)", "φ150×60", "φ150×60"],
+    ["Wheels, number front/rear", "", "1× + 1/4", "1× + 1/4"],
+    ["Tread, front", "b10(mm)", "523", "523"],
+    ["Tread, rear", "b11(mm)", "390", "390"],
+    ["Height mast lowered", "h1(mm)", "2122/1872/2122/2272", "2122/1872/2122/2272"],
+    ["Free lift", "h2(mm)", "N/A", "N/A"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3300", "1600/2500/3000/3300"],
+    ["Height mast extended", "h4(mm)", "2122/3092/3592/3892", "2122/3092/3592/3892"],
+    ["Initial lift", "h5(mm)", "120", "120"],
+    ["Height drawbar in driving position (min/max)", "h14(mm)", "670/1300", "670/1300"],
+    ["Height of wheel arms", "(mm)", "82/202", "82/202"],
+    ["Height lowered", "h13(mm)", "90", "90"],
+    ["Overall length", "l1(mm)", "1709(1789)", "1709(1789)"],
+    ["Length to face of forks", "l2(mm)", "639", "639"],
+    ["Overall width", "b1(mm)", "800", "800"],
+    ["Fork dimensions (DIN ISO 2331)", "(mm)", "60/180/1070(1150)", "60/180/1070(1150)"],
+    ["Fork spread", "b5(mm)", "570/650", "570/650"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "17-137", "17-137"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2286", "2286"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2224", "2224"],
+    ["Turning radius", "Wa(mm)", "1450", "1450"],
+    ["Travel speed, laden/unladen", "km/h", "4.5/5.0", "4.5/5.0"],
+    ["Lift speed, laden/unladen", "m/s", "0.11/0.14", "0.11/0.14"],
+    ["Lowering speed, laden/unladen", "m/s", "0.12/0.12", "0.12/0.12"],
+    ["Max gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "0.65(DC)", "0.65(DC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/105(125)", "24/105(125)"],
+    ["Battery weight", "kg", "60.8(70)", "60.8(70)"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/14.jpg"
   },
   {
     "id": "E15",
     "itemCode": "CDD10RDS-E / CDD12RDS-E",
     "name": "Electric Stacker with Initial Lift",
     "description": "Capacity: 1000 KG / 1200 KG",
-    "image": "../assets/images/products/electric-stacker/15.jpg",
+    "image": "../assets/images/products/electric-stackers/15.jpg",
     "advantages": [
       {
         "heading": "",
         "items": []
       }
     ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/15.jpg"
+    "specs": [
+    ["Model", "", "CTDR15-III", "CTDR15-III"],
+    ["Rated capacity", "Q(kg)", "1500", "1500"],
+    ["Load centre distance", "c(mm)", "600", "600"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "795", "779"],
+    ["Wheelbase", "y(mm)", "1460", "1539"],
+    ["Service weight", "kg", "940/960/980/1005", "1315/1350/1390"],
+    ["Axle loading, laden front/rear", "kg", "1340/1120", "1506/1344"],
+    ["Axle loading, unladen front/rear", "kg", "734/226", "963/387"],
+    ["Tyres", "solid rubber, super elastic, pneumatic, polyurethane", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "φ250×70", "φ250×70"],
+    ["Tyre size, rear", "", "φ98×82", "φ98×82"],
+    ["Additional wheels (dimensions)", "", "φ150×60", "φ150×60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1×+1/2", "1×+1/2"],
+    ["Tread, front", "b10(mm)", "520", "520"],
+    ["Tread, rear", "b11(mm)", "1066/1466", "1066/1466"],
+    ["Height mast lowered", "h1(mm)", "2145/1895/2145/2295", "2120/2280/2480"],
+    ["Free lift", "h2(mm)", "N/A", "1570/1740/1940"],
+    ["Max. lift height", "h3(mm)", "1600/2500/3000/3300", "4500/5000/5600"],
+    ["Height mast extended", "h4(mm)", "2145/3145/3645/3945", "5060/5560/6160"],
+    ["Turning radius", "Wa(mm)", "1450", "1450"],
+    ["Travel speed, laden/unladen", "km/h", "4.5/5.0", "4.5/5.0"],
+    ["Lift speed, laden/unladen", "m/s", "0.11/0.14", "0.11/0.14"],
+    ["Lowering speed, laden/unladen", "m/s", "0.12/0.12", "0.12/0.12"],
+    ["Max gradeability, laden/unladen", "%", "6/15", "6/15"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "0.65(DC)", "0.65(DC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2", "2.2"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/105(125)", "24/105(125)"],
+    ["Battery weight", "kg", "60.8(70)", "60.8(70)"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "70", "70"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/15.jpg"
   },
   {
     "id": "E16",
     "itemCode": "CQD12R / CQD15R / CQD20R",
     "name": "Counterbalanced Electric Reach Stacker",
     "description": "Capacity: 1250 KG / 1500 KG / 2000 KG",
-    "image": "../assets/images/products/electric-stacker/16.jpg",
+    "image": "../assets/images/products/electric-stackers/16.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/16.jpg"
+  {
+    "heading": "STRUCTURAL",
+    "items": [
+      "Two lifting cylinders placed on outer sides of the mast.",
+      "Germany imported special steel mast.",
+      "Vertical driving wheel, driving efficiency, easy installation & maintenance.",
+      "Compact structure and low gravity."
+    ]
+  },
+  {
+    "heading": "SAFETY AND EFFICIENCY",
+    "items": [
+      "AC frequency conversion traction motor: compact structure, good performance, regenerative braking and easy maintenance.",
+      "Tilting system forks easy for loading and stacking.",
+      "High Storage battery ensures strong and long‑lasting power.",
+      "Meter with BDI, prolonging the battery's using time.",
+      "The braking system combines magnetic brake and regenerative break, greatly prolongs the using life of friction plate.",
+      "With emergency stop switch and electricity lock button, and multi‑valve controlling levers, ergonomic for operation.",
+      "The adjustable regulator valve can adjust the lowing speed of the masts."
+    ]
+  },
+  {
+    "heading": "EASY MAINTENANCE",
+    "items": [
+      "Magnet suction battery cover, easy for installation and maintenance.",
+      "AC controlling system, low noise, less maintenance."
+    ]
+  }
+],
+    "specs_CQD12R_CQD15R_CQD20R": [
+  ["Manufacturer's type designation", "", "CQD12R", "CQD15R", "CQD20R(EPS)"],
+  ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric", "Electric", "Electric"],
+  ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing", "Standing", "Standing"],
+  ["Rated capacity/rated load", "Q(kg)", "1250", "1500", "2000"],
+  ["Load centre distance", "c(mm)", "500", "500", "500"],
+  ["Load distance, centre of drive axle to fork", "x(mm)", "430", "520", "550"],
+  ["Wheelbase", "y(mm)", "1380", "1480", "1600"],
+  ["Service weight", "kg", "1800", "2140", "2300"],
+  ["Axle loading, unladen front/rear", "kg", "1200/600", "1360/760", "1660/2640"],
+  ["Axle loading, fork retracted, laden front/rear", "kg", "1080/2020", "1290/2350", "1620/680"],
+  ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane", "Polyurethane", "Polyurethane"],
+  ["Tyre size, front", "", "Φ250x70", "Φ250x70", "Φ250x80"],
+  ["Tyre size, rear", "", "Φ210x85", "Φ210x85", "Φ210x115"],
+  ["Additional wheels (dimensions)", "", "Φ150x60", "Φ150x60", "-"],
+  ["Wheels, number front/rear (x = driven wheels)", "", "1x+2/2", "1x+2/2", "1x/2"],
+  ["Tread, front", "b10(mm)", "612", "612", "-"],
+  ["Tread, rear", "b11(mm)", "908", "908", "945"],
+  ["Tilt of mast/fork carriage forward/backward", "a/b(°)", "3/6", "3/6", "3/6"],
+  ["Height, mast lowered", "h1(mm)", "1880/2118/2400/1953/2128/2298/2495", "1880/2118/2400/1953/2128/2298/2495", "1880/2118/2400/1953/2128/2298/2495"],
+  ["Free lift", "h2(mm)", "0/0/0/1280/1480/1600/1870", "0/0/0/1280/1480/1600/1870", "0/0/0/1280/1480/1600/1870"],
+  ["Lift", "h3(mm)", "2500/3000/3500/4000/4500/5000/5600", "same", "same"],
+  ["Height, mast extended", "h4(mm)", "3500/4000/4500/5000/5500/6000/6600", "same", "same"],
+  ["Height drawbar in driving position min./max.", "h14(mm)", "1160/1460", "1160/1460", "1160/1460"],
+  ["Overall length", "l1(mm)", "2150/2270/2350", "2250/2370/2450", "2275/2360/2440"],
+  ["Length to face of forks", "l2(mm)", "1200", "1240", "1290"],
+  ["Overall width", "b1/b2(mm)", "990", "990", "1060"],
+  ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/950(1070/1150)", "same", "40/100/950(1070/1150)"],
+  ["Fork spread", "b5(mm)", "200‑680", "200‑680", "200‑680"],
+  ["Reach distance", "l4(mm)", "560", "650", "710"],
+  ["Ground clearance, laden, below mast", "m1(mm)", "55", "55", "55"],
+  ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2600", "2700", "2800"],
+  ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2650", "2750", "2830"],
+  ["Turning radius", "Wa(mm)", "1650", "1750", "1870"],
+  ["Travel speed, laden/unladen", "km/h", "6.8/7.0", "6.8/7.0", "7.0/7.2"],
+  ["Lift speed, laden/unladen", "m/s", "0‑0.13/0‑0.2", "same", "0.11/0.2"],
+  ["Lowering speed, laden/unladen", "m/s", "0‑0.25/0‑0.2", "0.25", "0‑0.23/0‑0.2"],
+  ["Max. gradeability, laden/unladen", "%", "6/10", "6/10", "10/15"],
+  ["Service brake", "", "Electromagnetic", "Electromagnetic", "Electromagnetic"],
+  ["Drive motor rating S2 60 min", "kW", "1.2(AC)", "1.2(AC)", "1.2(AC)"],
+  ["Lift motor rating at S3 15%", "kW", "4.5", "4.5", "4.5"],
+  ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/270", "24/270", "24/280(320/360)"],
+  ["Battery weight", "kg", "260‑320", "260‑320", "280‑330"],
+  ["Sound pressure level at the driver's seat", "dB(A)", "65", "65", "65"]
+],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/16.jpg"
   },
   {
     "id": "E17",
     "itemCode": "CQD12W / CQD15W",
     "name": "Counterbalanced Electric Reach Stacker",
     "description": "Capacity: 1250 KG / 1500 KG",
-    "image": "../assets/images/products/electric-stacker/17.jpg",
+    "image": "../assets/images/products/electric-stackers/17.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/17.jpg"
+    {
+      "heading": "STRUCTURAL",
+      "items": [
+        "Long handle structure makes it steering light and flexible.",
+        "Two lifting cylinders placed on outer sides of the mast.",
+        "Germany imported special steel mast.",
+        "Vertical driving wheel, driving efficiency, easy installation & maintenance.",
+        "Compact structure and low gravity."
+      ]
+    },
+    {
+      "heading": "SAFETY AND EFFICIENCY",
+      "items": [
+        "AC frequency conversion traction motor: compact structure, good performance, regenerative braking and easy maintenance.",
+        "Tilting system forks easy for loading and stacking.",
+        "High Storage battery ensures strong and long‑lasting power.",
+        "Meter with BDI, prolonging the battery's using time.",
+        "The braking system combines magnetic brake and regenerative break, greatly prolongs the using life of friction plate.",
+        "With emergency stop switch and electricity lock button, and multi‑valve controlling levers, ergonomic for operation .",
+        "The adjustable regulator valve can adjust the lowing speed of the masts."
+      ]
+    },
+    {
+      "heading": "EASY MAINTENANCE",
+      "items": [
+        "Magnet suction battery cover, easy for installation and maintenance.",
+        "AC controlling system, low noise, less maintenance."
+      ]
+    }
+  ],
+  "specs_CQD12W": [
+    ["Manufacturer's type designation", "", "CQD12W"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Pedestrian"],
+    ["Rated capacity/rated load", "Q(kg)", "1250"],
+    ["Load centre distance", "c(mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "430"],
+    ["Wheelbase", "y(mm)", "1380"],
+    ["Service weight", "kg", "1700"],
+    ["Axle loading, unladen front/rear", "kg", "1090/610"],
+    ["Axle loading, fork retracted, laden front/rear", "kg", "1100/1840"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250x70"],
+    ["Tyre size, rear", "", "Φ210x85"],
+    ["Additional wheels (dimensions)", "", "Φ127x57"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2/2"],
+    ["Tread, front", "b10(mm)", "612"],
+    ["Tread, rear", "b11(mm)", "908"],
+    ["Tilt of mast/fork carriage forward/backward", "a/b(°)", "3/6"],
+    ["Height, mast lowered", "h1(mm)", "1880/2118/2400/1953/2128/2298/2495"],
+    ["Free lift", "h2(mm)", "0/0/0/1280/1480/1600/1870"],
+    ["Lift", "h3(mm)", "2500/3000/3500/4000/4500/5000/5600"],
+    ["Height, mast extended", "h4(mm)", "3500/4000/4500/5000/5500/6000/6600"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "570/1320"],
+    ["Overall length", "l1(mm)", "2080/2200/2280"],
+    ["Length to face of forks", "l2(mm)", "1130"],
+    ["Overall width", "b1/b2(mm)", "990"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/950(1070/1150)"],
+    ["Fork spread", "b5(mm)", "200‑680"],
+    ["Reach distance", "l4(mm)", "560"],
+    ["Ground clearance, laden, below mast", "m1(mm)", "55"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "2500"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "2620"],
+    ["Turning radius", "Wa(mm)", "1550"],
+    ["Travel speed, laden/unladen", "km/h", "5.5/6.0"],
+    ["Lift speed, laden/unladen", "m/s", "0‑0.13/0‑0.2"],
+    ["Lowering speed, laden/unladen", "m/s", "0‑0.25/0‑0.2"],
+    ["Max. gradeability, laden/unladen", "%", "6/10"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "4.5"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/270"],
+    ["Battery weight", "kg", "260‑320"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "65"]
+  ],
+  "specs_CQD15W": [
+    ["Manufacturer's type designation", "", "CQD15W"],
+    ["Drive", "electric (battery type, mains,…), diesel, petrol, fuel gas", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Pedestrian"],
+    ["Rated capacity/rated load", "Q(kg)", "1500"],
+    ["Load centre distance", "c(mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "520"],
+    ["Wheelbase", "y(mm)", "1500"],
+    ["Service weight", "kg", "1980"],
+    ["Axle loading, unladen front/rear", "kg", "1200/780"],
+    ["Axle loading, fork retracted, laden front/rear", "kg", "1210/2270"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250x70"],
+    ["Tyre size, rear", "", "Φ210x85"],
+    ["Additional wheels (dimensions)", "", "Φ127x57"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2/2"],
+    ["Tread, front", "b10(mm)", "612"],
+    ["Tread, rear", "b11(mm)", "908"],
+    ["Tilt of mast/fork carriage forward/backward", "a/b(°)", "3/6"],
+    ["Height, mast lowered", "h1(mm)", "1880/2118/2400/1953/2128/2298/2495"],
+    ["Free lift", "h2(mm)", "0/0/0/1280/1480/1600/1870"],
+    ["Lift", "h3(mm)", "2500/3000/3500/4000/4500/5000/5600"],
+    ["Height, mast extended", "h4(mm)", "3500/4000/4500/5000/5500/6000/6600"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "570/1320"],
+    ["Overall length", "l1(mm)", "2130/2250/2330"],
+    ["Length to face of forks", "l2(mm)", "1180"],
+    ["Overall width", "b1/b2(mm)", "990"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/950(1070/1150)"],
+    ["Fork spread", "b5(mm)", "200‑680"],
+    ["Reach distance", "l4(mm)", "650"],
+    ["Ground clearance, laden, below mast", "m1(mm)", "55"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "2600"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "2720"],
+    ["Turning radius", "Wa(mm)", "1680"],
+    ["Travel speed, laden/unladen", "km/h", "5.5/6.0"],
+    ["Lift speed, laden/unladen", "m/s", "0‑0.13/0‑0.2"],
+    ["Lowering speed, laden/unladen", "m/s", "0‑0.45"],
+    ["Max. gradeability, laden/unladen", "%", "6/10"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "4.5"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/270"],
+    ["Battery weight", "kg", "260‑320"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "65"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/17.jpg"
   },
   {
     "id": "E18",
     "itemCode": "CPD15R / CPD20R",
     "name": "Counterbalanced Electric Stacker",
     "description": "Capacity: 1500 KG / 2000 KG",
-    "image": "../assets/images/products/electric-stacker/18.jpg",
+    "image": "../assets/images/products/electric-stackers/18.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/18.jpg"
+    {
+      "heading": "STRUCTURAL",
+      "items": [
+        "Two lifting cylinders placed on outer sides of the mast.",
+        "Germany imported special steel mast.",
+        "Vertical driving wheel, driving efficiency, easy installation & maintenance.",
+        "Compact structure and low gravity."
+      ]
+    },
+    {
+      "heading": "SAFETY AND EFFICIENCY",
+      "items": [
+        "AC frequency conversion traction motor: compact structure, good performance, regenerative braking and easy maintenance.",
+        "Tilting system forks easy for loading and stacking.",
+        "High Storage battery ensures strong and long‑lasting power.",
+        "Meter with BDI, prolonging the battery's using time.",
+        "The braking system combines magnetic brake and regenerative break, greatly prolongs the using life of friction plate.",
+        "With emergency stop switch and electricity lock button, and multi‑valve controlling levers, ergonomic for operation.",
+        "The adjustable regulator valve can adjust the lowing speed of the masts."
+      ]
+    },
+    {
+      "heading": "EASY MAINTENANCE",
+      "items": [
+        "Magnet suction battery cover, easy for installation and maintenance.",
+        "AC controlling system, low noise, less maintenance."
+      ]
+    }
+  ],
+  "specs_CPD15R": [
+    ["Manufacturer's type designation", "", "CPD15R"],
+    ["Drive", "electric (battery type, mains,...), diesel, petrol, fuel gas", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500"],
+    ["Load centre distance", "c(mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "130"],
+    ["Wheelbase", "y(mm)", "1330"],
+    ["Axle loading, laden front/rear", "kg", "420/3110"],
+    ["Axle loading, unladen front/rear", "kg", "1170/860"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250x70"],
+    ["Tyre size, rear", "", "Φ200x100"],
+    ["Additional wheels (dimensions)", "", "Φ150x60"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1X+2/2"],
+    ["Tread, front", "b10(mm)", "890"],
+    ["Tread, rear", "b11(mm)", "612"],
+    ["Tilt of mast/fork carriage forward/backward", "a/b(°)", "3/6"],
+    ["Height, mast lowered", "h1(mm)", "1735/1985/2235/1895/2085/2235/2435"],
+    ["Free lift", "h2(mm)", "0/0/0/1400/1500/1670/1870"],
+    ["Max. lift height", "h3(mm)", "2500/3000/3500/4000/4500/5000/5600"],
+    ["Height, mast extended", "h4(mm)", "3500/4000/4500/5000/5500/6000/6600"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "1160/1460"],
+    ["Overall length", "l1(mm)", "2660"],
+    ["Length to face of forks", "l2(mm)", "1700"],
+    ["Overall width", "b1/b2(mm)", "990"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/950(1070)"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "2990"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "3120"],
+    ["Turning radius", "Wa(mm)", "1600"],
+    ["Travel speed, laden/unladen", "km/h", "6.8/7.0"],
+    ["Lift speed, laden/unladen", "m/s", "0-0.12/0-0.19"],
+    ["Lowering speed, laden/unladen", "m/s", "0-0.45"],
+    ["Max. gradeability, laden/unladen", "%", "6/10"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "4.5(DC)"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/280"],
+    ["Battery weight", "kg", "280‑320"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "65"]
+  ],
+  "specs_CPD15R_EPS_variation": [
+    ["Manufacturer's type designation", "", "CPD15R(EPS)"],
+    ["Drive", "electric (battery type, mains,...), diesel, petrol, fuel gas", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "1500"],
+    ["Load centre distance", "c(mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "130"],
+    ["Wheelbase", "y(mm)", "1330"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane"],
+    ["Tyre size, front", "", "Φ280x100"],
+    ["Tyre size, rear", "", "Φ200x100"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2"],
+    ["Max. gradeability, laden/unladen", "%", "8/15"],
+    ["Drive motor rating S2 60 min", "kW", "1.5(AC)"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "65"]
+  ],
+  "specs_CPD20R": [
+    ["Manufacturer's type designation", "", "CPD20R"],
+    ["Drive", "electric (battery type, mains,...), diesel, petrol, fuel gas", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Standing"],
+    ["Rated capacity/rated load", "Q(kg)", "2000"],
+    ["Load centre distance", "c(mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "130"],
+    ["Wheelbase", "y(mm)", "1539"],
+    ["Axle loading, laden front/rear", "kg", "490/3810"],
+    ["Axle loading, unladen front/rear", "kg", "1620/680"],
+    ["Tyres: solid rubber, super elastic, pneumatic, polyurethane", "", "Polyurethane"],
+    ["Tyre size, front", "", "Φ280x80"],
+    ["Tyre size, rear", "", "Φ210x115"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x/2"],
+    ["Tread, front", "b10(mm)", "945"],
+    ["Max. lift height", "h3(mm)", "3000/3500/4000/4500/5000/5600"],
+    ["Height, mast extended", "h4(mm)", "4000/4500/5000/5500/6000/6600"],
+    ["Overall length", "l1(mm)", "2984"],
+    ["Length to face of forks", "l2(mm)", "1914"],
+    ["Overall width", "b1/b2(mm)", "1060"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "40/100/1070"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "3250"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "3350"],
+    ["Turning radius", "Wa(mm)", "1808"],
+    ["Lift speed, laden/unladen", "m/s", "0-0.11/0.2"],
+    ["Lowering speed, laden/unladen", "m/s", "0.23/0.20"],
+    ["Max. gradeability, laden/unladen", "%", "6/15"],
+    ["Drive motor rating S2 60 min", "kW", "2.2(AC)"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/280"],
+    ["Battery weight", "kg", "280‑330"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "65"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/18.jpg"
   },
   {
     "id": "E19",
     "itemCode": "CPD15W",
     "name": "Counterbalanced Electric Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/19.jpg",
+    "image": "../assets/images/products/electric-stackers/19.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/19.jpg"
+    {
+      "heading": "SAFETY AND EFFICIENCY",
+      "items": [
+        "AC frequency conversion traction motor: compact structure, good performance, regenerative braking and easy maintenance.",
+        "Tilting system forks easy for loading and stacking.",
+        "High Storage battery ensures strong and long‑lasting power.",
+        "Meter with BDI, prolonging the battery's using time.",
+        "The braking system combines magnetic brake and regenerative break, greatly prolongs the using life of friction plate.",
+        "With emergency stop switch and electricity lock button, and multi‑valve controlling levers, ergonomic for operation .",
+        "The adjustable regulator valve can adjust the lowing speed of the masts."
+      ]
+    },
+    {
+      "heading": "STRUCTURAL",
+      "items": [
+        "Long handle structure makes it steering light and flexible.",
+        "Two lifting cylinders placed on outer sides of the mast.",
+        "Germany imported special steel mast.",
+        "Vertical driving wheel, driving efficiency, easy installation & maintenance.",
+        "Compact structure and low gravity."
+      ]
+    },
+    {
+      "heading": "EASY MAINTENANCE",
+      "items": [
+        "Magnet suction battery cover, easy for installation and maintenance.",
+        "AC controlling system, low noise, less maintenance."
+      ]
+    }
+  ],
+  "specs_CPD15W": [
+    ["Manufacturer's type designation", "", "CPD15W"],
+    ["Drive", "electric (battery type, mains, ...), diesel, petrol, fuel gas", "Electric"],
+    ["Operator type", "hand, pedestrian, standing, seated, order‑picker", "Pedestrian"],
+    ["Rated capacity/rated load", "Q(kg)", "1500"],
+    ["Load centre distance", "c(mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "130"],
+    ["Wheelbase", "y(mm)", "1380"],
+    ["Axle loading, laden front/rear", "kg", "460/3120"],
+    ["Axle loading, unladen front/rear", "kg", "1080/1000"],
+    ["Tyres", "solid rubber, super elastic, pneumatic, polyurethane", "Polyurethane"],
+    ["Tyre size, front", "", "Φ250 x 70"],
+    ["Tyre size, rear", "", "Φ200x100"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+2"],
+    ["Tread, front", "b10(mm)", "890"],
+    ["Tread, rear", "b11(mm)", "0"],
+    ["Tilt of mast/fork carriage forward/backward", "a/b(°)", "3/6"],
+    ["Height, mast lowered", "h1(mm)", "1735/1985/2235/1895/2085/2235/2435"],
+    ["Free lift", "h2(mm)", "0/0/0/1400/1500/1670/1870"],
+    ["Max. lift height", "h3(mm)", "2500/3000/3500/4000/4500/5000/5600"],
+    ["Height, mast extended", "h4(mm)", "3500/4000/4500/5000/5500/6000/6600"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "730/1360"],
+    ["Overall length", "l1(mm)", "2650"],
+    ["Length to face of forks", "l2(mm)", "1700"],
+    ["Overall width", "b1/b2(mm)", "990"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "35/100/950(1070)"],
+    ["Aisle width for pallets 1000 × 1200 crossways", "Ast(mm)", "2950"],
+    ["Aisle width for pallets 800 × 1200 lengthways", "Ast(mm)", "3070"],
+    ["Turning radius", "Wa(mm)", "1570"],
+    ["Travel speed, laden/unladen", "km/h", "5.8/6.0"],
+    ["Lift speed, laden/unladen", "m/s", "0-0.12/0-0.19"],
+    ["Lowering speed, laden/unladen", "m/s", "0.2/0.25"],
+    ["Max. gradeability, laden/unladen", "%", "6/10"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.2(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "4.5(DC)"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah) or kWh", "24/280"],
+    ["Battery weight", "kg", "280-320"],
+    ["Sound pressure level at the driver’s seat", "dB(A)", "65"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/19.jpg"
   },
   {
     "id": "E20",
     "itemCode": "CPD05W / CPD10W / CPD15W-II",
     "name": "Counterbalanced Electric Stacker",
     "description": "Capacity: 550 KG / 1000 KG / 1500 KG",
-    "image": "../assets/images/products/electric-stacker/20.jpg",
+    "image": "../assets/images/products/electric-stackers/20.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/20.jpg"
+    {
+      "heading": "",
+      "items": [
+        "Long handle structure makes it steering light and flexible.",
+        "Upper horizontal driving wheel ensures easy installation and maintenance.",
+        "Tilting system keeps loading and stacking more easier.",
+        "Meter with BDI, prolonging the battery's using time.",
+        "With emergency stop switch and electricity lock button."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "CPD05W", "CPD10W", "CPD15W-II"],
+    ["Capacity", "Q(kg)", "550", "1000", "1500"],
+    ["Load centre distance", "c(mm)", "400", "400", "500"],
+    ["Load distance, centre of drive axle to fork", "x(mm)", "90", "90", "90"],
+    ["Wheelbase", "y(mm)", "900", "1150", "1470"],
+    ["Service weight", "(kg)", "875", "1180", "1530"],
+    ["Axle loading, laden front/rear", "(kg)", "250/1175", "324/1856", "380/2650"],
+    ["Axle loading, unladen front/rear", "(kg)", "495/380", "750/430", "970/560"],
+    ["Tyres", "", "Polyurethane", "Polyurethane", "Polyurethane"],
+    ["Tyre size, front", "(mm)", "Φ195x70", "Φ195x70", "Φ195x70"],
+    ["Tyre size, rear", "(mm)", "Φ150x64", "Φ150x64", "Φ150x73"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x/2", "1x/2", "1x+2/2"],
+    ["Tread, front", "b10(mm)", "782", "782", "796"],
+    ["Tread, rear", "b11(mm)", "0", "0", "503"],
+    ["Tilt of mast/fork carriage forward/backward", "a/b(°)", "1/3", "1/3", "1/3"],
+    ["Height, mast lowered", "h1(mm)", "2087/1552/1802/2052", "2087/1552/1802/2052", "2065/1565/1815/2065"],
+    ["Max. lift height", "h3(mm)", "1600/2000/2500/3000", "1600/2000/2500/3000", "1600/2000/2500/3000"],
+    ["Height, mast extended", "h4(mm)", "2240/2640/3140/3640", "2240/2640/3140/3640", "2310/2710/3210/3710"],
+    ["Height drawbar in driving position min./max.", "h14(mm)", "670/1300", "670/1300", "670/1300"],
+    ["Overall length", "l1(mm)", "2002", "2356", "2729"],
+    ["Length to face of forks", "l2(mm)", "1152", "1406", "1779"],
+    ["Overall width", "b1/b2(mm)", "846", "846", "878"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l(mm)", "32/100/850", "35/100/950", "35/100/950"],
+    ["Ground clearance, centre of wheelbase", "m2(mm)", "55", "55", "55"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2610", "2770", "2950"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2750", "2880", "3100"],
+    ["Turning radius", "Wa(mm)", "1170", "1334", "1700"],
+    ["Travel speed, laden/unladen", "km/h", "4.1/4.5", "3.8/4.2", "3.5/4.0"],
+    ["Lift speed, laden/unladen", "m/s", "0.17/0.25", "0.11/0.15", "0.08/0.12"],
+    ["Lowering speed, laden/unladen", "m/s", "0.14/0.14", "0.08/0.09", "0.12/0.10"],
+    ["Max. Gradeability, laden/unladen", "%", "6/10", "6/10", "5/10"],
+    ["Service brake", "", "Electromagnetic", "Electromagnetic", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "0.65(DC)", "0.65(DC)", "0.75(AC)"],
+    ["Lift motor rating at S3 15%", "kW", "2.2(DC)", "2.2(DC)", "2.2(DC)"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah)", "24/105", "24/105", "24/125"],
+    ["Battery weight", "(kg)", "60.8", "60.8", "60.8"],
+    ["Sound pressure level at the driver's seat", "dB(A)", "65", "65", "65"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/20.jpg"
   },
   {
     "id": "E21",
     "itemCode": "CQDH15A-III",
     "name": "Rider Type Reach Stacker",
     "description": "Capacity: 1500 KG / 2000 KG",
-    "image": "../assets/images/products/electric-stacker/21.jpg",
+    "image": "../assets/images/products/electric-stackers/21.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/21.jpg"
+    {
+      "heading": "Structural",
+      "items": [
+        "Reach stacker with very compact design, have different options with platform or without platform.",
+        "Low gravity, ensure safety operation.",
+        "Waterproof and dustproof motor structure, keeps the braking and motor more durable and reliable.",
+        "Multi-function display with BDI, hour meter, and fault code.",
+        "Vertical driving wheel ensures convenient maintenance and small turning radius.",
+        "The mast and frame are dividable and exchangeable."
+      ]
+    },
+    {
+      "heading": "Safety and Efficiency",
+      "items": [
+        "Advanced AC drive motor eliminates replacement of carbon brush, with good ramp starting performance.",
+        "Use Germany Frei handle to control driving speed, lifting/lowering speed, sideshift, fork reach, and tilting.",
+        "Cylinder has safety explosion-proof valve to avoid fork dropping suddenly when oil tube is broken, ensuring the safety of the operator.",
+        "Automatic speed deceleration when lifting height is up 1.8M.",
+        "Mast with micro switch limits the cylinder lifting height, avoiding mast shock problems.",
+        "Low voltage protection setting prolongs the battery life (while battery less than 20%, only can drive, no lifting).",
+        "Optional EPS power steering system, makes steering more light and reliable."
+      ]
+    },
+    {
+      "heading": "Service Ability",
+      "items": [
+        "Platform and protection arm are disassembled, easy maintenance.",
+        "The electronic components concentrated simplifies the circuit and makes easy assembly and access.",
+        "Battery equipped with protection device, the trucks will automatically cut off power when battery is under charging."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "CQDH15A-III"],
+    ["Rated capacity", "Q (kg)", "1500"],
+    ["Load centre distance", "c (mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x (mm)", "320"],
+    ["Wheelbase", "y (mm)", "1417"],
+    ["Service weight", "(kg)", "2515"],
+    ["Axle loading, unladen front/rear", "(kg)", "1537/978"],
+    ["Axle loading, fork advanced, laden front/rear", "(kg)", "907/3134"],
+    ["Axle loading, fork retracted, laden front/rear", "(kg)", "1488/2562"],
+    ["Tyres", "", "Polyurethane"],
+    ["Tyre size, front", "(mm)", "Φ250 x 80"],
+    ["Tyre size, rear", "(mm)", "Φ125 x 82"],
+    ["Additional wheels", "(mm)", "Φ150 x 62"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x + 2 / 4"],
+    ["Tread, front", "b10 (mm)", "710"],
+    ["Tread, rear", "b11 (mm)", "1086"],
+    ["Tilt of mast/fork carriage forward/backward", "", "2 / 5"],
+    ["Height mast lowered", "h1 (mm)", "2179 / 2341 / 2499"],
+    ["Free lift", "h2 (mm)", "1575 / 1700 / 1825"],
+    ["Lift", "h3 (mm)", "4500 / 5000 / 5500"],
+    ["Height mast extended", "h4 (mm)", "5381 / 5881 / 6381"],
+    ["Height drawbar in driving position min./max.", "h14 (mm)", "1160 / 1460"],
+    ["Overall length", "l1 (mm)", "2411"],
+    ["Length to face of forks", "l2 (mm)", "1341"],
+    ["Overall width", "b1/b2 (mm)", "1344 / 896"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l (mm)", "35 / 100 / 1070"],
+    ["Fork-carriage width", "b3 (mm)", "990"],
+    ["Fork spread", "b5 (mm)", "200-760"],
+    ["Distance between wheel arms/loading surfaces", "b4 (mm)", "929"],
+    ["Reach distance", "l4 (mm)", "500"],
+    ["Ground clearance, laden, below mast", "m1 (mm)", "35"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "2796"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "2856"],
+    ["Turning radius", "Wa (mm)", "1689"],
+    ["Length across wheel arms", "l7 (mm)", "1835"],
+    ["Travel speed, laden/unladen", "km/h", "6.1 / 6.1"],
+    ["Lift speed, laden/unladen", "m/s", "0.09 / 0.12"],
+    ["Lowering speed, laden/unladen", "m/s", "0.2 / 0.15"],
+    ["Reaching speed, laden/unladen", "m/s", "0.1"],
+    ["Max gradeability, laden/unladen", "%", "5 / 12"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5 (AC)"],
+    ["Lift motor rating at S3 15%", "kW", "4.5"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah)", "24 / 280"],
+    ["Battery weight", "(kg)", "285"],
+    ["Sound pressure level at the driver's seat", "dB (A)", "75"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/21.jpg"
   },
   {
     "id": "E22",
     "itemCode": "CQDH15A-III / CQDH20A-III",
     "name": "Reach Stacker",
     "description": "Capacity: 1000 KG / 1350 KG / 1500 KG / 2000 KG",
-    "image": "../assets/images/products/electric-stacker/22.jpg",
-    "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/22.jpg"
+    "image": "../assets/images/products/electric-stackers/22.jpg",
+  
+  "advantages": [
+    {
+      "heading": "Structural",
+      "items": [
+        "Walkie type Reach stacker with very compact design, use middle handle easy to operate.",
+        "Low gravity, ensure safety operation.",
+        "Water proof and dust proof motor structure, keeps the braking and motor more durable and reliable.",
+        "Multi function display with BDI, hour meter and fault code.",
+        "Vertical driving wheel ensures convenient maintenance and small turning radius.",
+        "The mast and frame are dividable and exchangeable."
+      ]
+    },
+    {
+      "heading": "Safety and Efficiency",
+      "items": [
+        "Advanced AC drive motor eliminates replacement of carbon brush, with good ramp starting performance.",
+        "Use Germany Frei handle to control driving speed, lifting/lowering speed, fork reach and tilting, with optional sideshift.",
+        "Cylinder have safety explosion proof valve, avoid fork dropping suddenly when oil tube is broken. ensure the safety of operator.",
+        "Automatic speed deceleration when lifting height is up 1.8M.",
+        "Mast with micro sensor switch limit the cylinder lifting height, avoid mast shock problems.",
+        "Low voltage protection setting prolongs the battery life. (when battery capacity is less 20% will stop lifting and available moving)",
+        "Option EPS power steering system, makes steering more light and reliable."
+      ]
+    },
+    {
+      "heading": "Service Ability",
+      "items": [
+        "Platform and protection arm are disassembled, easy maintenance.",
+        "The electronic components concentrated simplifies the circuit and makes easily assemble and access.",
+        "Battery equipped with protect device, the trucks will automatic cut off power when battery is under charging."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "CQDH15A-III / CQDH20A-III"],
+    ["Rated capacity", "Q (kg)", "1500 (with sideshift 1350) / 2000 / 1000"],
+    ["Load centre distance", "c (mm)", "500"],
+    ["Load distance, centre of drive axle to fork", "x (mm)", "265 / 320 / 175"],
+    ["Wheelbase", "y (mm)", "1388 / 1471 / 1471"],
+    ["Service weight", "(kg)", "Not specified"],
+    ["Axle loading, unladen front/rear", "(kg)", "Not specified"],
+    ["Axle loading, fork advanced, laden front/rear", "(kg)", "Not specified"],
+    ["Axle loading, fork retracted, laden front/rear", "(kg)", "Not specified"],
+    ["Tyres", "", "Polyurethane"],
+    ["Tyre size, front", "(mm)", "φ250×80"],
+    ["Tyre size, rear", "(mm)", "φ125×82"],
+    ["Additional wheels", "(mm)", "N/A / φ150×62 / φ150×62"],
+    ["Wheels, number front/rear (x = driven wheels)", "", "1x+4 / 1x+2/4 / 1x+2/4"],
+    ["Tread, front", "b10 (mm)", "N/A / 612 / 612"],
+    ["Tread, rear", "b11 (mm)", "1187 / 1186 / 1186"],
+    ["Tilt of mast/fork carriage forward/backward", "", "2 / 5"],
+    ["Height mast lowered", "h1 (mm)", "2179 / 2341 / 2499"],
+    ["Free lift", "h2 (mm)", "1575 / 1700 / 1825"],
+    ["Lift", "h3 (mm)", "4500 / 5000 / 5500"],
+    ["Height mast extended", "h4 (mm)", "5381 / 5881 / 6381"],
+    ["Height drawbar in driving position min./max.", "h14 (mm)", "1160 / 1460"],
+    ["Overall length", "l1 (mm)", "2411"],
+    ["Length to face of forks", "l2 (mm)", "1341"],
+    ["Overall width", "b1/b2 (mm)", "1344 / 896"],
+    ["Fork dimensions DIN ISO 2331", "s/e/l (mm)", "35 / 100 / 1070"],
+    ["Fork-carriage width", "b3 (mm)", "990"],
+    ["Fork spread", "b5 (mm)", "200-760"],
+    ["Distance between wheel arms/loading surfaces", "b4 (mm)", "929"],
+    ["Reach distance", "l4 (mm)", "500"],
+    ["Ground clearance, laden, below mast", "m1 (mm)", "35"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast (mm)", "2796"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast (mm)", "2856"],
+    ["Turning radius", "Wa (mm)", "1689"],
+    ["Length across wheel arms", "l7 (mm)", "1835"],
+    ["Travel speed, laden/unladen", "km/h", "6.1 / 6.1"],
+    ["Lift speed, laden/unladen", "m/s", "0.09 / 0.12"],
+    ["Lowering speed, laden/unladen", "m/s", "0.2 / 0.15"],
+    ["Reaching speed, laden/unladen", "m/s", "0.1"],
+    ["Max gradeability, laden/unladen", "%", "5 / 12"],
+    ["Service brake", "", "Electromagnetic"],
+    ["Drive motor rating S2 60 min", "kW", "1.5 (AC)"],
+    ["Lift motor rating at S3 15%", "kW", "4.5"],
+    ["Battery voltage/nominal capacity K5", "(V)/(Ah)", "24 / 280"],
+    ["Battery weight", "(kg)", "285"],
+    ["Sound pressure level at the driver's seat", "dB (A)", "75"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/22.jpg"
   },
   {
     "id": "E23",
     "itemCode": "CDD15C",
     "name": "Stand-in Electric Stacker",
     "description": "Capacity: 1500 KG",
-    "image": "../assets/images/products/electric-stacker/23.jpg",
+    "image": "../assets/images/products/electric-stackers/23.jpg",
     "advantages": [
-      {
-        "heading": "",
-        "items": []
-      }
-    ],
-    "specs": [],
-    "dimensionImage": "../assets/images/products/electric-stacker/dimension-drawing/23.jpg"
+    {
+      "heading": "",
+      "items": [
+        "Humanized electric power steering (EPS) structure adjusts steering wheel position for operator comfort.",
+        "Damping steering structure enhances comfort through three adjustable screws.",
+        "Adjustable armrests in all directions and angles.",
+        "Driving wheel features automatic return to center when powered on.",
+        "Low-mounted battery and tank lower center of gravity, enhancing stability.",
+        "Integrated multifunctional operating handle controls driving direction and speed.",
+        "Hydraulic supporting legs improve stability.",
+        "Wide-view mast constructed from high-lifting special section steel imported from Germany.",
+        "Rubber damping pads under inner mast reduce noise and prevent direct contact with the bottom.",
+        "Dividable and exchangeable frame and mast connected by screws.",
+        "Advanced electronic and hydraulic components improve service life and stability.",
+        "Brushless AC motor is maintenance-free.",
+        "Low-voltage protection system extends battery life.",
+        "Side-way battery allows easy charging, replacement, and maintenance.",
+        "Side door enables repair of electrical components and replacement of driving wheel.",
+        "Automatic speed reduction when turning rapidly; direction displayed on instrument."
+      ]
+    }
+  ],
+  "specs": [
+    ["Model", "", "CDD15C"],
+    ["Drive type", "", "Electric (battery)"],
+    ["Operator type", "", "Stand-on type"],
+    ["Load capacity", "Q(kg)", "1500"],
+    ["Load center distance", "c(mm)", "600"],
+    ["Load distance, center of drive axle to fork", "x(mm)", "672"],
+    ["Tread", "Y(mm)", "1386"],
+    ["Service weight (with battery)", "(kg)", "1995"],
+    ["Axle load, front/rear, laden", "(kg)", "1722/1773"],
+    ["Axle load, front/rear, unladen", "(kg)", "1377/618"],
+    ["Tyres", "", "Polyurethane wheels"],
+    ["Tyre size, front", "(mm)", "φ250×80"],
+    ["Tyre size, rear", "(mm)", "φ80×84"],
+    ["Balance wheel dimension", "(mm)", "φ150×47"],
+    ["Wheels, number front/rear (x=drive wheel)", "", "1x+2/4"],
+    ["Tread, front", "b10(mm)", "648"],
+    ["Tread, rear", "b11(mm)", "405/530"],
+    ["Height, mast lowered", "h1(mm)", "2050/2210/2410/2710"],
+    ["Free lift (optional)", "h2(mm)", "1570/1740/1940/2240"],
+    ["Max. lift height", "h3(mm)", "4500/5000/5600/6500"],
+    ["Height, mast extended", "h4(mm)", "5030/5510/6110/7050"],
+    ["Height of overhead guard", "h6(mm)", "2255"],
+    ["Height, lowered", "h13(mm)", "90"],
+    ["Overall length", "l1(mm)", "2010/2090"],
+    ["Length to face of forks", "l2(mm)", "940"],
+    ["Overall width", "b1(mm)", "970"],
+    ["Fork dimension", "s/e/l(mm)", "60/180/1070(1150)"],
+    ["Width overall forks", "b5(mm)", "570/695"],
+    ["Ground clearance, center of wheelbase", "m2(mm)", "31"],
+    ["Aisle width for pallets 1000×1200 crossways", "Ast(mm)", "2537"],
+    ["Aisle width for pallets 800×1200 lengthways", "Ast(mm)", "2467"],
+    ["Turning radius", "Wa(mm)", "1653"],
+    ["Travel speed, laden/unladen", "km/h", "8.5/8.5"],
+    ["Lift speed, laden/unladen", "m/s", "0.16/0.24"],
+    ["Lowering speed, laden/unladen", "m/s", "0.35/0.22"],
+    ["Max. gradeability, laden/unladen", "%", "4/7"],
+    ["Service brake", "", "Electromagnetic brake"],
+    ["Drive motor", "kW", "2.2 (AC)"],
+    ["Lifting motor", "kW", "3.2"],
+    ["Battery voltage/nominal capacity", "V/Ah", "24/400"],
+    ["Battery weight", "kg", "330"],
+    ["Battery dimensions /w/h", "mm", "654×254×760"],
+    ["Sound level at driver's ear according to DIN 12053", "dB(A)", "75"]
+  ],
+    "dimensionImage": "../assets/images/products/electric-stackers/dimension-drawing/23.jpg"
   },
 {
     "id": "F1",
