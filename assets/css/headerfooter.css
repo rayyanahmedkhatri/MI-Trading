@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden ;
+  overflow-x: hidden;
 
 }
 
@@ -24,10 +24,12 @@ li {
   text-transform: none;
   box-sizing: border-box;
 }
-html{
-  
+
+html {
+
   overflow-x: hidden;
 }
+
 /* Basic Navbar Styles */
 .navbar {
   display: flex;
@@ -100,18 +102,19 @@ html{
 .nav-links li div ul li a:hover {
   filter: brightness(0.8);
 }
+
 .nav-links li:hover div {
   opacity: 1;
   visibility: visible;
-} 
+}
 
 .nav-links li {
   position: relative;
   /* Required for dropdown positioning */
 }
 
-.arrow-sms{
- display: none !important;
+.arrow-sms {
+  display: none !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -123,10 +126,11 @@ html{
     display: none;
   }
 
-  .arrow-lgs{
+  .arrow-lgs {
     visibility: hidden;
   }
-  .arrow-sms{
+
+  .arrow-sms {
     display: contents !important;
   }
 
@@ -146,6 +150,9 @@ html{
 
   .dropdown-menu ul {
     padding-left: 0;
+  }
+  .whatsapp-button img {
+    width: 60px;
   }
 }
 
@@ -217,11 +224,14 @@ footer {
   padding-top: 30px;
   width: 291px !important;
 }
-.footer-right{
+
+.footer-right {
   width: 621px !important;
 }
 
-.footer-left, .footer-center, .footer-right {
+.footer-left,
+.footer-center,
+.footer-right {
 
   height: 200px;
 }
@@ -272,80 +282,89 @@ footer {
 
   /* Navbar adjustments */
   .navbar {
-      padding: 10px 20px;
+    padding: 10px 20px;
   }
+
   .separation-line {
     width: 300px;
     height: 2px;
   }
 
   .logo {
-      left: unset;
-      transform: none;
-      position: relative;
+    left: unset;
+    transform: none;
+    position: relative;
   }
 
   .nav-links {
-      display: flex !important;
-      flex-direction: row;
-      position: static;
-      background: none;
-      width: auto;
-      padding: 0;
-      height: auto;
-      gap: 20px;
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
+    width: auto;
+    padding: 0;
+    height: auto;
+    gap: 20px;
   }
 
   .menu-icon {
-      display: none; /* Hide hamburger on tablets */
+    display: none;
+    /* Hide hamburger on tablets */
   }
 
   /* Adjust welcome section */
   .welcome h1 {
-      font-size: 60px;
+    font-size: 60px;
   }
 
   .welcome p {
-      font-size: 22px;
-      margin-bottom: 100px;
+    font-size: 22px;
+    margin-bottom: 100px;
   }
 
   /* Footer adjustments */
   footer {
-      height: 600px;
+    height: 600px;
   }
 
   .footer-center {
-      height: 100px;
+    height: 100px;
   }
 
   .contact-us {
-      flex-direction: row; /* Ensures side-by-side layout on tablets */
+    flex-direction: row;
+    /* Ensures side-by-side layout on tablets */
   }
 
   .contact-text {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .contact-container {
-      margin-right: 20px;
+    margin-right: 20px;
   }
 
   /* Product section */
   .product-row {
-      gap: 30px;
+    gap: 30px;
   }
 
   /* Ensure .details-row does not stretch on tablets */
   .details-row {
-      flex-direction: row; /* Keep image and text side by side */
-      align-items: center; /* Avoid stretching */
-      text-align: left;
+    flex-direction: row;
+    /* Keep image and text side by side */
+    align-items: center;
+    /* Avoid stretching */
+    text-align: left;
   }
 
-  .left-column, .right-column {
-      max-width: 50%;
+  .left-column,
+  .right-column {
+    max-width: 50%;
   }
+
+  
+
 }
 
 
@@ -355,7 +374,7 @@ footer {
   right: 20px;
   color: white;
   font-size: 28px;
-  
+
   border-radius: 50%;
   text-align: center;
   z-index: 9999;
