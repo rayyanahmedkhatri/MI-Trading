@@ -1,6 +1,17 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
-
+.milift{
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 0 !important;
+    align-items: center;
+}
+.milift img {
+    width: 150px;
+}
+.product-txt{
+    margin-top: 0 !important;
+}
     /* Hamburger visible, logo centered */
     .menu-icon {
         display: flex;
