@@ -12,15 +12,15 @@
   <script src="https://www.google.com/recaptcha/api.js?render="></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <!-- Header -->
   <div id="header" style="width: 100%;"></div>
 
-  <!-- Contact Form -->
+  <!-- Contact Form Section -->
   <div class="container py-5">
     <h2 class="text-center text-white mb-5">Contact Us</h2>
     <div class="row justify-content-center">
@@ -44,11 +44,11 @@
               <label for="floatingMessage">Your Message</label>
             </div>
 
-            <!-- reCAPTCHA token -->
+            <!-- Hidden reCAPTCHA token -->
             <input type="hidden" id="token" name="g-recaptcha-response">
 
             <div class="d-grid">
-              <button class="btn btn-primary btn-custom" type="submit">Submit</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </form>
         </div>
@@ -59,7 +59,7 @@
     <div class="row justify-content-center mt-5">
       <div class="col-lg-10">
         <div class="map-responsive">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115842.43338074809!2d66.97445280299918!3d24.861252285552155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33bf6399ac9af%3A0xd7008d1d7c27c2ae!2sM.I%20Trading!5e0!3m2!1sen!2s!4v1754391609801!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115842.43338074809!2d66.97445280299918!3d24.861252285552155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33bf6399ac9af%3A0xd7008d1d7c27c2ae!2sM.I%20Trading!5e0!3m2!1sen!2s!4v1754391609801!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@
   <div id="footer" style="width: 100%;"></div>
   <script src="disable.js"></script>
 
-  <!-- reCAPTCHA + form script -->
+  <!-- reCAPTCHA + Form Submit Script -->
   <script>
     const form = document.getElementById("contactForm");
 
@@ -96,6 +96,13 @@
                 confirmButtonColor: '#3085d6'
               });
               form.reset();
+            } else if (data.trim() === "captcha-failed") {
+              Swal.fire({
+                icon: 'error',
+                title: 'Captcha Failed',
+                text: 'Please refresh the page and try again.',
+                confirmButtonColor: '#d33'
+              });
             } else {
               Swal.fire({
                 icon: 'error',
@@ -109,7 +116,6 @@
       });
     });
   </script>
-
 
 </body>
 </html>

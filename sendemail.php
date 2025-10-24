@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $token    = $_POST['g-recaptcha-response'] ?? '';
 
     // reCAPTCHA verification
-    $secretKey = '';
+    $secretKey = ''; // SECRET KEY
     $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$token}");
     $captchaSuccess = json_decode($verify);
 
@@ -27,9 +27,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'mitrading.com.pk'; //  Your actual mail host
+        $mail->Host       = 'mitrading.com.pk'; // Your mail host
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'sendmail@mitrading.com.pk';
+        $mail->Username   = 'sendmail@mitrading.com.pk'; 
         $mail->Password   = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
@@ -49,14 +49,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->send();
         echo "success";
-        exit;
-
     } catch (Exception $e) {
         error_log("Mailer Error: " . $mail->ErrorInfo);
         echo "error";
-        exit;
     }
 } else {
     echo "invalid";
-    exit;
 }
+?>
