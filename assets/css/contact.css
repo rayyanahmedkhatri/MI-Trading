@@ -5,51 +5,52 @@ body {
 }
 
 body {
-      background-color: #121212;
-      color: #fff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    .container h2 {
-      font-weight: 700;
-    }
-    .contact-card {
-      background-color: #ffffff;
-      border-radius: 16px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-      padding: 40px;
-      color: #333333;
-    }
+.container h2 {
+  font-weight: 700;
+}
 
-    .form-floating > .form-control,
-    .form-floating > .form-control:focus {
-      background-color: #f8f9fa;
-      border: 1px solid #ced4da;
-    }
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  color: #333333;
+}
 
-    .form-floating > label {
-      color: #666;
-    }
+.form-floating>.form-control,
+.form-floating>.form-control:focus {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
 
-    .btn-custom {
-      border-radius: 8px;
-      font-weight: 600;
-      padding: 10px 20px;
-    }
+.form-floating>label {
+  color: #666;
+}
 
-    .map-responsive {
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      position: relative;
-      height: 0;
-      border-radius: 16px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-    }
+.btn-custom {
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
 
-    .map-responsive iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-    }
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

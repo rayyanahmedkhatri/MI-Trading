@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title"></title>
+
+    <link rel="stylesheet" href="../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/responsivenavbar.css">
+    <link rel="stylesheet" href="../assets/css/product-page.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header" style="width: 100%;"></div>
+
+    <main class="container">
+        <!-- Product details -->
+        <div class="row details-row">
+            <div class="col-md-6 left-column">
+                <img id="product-image" src="../assets/images/products/screw-air-compressor.png" alt="Product Image" class="main-image m-25" width="500px">
+
+                <!-- Thumbnail Images -->
+                <div class="thumbnail-container">
+                    <img src="../assets/images/products/screw-air-compressor.png"
+                        class="thumbnail active" onclick="changeImage(this)">
+                    <img src="../assets/images/products/screw-air-compressor/IMG20251017112940.jpg" class="thumbnail"
+                        onclick="changeImage(this)">
+                    <img src="../assets/images/products/screw-air-compressor/IMG20251017112822.jpg" class="thumbnail"
+                        onclick="changeImage(this)">
+                    <img src="../assets/images/products/screw-air-compressor/IMG20251017112832.jpg" class="thumbnail"
+                        onclick="changeImage(this)">
+                    <img src="../assets/images/products/screw-air-compressor/IMG20251017112843.jpg" class="thumbnail"
+                        onclick="changeImage(this)">
+                    <img src="../assets/images/products/screw-air-compressor/IMG20251017112852.jpg" class="thumbnail"
+                        onclick="changeImage(this)">
+                    <img src="../assets/images/products/screw-air-compressor/IMG20251017112910.jpg" class="thumbnail"
+                        onclick="changeImage(this)">
+                </div>
+            </div>
+            <div class="col-md-6 right-column">
+                <h2 id="product-name" class="heading">Screw Air Compressor</h2>
+                <div class="line"></div>
+                <a href="../contact.html" class="simple-button">Contact Us</a>
+            </div>
+        </div>
+
+
+        <br><br><br>
+
+    </main>
+
+    <br><br><br>
+
+    <div id="footer" style="width: 100%;"></div>
+
+    <script src="../disable.js"></script>
+    <script>
+        let defaultImage = document.getElementById('product-image').src;
+
+        // Change main image on click
+        function changeImage(imgElement) {
+            const mainImage = document.getElementById('product-image');
+
+            // Change main image to clicked thumbnail image
+            mainImage.src = imgElement.src;
+
+            // Remove active class from all thumbnails
+            document.querySelectorAll('.thumbnail').forEach(thumb => thumb.classList.remove('active'));
+
+            // Add active class to clicked thumbnail
+            imgElement.classList.add('active');
+        }
+    </script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923365553860" target="_blank" class="whatsapp-button">
+        <img src="../assets/images/LOGO/whatsapp-01.png" alt="" width="70px">
+    </a>
+</body>
+
+</html>
