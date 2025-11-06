@@ -135,46 +135,72 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.381);
 }
 
+/* Wrapper */
 .slider {
   overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Track Animation */
 .slider-track {
   display: flex;
   animation: scroll 100s linear infinite;
 }
 
+/* Pause animation on hover */
+.slider-track:hover {
+  animation-play-state: paused;
+}
+
+/* Logo Styling */
 .slider img {
-  height: 80px;
-  width: auto;
+  height: 190px;        /* Fixed height for consistent size */
+  width: auto;         /* Auto width keeps aspect ratio */
   margin: 0 20px;
   flex: 0 0 auto;
   user-select: none;
-  pointer-events: none;
   -webkit-user-drag: none;
-  user-select: none;
-  -webkit-user-drag: none; /* For Chrome, Safari */
-  -moz-user-select: none;  /* For Firefox */
-  -ms-user-select: none;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: filter 0.3s, opacity 0.3s;
 }
 
+/* ✅ Hover effect now works */
+.slider img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Infinite scroll animation */
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(-50%);
   }
 }
 
-.slider {
-  width: 100%;
+/* Responsive sizes */
+@media (max-width: 1024px) {
+  .slider img {
+    height: 70px;
+    margin: 0 15px;
+  }
 }
 
-.slider img {
-  flex-shrink: 0;
+@media (max-width: 768px) {
+  .slider img {
+    height: 60px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider img {
+    height: 50px;
+    margin: 0 8px;
+  }
 }
