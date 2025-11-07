@@ -24,6 +24,54 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+    <style>
+  .slider {
+    width: 100%;
+    overflow-x: auto;              /* real scrolling container */
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+    box-sizing: border-box;
+    padding: 18px 0;
+    background: #fff;
+    scrollbar-width: none;         /* Firefox */
+  }
+  .slider::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+  .slider-track {
+    display: flex;
+    align-items: center;
+    gap: 36px;                     /* spacing between logos */
+    /* no CSS animation here — auto-scroll done with JS so dragging works */
+  }
+
+  .slider img {
+    height: 80px;                  /* fixed height, change as needed */
+    width: auto;                   /* keep aspect ratio — no squish */
+    flex: 0 0 auto;
+    display: block;
+    filter: grayscale(100%);
+    opacity: 0.9;
+    transition: transform 0.28s ease, filter 0.28s ease, opacity 0.28s ease;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  .slider img:hover {
+    transform: scale(1.08);
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  .slider.grabbing { cursor: grabbing; }
+  .slider.paused img { filter: grayscale(0%); } /* if you want color when paused */
+
+  /* responsive tweaks */
+  @media (max-width: 1024px) { .slider img { height: 70px; } }
+  @media (max-width: 768px)  { .slider img { height: 60px; gap: 22px; } }
+  @media (max-width: 480px)  { .slider img { height: 52px; gap: 16px; } }
+</style>
 </head>
 
 <body style="background-color: #ffffff;">
@@ -95,63 +143,38 @@
   <div class="slider-container">
 
     <br>
-    <div class="slider">
-      <div class="slider-track">
-        <img src="assets/images/customers/AGI Denim.jpg" alt="AGI Denim" />
-        <img src="assets/images/customers/Ammara Commercial.png" alt="Ammara Commercial" />
-        <img src="assets/images/customers/ANA & Batla.jpg" alt="ANA & Batla" />
-        <img src="assets/images/customers/Ansari Sugar.png" alt="Ansari Sugar" />
-        <img src="assets/images/customers/arisons.jpg" alt="Arisons" />
-        <img src="assets/images/customers/atlas Battery.png" alt="Atlas Battery" />
-        <img src="assets/images/customers/dairyland.jpeg" alt="Dairyland" />
-        <img src="assets/images/customers/Essatex Industries.jpg" alt="Essatex Industries" />
-        <img src="assets/images/customers/Feroze 1888.jpg" alt="Feroze 1888" />
-        <img src="assets/images/customers/Hilton Pharma1.png" alt="Hilton Pharma" />
-        <img src="assets/images/customers/Hosanna Textiles.png" alt="Hosanna Textiles" />
-        <img src="assets/images/customers/Liberty Mills1.png" alt="Liberty Mills" />
-        <img src="assets/images/customers/Lucky Tex Pakistan.jpg" alt="Lucky Tex Pakistan" />
-        <img src="assets/images/customers/Lucky Textile mills.png" alt="Lucky Textile Mills" />
-        <img src="assets/images/customers/Nabi Qasim pharma.jpg" alt="Nabi Qasim Pharma" />
-        <img src="assets/images/customers/PMS Packages.jpg" alt="PMS Packages" />
-        <img src="assets/images/customers/Printech Packages.png" alt="Printech Packages" />
-        <img src="assets/images/customers/Quality Cartons.JPG" alt="Quality Cartons" />
-        <img src="assets/images/customers/Ressichem.png" alt="Ressichem" />
-        <img src="assets/images/customers/shahtaj-textile-logo.gif" alt="Shahtaj Textile" />
-        <img src="assets/images/customers/Siddiqsons.png" alt="Siddiqsons" />
-        <img src="assets/images/customers/Spotlit Printers.jpg" alt="Spotlit Printers" />
-        <img src="assets/images/customers/Textile Channel.png" alt="Textile Channel" />
-        <img src="assets/images/customers/U&I Garments.jpg" alt="U&I Garments" />
-        <img src="assets/images/customers/Utopia Industries.jpg" alt="Utopia Industries" />
-        <img src="assets/images/customers/Zahabiya Chemical.png" alt="Zahabiya Chemical" />
-        <!-- Duplicate logos for seamless looping -->
-        <img src="assets/images/customers/AGI Denim.jpg" alt="AGI Denim" />
-        <img src="assets/images/customers/Ammara Commercial.png" alt="Ammara Commercial" />
-        <img src="assets/images/customers/ANA & Batla.jpg" alt="ANA & Batla" />
-        <img src="assets/images/customers/Ansari Sugar.png" alt="Ansari Sugar" />
-        <img src="assets/images/customers/arisons.jpg" alt="Arisons" />
-        <img src="assets/images/customers/atlas Battery.png" alt="Atlas Battery" />
-        <img src="assets/images/customers/dairyland.jpeg" alt="Dairyland" />
-        <img src="assets/images/customers/Essatex Industries.jpg" alt="Essatex Industries" />
-        <img src="assets/images/customers/Feroze 1888.jpg" alt="Feroze 1888" />
-        <img src="assets/images/customers/Hilton Pharma1.png" alt="Hilton Pharma" />
-        <img src="assets/images/customers/Hosanna Textiles.png" alt="Hosanna Textiles" />
-        <img src="assets/images/customers/Liberty Mills1.png" alt="Liberty Mills" />
-        <img src="assets/images/customers/Lucky Tex Pakistan.jpg" alt="Lucky Tex Pakistan" />
-        <img src="assets/images/customers/Lucky Textile mills.png" alt="Lucky Textile Mills" />
-        <img src="assets/images/customers/Nabi Qasim pharma.jpg" alt="Nabi Qasim Pharma" />
-        <img src="assets/images/customers/PMS Packages.jpg" alt="PMS Packages" />
-        <img src="assets/images/customers/Printech Packages.jpg" alt="Printech Packages" />
-        <img src="assets/images/customers/Quality Cartons.JPG" alt="Quality Cartons" />
-        <img src="assets/images/customers/Ressichem.png" alt="Ressichem" />
-        <img src="assets/images/customers/shahtaj-textile-logo.gif" alt="Shahtaj Textile" />
-        <img src="assets/images/customers/Siddiqsons.png" alt="Siddiqsons" />
-        <img src="assets/images/customers/Spotlit Printers.jpg" alt="Spotlit Printers" />
-        <img src="assets/images/customers/Textile Channel.png" alt="Textile Channel" />
-        <img src="assets/images/customers/U&I Garments.jpg" alt="U&I Garments" />
-        <img src="assets/images/customers/Utopia Industries.jpg" alt="Utopia Industries" />
-        <img src="assets/images/customers/Zahabiya Chemical.png" alt="Zahabiya Chemical" />
-      </div>
-    </div>
+    <!-- HTML -->
+<div class="slider" id="logoSlider">
+  <div class="slider-track" id="logoTrack">
+    <!-- put your original list of images here (no need to duplicate manually) -->
+    <img src="assets/images/customers/AGI Denim.jpg" alt="AGI Denim" />
+    <img src="assets/images/customers/Ammara Commercial.png" alt="Ammara Commercial" />
+    <img src="assets/images/customers/ANA & Batla.jpg" alt="ANA & Batla" />
+    <img src="assets/images/customers/Ansari Sugar.png" alt="Ansari Sugar" />
+    <img src="assets/images/customers/arisons.jpg" alt="Arisons" />
+    <img src="assets/images/customers/atlas Battery.png" alt="Atlas Battery" />
+    <img src="assets/images/customers/dairyland.jpeg" alt="Dairyland" />
+    <img src="assets/images/customers/Essatex Industries.jpg" alt="Essatex Industries" />
+    <img src="assets/images/customers/Feroze 1888.jpg" alt="Feroze 1888" />
+    <img src="assets/images/customers/Hilton Pharma1.png" alt="Hilton Pharma" />
+    <img src="assets/images/customers/Hosanna Textiles.png" alt="Hosanna Textiles" />
+    <img src="assets/images/customers/Liberty Mills1.png" alt="Liberty Mills" />
+    <img src="assets/images/customers/Lucky Tex Pakistan.jpg" alt="Lucky Tex Pakistan" />
+    <img src="assets/images/customers/Lucky Textile mills.png" alt="Lucky Textile Mills" />
+    <img src="assets/images/customers/Nabi Qasim pharma.jpg" alt="Nabi Qasim Pharma" />
+    <img src="assets/images/customers/PMS Packages.jpg" alt="PMS Packages" />
+    <img src="assets/images/customers/Printech Packages.png" alt="Printech Packages" />
+    <img src="assets/images/customers/Quality Cartons.JPG" alt="Quality Cartons" />
+    <img src="assets/images/customers/Ressichem.png" alt="Ressichem" />
+    <img src="assets/images/customers/shahtaj-textile-logo.gif" alt="Shahtaj Textile" />
+    <img src="assets/images/customers/Siddiqsons.png" alt="Siddiqsons" />
+    <img src="assets/images/customers/Spotlit Printers.jpg" alt="Spotlit Printers" />
+    <img src="assets/images/customers/Textile Channel.png" alt="Textile Channel" />
+    <img src="assets/images/customers/U&I Garments.jpg" alt="U&I Garments" />
+    <img src="assets/images/customers/Utopia Industries.jpg" alt="Utopia Industries" />
+    <img src="assets/images/customers/Zahabiya Chemical.png" alt="Zahabiya Chemical" />
+  </div>
+</div>
 
     <br><br>
     <br><br>
@@ -166,6 +189,111 @@
     <img src="assets/images/LOGO/whatsapp-01.png" alt="" width="70px">
   </a>
 
+  
+<script>
+(function() {
+  const slider = document.getElementById('logoSlider');
+  const track  = document.getElementById('logoTrack');
+
+  // Duplicate track content to allow seamless loop
+  // (only duplicate once; if already duplicated in HTML, this still works)
+  track.innerHTML += track.innerHTML;
+  // Now the track contains two copies in sequence.
+
+  let isPointerDown = false;
+  let startX = 0;
+  let scrollStart = 0;
+  let isHovering = false;
+  let rafId = null;
+  const speed = 0.35; // pixels per frame (adjust to taste)
+
+  // Pointer (mouse + touch) handlers
+  slider.addEventListener('pointerdown', e => {
+    isPointerDown = true;
+    slider.classList.add('grabbing');
+    startX = e.clientX;
+    scrollStart = slider.scrollLeft;
+    // prevent selecting text/images
+    e.preventDefault();
+  });
+
+  window.addEventListener('pointerup', () => {
+    isPointerDown = false;
+    slider.classList.remove('grabbing');
+  });
+
+  slider.addEventListener('pointermove', e => {
+    if (!isPointerDown) return;
+    const delta = e.clientX - startX;
+    slider.scrollLeft = scrollStart - delta;
+  });
+
+  // Pause on hover
+  slider.addEventListener('mouseenter', () => { isHovering = true; });
+  slider.addEventListener('mouseleave', () => { isHovering = false; });
+
+  // Auto-scroll using requestAnimationFrame
+  function autoScroll() {
+    // if dragging or hovering, do not auto-scroll
+    if (!isPointerDown && !isHovering) {
+      slider.scrollLeft += speed;
+    }
+
+    // When we've scrolled past the first half (one set), jump back by half width
+    // so the loop is seamless.
+    const halfWidth = track.scrollWidth / 2;
+    if (slider.scrollLeft >= halfWidth) {
+      slider.scrollLeft -= halfWidth;
+    } else if (slider.scrollLeft <= 0) {
+      // edge case when user drags backwards past 0
+      slider.scrollLeft += halfWidth;
+    }
+
+    rafId = requestAnimationFrame(autoScroll);
+  }
+
+  // Start auto-scroll when images loaded
+  // ensure images have loaded so scrollWidth is correct
+  const images = track.querySelectorAll('img');
+  let loaded = 0;
+  images.forEach(img => {
+    if (img.complete) {
+      loaded++;
+    } else {
+      img.addEventListener('load', () => {
+        loaded++;
+        if (loaded === images.length) start();
+      });
+      img.addEventListener('error', () => {
+        loaded++;
+        if (loaded === images.length) start();
+      });
+    }
+  });
+  if (loaded === images.length) start();
+
+  function start() {
+    // ensure initial scrollLeft isn't zero in case of layout issues
+    // small nudge to avoid hitting the <=0 branch immediately
+    if (slider.scrollLeft === 0) slider.scrollLeft = 1;
+    if (!rafId) rafId = requestAnimationFrame(autoScroll);
+  }
+
+  // Pause auto-scroll when page hidden
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+    } else {
+      if (!rafId) rafId = requestAnimationFrame(autoScroll);
+    }
+  });
+
+  // Cleanup on unload (optional)
+  window.addEventListener('beforeunload', () => {
+    if (rafId) cancelAnimationFrame(rafId);
+  });
+})();
+</script>
 </body>
 
 </html>

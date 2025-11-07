@@ -135,72 +135,84 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.381);
 }
 
-/* Wrapper */
+
+
+
 .slider {
-  overflow: hidden;
-  position: relative;
   width: 100%;
+  overflow-x: auto;
+  /* real scrolling container */
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
   box-sizing: border-box;
+  padding: 18px 0;
+  background: #fff;
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-/* Track Animation */
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chrome/Safari */
+
 .slider-track {
   display: flex;
-  animation: scroll 100s linear infinite;
+  align-items: center;
+  gap: 36px;
+  /* spacing between logos */
+  /* no CSS animation here — auto-scroll done with JS so dragging works */
 }
 
-/* Pause animation on hover */
-.slider-track:hover {
-  animation-play-state: paused;
-}
-
-/* Logo Styling */
 .slider img {
-  height: 190px;        /* Fixed height for consistent size */
-  width: auto;         /* Auto width keeps aspect ratio */
-  margin: 0 20px;
+  height: 80px;
+  /* fixed height, change as needed */
+  width: auto;
+  /* keep aspect ratio — no squish */
   flex: 0 0 auto;
+  display: block;
+  filter: grayscale(100%);
+  opacity: 0.9;
+  transition: transform 0.28s ease, filter 0.28s ease, opacity 0.28s ease;
   user-select: none;
   -webkit-user-drag: none;
-  filter: grayscale(100%);
-  opacity: 0.6;
-  transition: filter 0.3s, opacity 0.3s;
 }
 
-/* ✅ Hover effect now works */
 .slider img:hover {
+  transform: scale(1.08);
   filter: grayscale(0%);
   opacity: 1;
 }
 
-/* Infinite scroll animation */
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.slider.grabbing {
+  cursor: grabbing;
 }
 
-/* Responsive sizes */
+.slider.paused img {
+  filter: grayscale(0%);
+}
+
+/* if you want color when paused */
+
+/* responsive tweaks */
 @media (max-width: 1024px) {
   .slider img {
-    height: 70px;
-    margin: 0 15px;
+    height: 130px;
   }
 }
 
 @media (max-width: 768px) {
   .slider img {
     height: 60px;
-    margin: 0 10px;
+    gap: 22px;
   }
 }
 
 @media (max-width: 480px) {
   .slider img {
-    height: 50px;
-    margin: 0 8px;
+    height: 52px;
+    gap: 16px;
   }
 }
