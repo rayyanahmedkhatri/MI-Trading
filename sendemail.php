@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 465;
 
         $mail->setFrom('sendmail@mitrading.com.pk', 'MI Trading');
-        $mail->addAddress('ra.other2@gmail.com', 'Rayyan');
+        $mail->addAddress('info@mitrading.com.pk', 'INFO');
 
         $mail->isHTML(true);
         $mail->Subject = 'New Contact Form Submission';
