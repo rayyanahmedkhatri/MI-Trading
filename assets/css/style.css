@@ -135,84 +135,46 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.381);
 }
 
-
-
-
 .slider {
-  width: 100%;
-  overflow-x: auto;
-  /* real scrolling container */
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  cursor: grab;
+  overflow: hidden;
+  white-space: nowrap;
   box-sizing: border-box;
-  padding: 18px 0;
-  background: #fff;
-  scrollbar-width: none;
-  /* Firefox */
+  position: relative;
 }
-
-.slider::-webkit-scrollbar {
-  display: none;
-}
-
-/* Chrome/Safari */
 
 .slider-track {
   display: flex;
-  align-items: center;
-  gap: 36px;
-  /* spacing between logos */
-  /* no CSS animation here — auto-scroll done with JS so dragging works */
+  animation: scroll 100s linear infinite;
 }
 
 .slider img {
   height: 80px;
-  /* fixed height, change as needed */
   width: auto;
-  /* keep aspect ratio — no squish */
+  margin: 0 20px;
   flex: 0 0 auto;
-  display: block;
-  filter: grayscale(100%);
-  opacity: 0.9;
-  transition: transform 0.28s ease, filter 0.28s ease, opacity 0.28s ease;
   user-select: none;
+  pointer-events: none;
   -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none; /* For Chrome, Safari */
+  -moz-user-select: none;  /* For Firefox */
+  -ms-user-select: none;
 }
 
-.slider img:hover {
-  transform: scale(1.08);
-  filter: grayscale(0%);
-  opacity: 1;
-}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
 
-.slider.grabbing {
-  cursor: grabbing;
-}
-
-.slider.paused img {
-  filter: grayscale(0%);
-}
-
-/* if you want color when paused */
-
-/* responsive tweaks */
-@media (max-width: 1024px) {
-  .slider img {
-    height: 130px;
+  100% {
+    transform: translateX(-50%);
   }
 }
 
-@media (max-width: 768px) {
-  .slider img {
-    height: 60px;
-    gap: 22px;
-  }
+.slider {
+  width: 100%;
 }
 
-@media (max-width: 480px) {
-  .slider img {
-    height: 52px;
-    gap: 16px;
-  }
+.slider img {
+  flex-shrink: 0;
 }

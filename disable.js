@@ -68,35 +68,9 @@ fetch("header.html")
 
   });
 
-  
-const slider = document.querySelector('.slider');
-const track = document.querySelector('.slider-track');
-
-let isDown = false;
-let startX;
-let scrollLeft;
-
-slider.addEventListener('mousedown', (e) => {
-  isDown = true;
-  track.style.animationPlayState = 'paused'; // pause auto-scroll
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-
-slider.addEventListener('mouseleave', () => {
-  isDown = false;
-  track.style.animationPlayState = 'running'; // resume
-});
-
-slider.addEventListener('mouseup', () => {
-  isDown = false;
-  track.style.animationPlayState = 'running'; // resume
-});
-
-slider.addEventListener('mousemove', (e) => {
-  if (!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 1.5;
-  slider.scrollLeft = scrollLeft - walk;
-});
+// Fetch and insert the footer
+fetch("footer.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("footer").innerHTML = data;
+  });
