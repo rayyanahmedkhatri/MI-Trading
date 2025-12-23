@@ -24,6 +24,54 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+    <style>
+  .slider {
+    width: 100%;
+    overflow-x: auto;              /* real scrolling container */
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+    box-sizing: border-box;
+    padding: 18px 0;
+    background: #fff;
+    scrollbar-width: none;         /* Firefox */
+  }
+  .slider::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+  .slider-track {
+    display: flex;
+    align-items: center;
+    gap: 36px;                     /* spacing between logos */
+    /* no CSS animation here — auto-scroll done with JS so dragging works */
+  }
+
+  .slider img {
+    height: 180px;                  /* fixed height, change as needed */
+    width: auto;                   /* keep aspect ratio — no squish */
+    flex: 0 0 auto;
+    display: block;
+    filter: grayscale(100%);
+    opacity: 0.9;
+    transition: transform 0.28s ease, filter 0.28s ease, opacity 0.28s ease;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  .slider img:hover {
+    transform: scale(1.08);
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  .slider.grabbing { cursor: grabbing; }
+  .slider.paused img { filter: grayscale(0%) !important; } /* if you want color when paused */
+
+  /* responsive tweaks */
+  @media (max-width: 1024px) { .slider img { height: 70px; } }
+  @media (max-width: 768px)  { .slider img { height: 60px; gap: 22px; } }
+  @media (max-width: 480px)  { .slider img { height: 52px; gap: 16px; } }
+</style>
 </head>
 
 <body style="background-color: #ffffff;">

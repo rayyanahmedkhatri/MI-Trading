@@ -135,31 +135,12 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.381);
 }
 
-.slider {
-  overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-  position: relative;
-}
-
 .slider-track {
   display: flex;
   animation: scroll 100s linear infinite;
 }
 
-.slider img {
-  height: 80px;
-  width: auto;
-  margin: 0 20px;
-  flex: 0 0 auto;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-  user-select: none;
-  -webkit-user-drag: none; /* For Chrome, Safari */
-  -moz-user-select: none;  /* For Firefox */
-  -ms-user-select: none;
-}
+
 
 @keyframes scroll {
   0% {
@@ -171,10 +152,3 @@
   }
 }
 
-.slider {
-  width: 100%;
-}
-
-.slider img {
-  flex-shrink: 0;
-}
