@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $token    = $_POST['g-recaptcha-response'] ?? '';
 
     // reCAPTCHA verification
-    $secretKey = ''; // SECRET KEY
+    $secretKey = '6LeILPUrAAAAAMscLXwu_WZQDjxZao1P9YToJryh'; // SECRET KEY
     $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$token}");
     $captchaSuccess = json_decode($verify);
 
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 465;
 
         $mail->setFrom('sendmail@mitrading.com.pk', 'MI Trading');
-        $mail->addAddress('info@mitrading.com.pk', 'INFO');
+        $mail->addAddress('info@mitrading.com.pk', 'Info');
 
         $mail->isHTML(true);
         $mail->Subject = 'New Contact Form Submission';
